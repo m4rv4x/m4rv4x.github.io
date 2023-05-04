@@ -8,6 +8,8 @@
   --animation-sentence: 'You know you\'re supposed to leave, right?';
   --animation-duration: 40s;
 }
+
+
 * {
   box-sizing: border-box;
   margin: 0;
