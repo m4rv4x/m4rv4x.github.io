@@ -25,3 +25,22 @@ function includeHTML() {
     }
   }
 };
+
+function replaceBody(page) {
+  fetch(page)
+    .then(response => response.text())
+    .then(html => {
+      document.body.innerHTML = html;
+    });
+}
+
+function replaceDiv(page) {
+  fetch(page)
+    .then(response => response.text())
+    .then(html => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      const divContent = doc.querySelector('body').innerHTML;
+      document.querySelector('#body').innerHTML = divContent;
+    });
+}
