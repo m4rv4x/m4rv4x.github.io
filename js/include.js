@@ -40,7 +40,12 @@ function replaceDiv(page) {
     .then(html => {
       const parser = new DOMParser();
       const doc = parser.parseFromString(html, 'text/html');
+      const jsCode = doc.querySelectorAll('script');
       const divContent = doc.querySelector('body').innerHTML;
       document.querySelector('#body').innerHTML = divContent;
+      for (let i = 0; i < jsCode.length; i++) {
+        eval(jsCode[i].innerHTML);
+      }
     });
 }
+

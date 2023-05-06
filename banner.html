@@ -1,0 +1,48 @@
+<!--
+HTML code for banner with news and links that floats at bottom of page
+Banner scrolls faster now
+-->
+<div id="banner" style="position: fixed; bottom: 0%; background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 70%, rgba(0,0,0,0.85) 100%); backdrop-filter: blur(10px); overflow: hidden;">
+  <marquee behavior="scroll" direction="left" scrollamount="15">
+    <!-- JavaScript code for crypto news -->
+    <script type="text/javascript">
+      // array of crypto news and links
+      var cryptoNews = [
+        {"title": "Bitcoin hits all-time high", "link": "https://www.example.com/bitcoin"},
+        {"title": "Ethereum surges on NFT craze", "link": "https://www.example.com/ethereum"},
+        {"title": "Cardano announces major upgrade", "link": "https://www.example.com/cardano"},
+        {"title": "Binance Coin up on positive earnings report", "link": "https://www.example.com/binance"},
+        {"title": "XRP gains traction with new partnerships", "link": "https://www.example.com/xrp"},
+        {"title": "Solana becomes new blockchain darling", "link": "https://www.example.com/solana"},
+        {"title": "Polkadot's ecosystem grows stronger", "link": "https://www.example.com/polkadot"},
+        {"title": "Dogecoin fans launch new social media campaign", "link": "https://www.example.com/dogecoin"},
+        {"title": "Avalanche partners with major exchanges", "link": "https://www.example.com/avalanche"},
+        {"title": "Terra's stablecoin outperforms competitors", "link": "https://www.example.com/terra"}
+      ];
+
+      // function to select a random crypto news from the array
+      function selectRandomNews() {
+        var randomIndex = Math.floor(Math.random() * cryptoNews.length);
+        return cryptoNews[randomIndex];
+      }
+
+      // variable to store selected crypto news and link
+      var selectedNews = selectRandomNews();
+
+      // display selected crypto news and link in the banner
+      document.write('<a href="' + selectedNews.link + '">' + selectedNews.title + '</a>');
+    </script>
+  </marquee>
+</div>
+
+<style>
+  /* CSS code for professional hacker style banner */
+  #banner {
+      color: #00ccff;
+      text-shadow: 0px 0px 5px #00ccff;
+      font-family: Courier, monospace;
+      width: 100%;
+      height: 100px;
+      font-size:30px;
+}
+</style>

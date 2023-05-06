@@ -1,0 +1,44 @@
+<!-- add this script tag to include jQuery from a CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $.ajax({
+            url: 'https://www.zerodayinitiative.com/rss/published/',
+            method: 'GET',
+            dataType: 'xml',
+            success: function(data) {
+              //parse XML data and extract relevant news information
+              $(data).find("item").each(function () {
+                    var title = $(this).find("title").text();
+                    var link = $(this).find("link").text();
+                    var pubDate = $(this).find("pubDate").text();
+                    
+                    //create a new row for news item in the table
+                    var row = '<tr><td><a href="'+ link +'">'+ title +'</a></td><td>'+ pubDate +'</td></tr>';
+                    
+                    //append row to the table
+                    $('#news-table').append(row);
+              });
+            },
+            error: function() {
+                console.log('Error fetching news');
+            }
+        });
+    });
+</script>
+
+<!-- display the news in a bootstrap style table -->
+<div class="container">
+    <table id="news-table" class="table">
+      <thead>
+        <tr>
+          <th><h1>Title</h1></th>
+          <th><h1>Date</h1></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- news items will be dynamically added here -->
+      </tbody>
+    </table>
+</div>

@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,6 +12,7 @@
     <link href="css/carousel.css" rel="stylesheet">
     <script src="https://public.m4rv4x.fun/bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/include.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   </head>
   <body class="bg-dark">
@@ -21,7 +21,89 @@
   <div w3-include-html="navbar.html"></div> 
   <div id="body" w3-include-html="body.html"></div>
   <div w3-include-html="footer.html"></div> 
+
+<!-- Add new script tag to include jQuery from a CDN at the start -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- display the news in a bootstrap style table -->
+<!-- HTML code for banner with news and links that floats at bottom of page -->
+<div id="banner" style="position: fixed; bottom: 0%; background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 70%, rgba(0,0,0,0.85) 100%); backdrop-filter: blur(10px);">
+  <center>Latest Vulns Disclosure</center>
+  <marquee behavior="scroll" direction="left" scrollamount="25">
+  </marquee>
+</div>
+
+<style>
+  /* CSS code for professional hacker style banner */
+  #banner {
+      color: #00ccff;
+      text-shadow: 0px 0px 5px #00ccff;
+      font-family: Courier, monospace;
+      width: 100%;
+      height: 100px;
+      font-size:20px;
+  }
+
+  .news-item {
+      display: inline-block;
+      margin-right: 10px;
+  }
+</style>
+
+<script>
+    $(document).ready(function() {        
+        var zeroDays = [];
+        var currentIndex = 0; // added index to keep track of which item is being displayed
+        var initialLoad = false; 
+        
+        function loadZeroDays(){
+            $.ajax({
+                url: 'https://www.zerodayinitiative.com/rss/published/',
+                method: 'GET',
+                dataType: 'xml',
+                success: function(data) {
+                  $(data).find("item").each(function () {
+                        var title = $(this).find("title").text();
+                        var link = $(this).find("link").text();
+                        var pubDate = $(this).find("pubDate").text();
+
+                        var zeroDay = {'title': title, 'link': link};
+                        zeroDays.push(zeroDay);
+                  });
+                  
+                  //once all data is loaded, start displaying one by one
+
+                  
+                  // display first zero day 
+                  displayOneZeroDay(zeroDays, currentIndex);
+                  currentIndex++;
+                  
+                },
+                error: function() {
+                    console.log('Error fetching news');
+                }
+            });
+        }
+        
+        function displayOneZeroDay(zeroDays, index) {
+            var banner = document.querySelector('#banner > marquee');
+            var day = zeroDays[index];
+            var newsLink = '<a href="' + day.link + '">' + day.title + '</a>';
+            banner.innerHTML = '<span class="news-item">' + newsLink + '&nbsp;|&nbsp;</span>';
+        }
+        
+        //load data initially
+        loadZeroDays();
+ 
+    });
+</script>
+<footer class="footer">
+  <p class="float-end">Contact me @ <a href="mailto:m4rv4x@gmail.com">m4rv4x@gmail.com</a> - <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  
+</footer>
+
   <script>
     includeHTML();
   </script>
-</html>
+</html>```
+
