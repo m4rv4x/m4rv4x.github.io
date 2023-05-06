@@ -1,8 +1,4 @@
-.carousel-caption {
-border-width: 10px;
-border-color: rgba(0, 0, 0, 0.5); /* sets border color with 50% opacity */
-background-color: rgba(0, 0, 0, 0.5); /* sets background color to transparent */
-}
+
 
 * {
   color:GhostWhite;
@@ -11,6 +7,7 @@ background-color: rgba(0, 0, 0, 0.5); /* sets background color to transparent */
 p {
   color:GhostWhite;
   font-size: 1.125rem;
+  padding:10px;
 }
 
 h2.fw-normal {
@@ -19,6 +16,7 @@ h2.fw-normal {
 
 h1 {
   color:Gainsboro;
+  padding:10px;
 }
 
 h2.featurette-heading {

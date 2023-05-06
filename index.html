@@ -55,11 +55,9 @@
         var zeroDays = [];
         var currentIndex = 0; // added index to keep track of which item is being displayed
         var initialLoad = false; 
-        
         function loadZeroDays(){
             $.ajax({
-                url: 'https://www.zerodayinitiative.com/rss/published/',
-                method: 'GET',
+                url: 'https://public.m4rv4x.fun/file.xml', // replace with path to your local file
                 dataType: 'xml',
                 success: function(data) {
                   $(data).find("item").each(function () {
@@ -91,7 +89,6 @@
             var newsLink = '<a href="' + day.link + '">' + day.title + '</a>';
             banner.innerHTML = '<span class="news-item">' + newsLink + '&nbsp;|&nbsp;</span>';
         }
-        
         //load data initially
         loadZeroDays();
  
