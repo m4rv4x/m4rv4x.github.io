@@ -6,14 +6,17 @@
     <meta name="description" content="">
     <title>m4rv4x.fun</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
-    <link href="https://public.m4rv4x.fun/bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/ghost.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
-    <script src="https://public.m4rv4x.fun/bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
     <script src="js/include.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+    <!-- Add new script tag to include jQuery from a CDN at the start -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- add bootstrap JavaScript bundle -->
+    <script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js"></script>    
   </head>
   <body class="bg-dark">
 
@@ -21,9 +24,6 @@
   <div w3-include-html="navbar.html"></div> 
   <div id="body" w3-include-html="body.html"></div>
   <div w3-include-html="footer.html"></div> 
-
-<!-- Add new script tag to include jQuery from a CDN at the start -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <!-- display the news in a bootstrap style table -->
 <!-- HTML code for banner with news and links that floats at bottom of page -->
@@ -57,32 +57,32 @@
         var initialLoad = false; 
         function loadZeroDays(){
             $.ajax({
-                url: 'https://public.m4rv4x.fun/file.xml', // replace with path to your local file
+                url: 'backend/last_exploits.xml', // replace with path to your local file
                 dataType: 'xml',
                 success: function(data) {
-                  $(data).find("item").each(function () {
+                    $(data).find("item").each(function () {
                         var title = $(this).find("title").text();
                         var link = $(this).find("link").text();
                         var pubDate = $(this).find("pubDate").text();
 
                         var zeroDay = {'title': title, 'link': link};
                         zeroDays.push(zeroDay);
-                  });
-                  
-                  //once all data is loaded, start displaying one by one
+                    });
 
-                  
-                  // display first zero day 
-                  displayOneZeroDay(zeroDays, currentIndex);
-                  currentIndex++;
-                  
+                    //once all data is loaded, start displaying one by one
+
+
+                    // display first zero day 
+                    displayOneZeroDay(zeroDays, currentIndex);
+                    currentIndex++;
+
                 },
                 error: function() {
                     console.log('Error fetching news');
                 }
             });
         }
-        
+
         function displayOneZeroDay(zeroDays, index) {
             var banner = document.querySelector('#banner > marquee');
             var day = zeroDays[index];
@@ -91,7 +91,7 @@
         }
         //load data initially
         loadZeroDays();
- 
+
     });
 </script>
 <footer class="footer">
@@ -102,5 +102,4 @@
   <script>
     includeHTML();
   </script>
-</html>```
-
+</html>
