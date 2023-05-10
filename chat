@@ -1,0 +1,22 @@
+//Create a basic HTML file structure
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cyber Security AI</title>
+</head>
+<body>
+
+  <!--Create a header for your page-->
+  <header>
+    <h1>Cyber Security AI - answering your security questions.</h1>
+  </header>
+
+  <!--Create a container for your chatbox-->
+  <div id="chatbox"></div>
+
+  <!--Add any necessary scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="your-ai-script.js"></script>
+</body>
+</html>

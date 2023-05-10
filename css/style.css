@@ -57,5 +57,6 @@ a:active {
 
 .footer {
   position : fixed;
-  bottom: 0;
+  bottom: -15px;
+  
 }
