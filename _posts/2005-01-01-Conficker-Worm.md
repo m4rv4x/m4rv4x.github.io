@@ -1,7 +1,7 @@
 ---
 title: 2005 – Conficker Worm, Le fantôme qui hante encore les réseaux
 date: 2005-01-01 00:00 +0100
-categories: [Blog]
+categories: [Histoire]
 tags: [Conficker, malware, botnet, Windows, vulnérabilité, hacktivisme, underground]
 author: marvax
 ---

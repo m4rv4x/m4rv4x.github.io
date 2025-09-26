@@ -1,7 +1,7 @@
 ---
 title: 2017 – WannaCry Ransomware, Le rançongiciel qui a fait pleurer le monde
 date: 2017-05-12 00:00 +0100
-categories: [Blog]
+categories: [Histoire]
 tags: [WannaCry, ransomware, EternalBlue, Windows, cybersécurité, hacktivisme, underground]
 author: marvax
 ---

@@ -1,7 +1,7 @@
 ---
 title: 2013 – Snowden et NSA, Le lanceur d'alerte qui a hacké la surveillance
 date: 2013-06-05 00:00 +0100
-categories: [Blog]
+categories: [Histoire]
 tags: [Snowden, NSA, surveillance, fuites, lanceur d'alerte, vie privée, hacktivisme, underground]
 author: marvax
 ---

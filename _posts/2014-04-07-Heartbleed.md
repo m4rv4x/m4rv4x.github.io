@@ -1,7 +1,7 @@
 ---
 title: 2014 – Heartbleed Bug, Le cœur qui saigne du web
 date: 2014-04-07 00:00 +0100
-categories: [Blog]
+categories: [Histoire]
 tags: [Heartbleed, OpenSSL, vulnérabilité, web, sécurité, hacktivisme, underground]
 author: marvax
 ---

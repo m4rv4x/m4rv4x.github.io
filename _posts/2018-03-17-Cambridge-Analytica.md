@@ -1,7 +1,7 @@
 ---
 title: 2018 – Cambridge Analytica, Le scandale qui a hacké la démocratie
 date: 2018-03-17 00:00 +0100
-categories: [Blog]
+categories: [Histoire]
 tags: [Cambridge Analytica, Facebook, données personnelles, manipulation, politique, hacktivisme, underground]
 author: marvax
 ---
