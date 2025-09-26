@@ -40,7 +40,7 @@ author: marvax
 
 > Facebook, c'est le **catalyseur qui pousse toute une génération vers la parano constructive**.
 
-### Hacktivisme et résistance numérique
+### Contre-culture numérique et résistance
 
 **Les années qui suivent voient naître :**
 - 🚫 **"Quit Facebook Day"** - mouvement de désertion

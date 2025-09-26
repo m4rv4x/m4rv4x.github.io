@@ -54,7 +54,7 @@ La parano qui monte.
 **Les gouvernements** voient une cyberarme dormante.  
 **Les hackers** comprennent : *le vrai pouvoir, c’est l’invisible*.
 
-### Hacktivisme, underground et manifeste du chaos
+### Subversion, underground et manifeste du chaos
 
 **Dans les caves numériques, Conficker devient un manifeste.**  
 La preuve que :

@@ -14,7 +14,7 @@ Septembre 2016. Le botnet Mirai transforme des millions d'objets connectés en u
 
 Mirai, c'est du génie du mal. Un botnet qui exploite les objets connectés vulnérables, les transforme en zombies, et les utilise pour lancer des attaques DDoS massives. Des millions d'appareils infectés, des attaques de plusieurs térabits par seconde, et des services majeurs qui tombent. Les hackers comprennent : l'IoT, c'est l'avenir, et l'avenir est vulnérable.
 
-### Hacktivisme et révélation des vulnérabilités IoT
+### Cyberattaque et révélation des vulnérabilités IoT
 
 Dans l'underground, Mirai devient un symbole. C'est la preuve que l'IoT peut être une arme, que la sécurité des objets connectés est cruciale, et que les hackers peuvent révéler les failles pour protéger les utilisateurs. Certains exploitent les vulnérabilités pour démontrer leur gravité, d'autres développent des outils de protection, et d'autres encore éduquent sur l'importance de la sécurité IoT.
 

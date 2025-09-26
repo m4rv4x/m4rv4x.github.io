@@ -14,7 +14,7 @@ author: marvax
 
 Heartbleed, c'est du génie du mal. Une vulnérabilité dans OpenSSL qui permet de lire la mémoire des serveurs, de voler des clés privées, et d'intercepter des données sensibles. Des millions de sites affectés, des banques vulnérables, et des utilisateurs exposés. Les hackers exploitent la faille avant qu'elle soit patchée, volent des données, et rappellent au monde que la sécurité n'est jamais garantie.
 
-### Hacktivisme et révélation des vulnérabilités
+### Cybermilitantisme et révélation des vulnérabilités
 
 Dans l'underground, Heartbleed devient un symbole. C'est la preuve que même les outils open source peuvent être vulnérables, que la sécurité nécessite une vigilance constante, et que les hackers peuvent révéler les failles pour protéger les utilisateurs. Certains exploitent la faille pour démontrer sa gravité, d'autres développent des outils de détection, et d'autres encore éduquent sur l'importance des mises à jour.
 
