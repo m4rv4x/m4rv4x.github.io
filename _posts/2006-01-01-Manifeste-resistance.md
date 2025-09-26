@@ -185,5 +185,3 @@ author: marvax
 *— Marvax, Underground Network*
 
 **P.S.** : Ce manifeste n'est qu'un début. Dans les prochains articles, nous plongerons dans les entrailles du système, nous explorerons les failles, nous détournerons les outils, nous construirons la résistance. **Le terrier vous attend.**
-
-**P.P.S.** : Si vous voulez contribuer, partager vos découvertes, ou simplement discuter, n'hésitez pas. Dans l'underground, nous partageons tout — sauf nos identités réelles.
