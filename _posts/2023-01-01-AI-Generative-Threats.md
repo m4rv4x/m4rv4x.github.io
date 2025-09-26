@@ -1,7 +1,7 @@
 ---
 title: 2023 – IA générative et cybermenaces : L'ère des machines malveillantes
 date: 2023-01-01 00:00 +0100
-categories: [Histoire, Informatique]
+categories: [Blog]
 tags: [IA, générative, ChatGPT, cybermenaces, deepfake, phishing, hacktivisme, underground]
 author: marvax
 ---
