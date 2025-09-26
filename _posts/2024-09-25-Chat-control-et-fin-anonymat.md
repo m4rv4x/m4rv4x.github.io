@@ -1,6 +1,6 @@
 ---
 title: Chat Control et la fin programmée de l’anonymat ?
-date: 2025-09-25 10:00 +0100
+date: 2024-09-25 10:00 +0100
 categories: [Blog]
 tags: [chat-control, anonymat, chiffrement, vie-privée, surveillance, ue, css]
 author: marvax
