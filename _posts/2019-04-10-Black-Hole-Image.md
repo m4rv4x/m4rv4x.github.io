@@ -1,5 +1,5 @@
 ---
-title: 2019 – Première image trou noir : L'œil de l'univers capturé par l'IA
+title: 2019 – Première image trou noir, L'œil de l'univers capturé par l'IA
 date: 2019-04-10 00:00 +0100
 categories: [Blog]
 tags: [trou noir, image, IA, supercalcul, science, hacktivisme, underground]

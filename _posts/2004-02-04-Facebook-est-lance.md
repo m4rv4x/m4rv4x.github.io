@@ -1,5 +1,5 @@
 ---
-title: 2004 – Facebook est lancé : Le réseau social qui a hacké nos cerveaux
+title: 2004 – Facebook est lancé, Le réseau social qui a hacké nos cerveaux
 date: 2004-02-04 00:00 +0100
 categories: [Blog]
 tags: [Facebook, réseaux sociaux, données personnelles, surveillance, hacktivisme, underground]

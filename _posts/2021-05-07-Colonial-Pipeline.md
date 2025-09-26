@@ -1,5 +1,5 @@
 ---
-title: 2021 – Colonial Pipeline : Le ransomware qui a hacké l'énergie américaine
+title: 2021 – Colonial Pipeline, Le ransomware qui a hacké l'énergie américaine
 date: 2021-05-07 00:00 +0100
 categories: [Blog]
 tags: [Colonial Pipeline, ransomware, infrastructure, énergie, cybersécurité, hacktivisme, underground]
