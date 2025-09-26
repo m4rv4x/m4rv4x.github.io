@@ -1,10 +1,11 @@
 #  The contact options.
 
+- type: rocketchat
+  icon: "fab fa-rocketchat"
+  url: "https://chat.marvax.fun"
+  
 - type: github
   icon: "fab fa-github"
-
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
@@ -13,6 +14,8 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
