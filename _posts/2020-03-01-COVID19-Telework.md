@@ -1,5 +1,5 @@
 ---
-title: 2020 – COVID-19 & Télétravail : Pandémie, dystopie et cyber-contrôle sous néons froids
+title: 2020 – COVID-19 & Télétravail, Pandémie, dystopie et cyber-contrôle sous néons froids
 date: 2020-03-01 00:00 +0100
 categories: [Histoire]
 tags: [COVID-19, télétravail, pandémie, cybersécurité, Zoom, hacktivisme, underground, cyberpunk, dystopie, blackhat]
