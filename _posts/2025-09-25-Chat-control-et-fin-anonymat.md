@@ -1,7 +1,7 @@
 ---
 title: Chat Control, L'Architecture de la Surveillance Totale
 date: 2024-09-25 10:00 +0100
-categories: [Underground]
+categories: [Blog]
 tags: [chat-control, surveillance-totale, big-brother, chiffrement, anonymat, underground, cyberpunk]
 author: marvax
 ---

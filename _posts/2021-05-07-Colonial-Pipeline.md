@@ -20,25 +20,25 @@ author: marvax
 ### I. Chronologie de l’attaque – Opération Blackout
 
 - **07/05/2021, 03:17** : Détection d’activité anormale sur le réseau SCADA.  
-- **07/05/2021, 03:23** : Les premiers logs d’alerte sont générés, mais ignorés par l’équipe de nuit, pensant à un faux positif.  
-- **07/05/2021, 03:31** : Un processus inconnu s’exécute sur un serveur d’authentification.  
-- **07/05/2021, 03:45** : Les flux de données entre les segments IT et OT augmentent de façon inhabituelle.  
-- **07/05/2021, 04:02** : Chiffrement des serveurs de gestion.  
-- **07/05/2021, 04:10** : Les opérateurs perdent l’accès à plusieurs consoles de supervision.  
-- **07/05/2021, 04:18** : Les alarmes physiques sur le pipeline ne remontent plus dans le centre de contrôle.  
-- **07/05/2021, 04:30** : Les équipes de sécurité tentent un redémarrage d’urgence, sans succès.  
-- **07/05/2021, 05:00** : Les premiers indices d’un ransomware apparaissent sur les écrans : demande de rançon, instructions en anglais approximatif.  
-- **07/05/2021, 05:15** : Les équipes IT contactent la direction générale.  
-- **07/05/2021, 05:30** : Le CEO est réveillé, le plan de crise est déclenché.  
-- **07/05/2021, 06:00** : Message de rançon reçu, signature DarkSide.  
-- **07/05/2021, 06:15** : Les équipes internes tentent de contenir l’attaque, mais le chiffrement progresse.  
-- **07/05/2021, 06:30** : Les premiers contacts sont pris avec le FBI et la CISA.  
-- **07/05/2021, 07:00** : Les opérateurs constatent la perte de visibilité sur les flux physiques du pipeline.  
-- **07/05/2021, 07:30** : Les équipes de sécurité recommandent l’arrêt préventif du pipeline.  
-- **07/05/2021, 08:00** : Réunion de crise avec les autorités fédérales.  
-- **07/05/2021, 08:30** : Arrêt préventif de l’ensemble du pipeline.  
-- **07/05/2021, 09:00** : Les médias commencent à relayer des rumeurs de cyberattaque.  
-- **07/05/2021, 10:00** : Les premières files d’attente apparaissent dans les stations-service de Géorgie et de Caroline du Nord.  
+- **03:23** : Les premiers logs d’alerte sont générés, mais ignorés par l’équipe de nuit, pensant à un faux positif.  
+- **03:31** : Un processus inconnu s’exécute sur un serveur d’authentification.  
+- **03:45** : Les flux de données entre les segments IT et OT augmentent de façon inhabituelle.  
+- **04:02** : Chiffrement des serveurs de gestion.  
+- **04:10** : Les opérateurs perdent l’accès à plusieurs consoles de supervision.  
+- **04:18** : Les alarmes physiques sur le pipeline ne remontent plus dans le centre de contrôle.  
+- **04:30** : Les équipes de sécurité tentent un redémarrage d’urgence, sans succès.  
+- **05:00** : Les premiers indices d’un ransomware apparaissent sur les écrans : demande de rançon, instructions en anglais approximatif.  
+- **05:15** : Les équipes IT contactent la direction générale.  
+- **05:30** : Le CEO est réveillé, le plan de crise est déclenché.  
+- **06:00** : Message de rançon reçu, signature DarkSide.  
+- **06:15** : Les équipes internes tentent de contenir l’attaque, mais le chiffrement progresse.  
+- **06:30** : Les premiers contacts sont pris avec le FBI et la CISA.  
+- **07:00** : Les opérateurs constatent la perte de visibilité sur les flux physiques du pipeline.  
+- **07:30** : Les équipes de sécurité recommandent l’arrêt préventif du pipeline.  
+- **08:00** : Réunion de crise avec les autorités fédérales.  
+- **08:30** : Arrêt préventif de l’ensemble du pipeline.  
+- **09:00** : Les médias commencent à relayer des rumeurs de cyberattaque.  
+- **10:00** : Les premières files d’attente apparaissent dans les stations-service de Géorgie et de Caroline du Nord.  
 - **08/05/2021** : Files d’attente massives dans les stations-service, panique sur les marchés énergétiques.  
 - **09/05/2021** : Les prix du carburant flambent, la Maison Blanche s’implique publiquement.  
 - **10/05/2021** : Les négociations avec les hackers s’intensifient via un canal chiffré sur le dark web.  
