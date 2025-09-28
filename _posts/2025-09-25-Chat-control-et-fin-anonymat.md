@@ -1,6 +1,6 @@
 ---
 title: Chat Control, L'Architecture de la Surveillance Totale
-date: 2024-09-25 10:00 +0100
+date: 2025-09-25 10:00 +0100
 categories: [Blog]
 tags: [chat-control, surveillance-totale, big-brother, chiffrement, anonymat]
 author: marvax
