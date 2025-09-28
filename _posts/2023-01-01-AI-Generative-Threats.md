@@ -6,7 +6,7 @@ tags: [IA, générative, ChatGPT, cybermenaces, deepfake, phishing, hacktivisme,
 author: marvax
 ---
 
-# 2023 – IA générative et cybermenaces : Quand la matrice s’éveille
+# Quand la matrice s’éveille
 
 > *"Dans la lumière blafarde des écrans, les machines murmurent des secrets. 2023 : l’IA générative explose, l’underground s’enflamme, la frontière entre humain et machine s’efface. Bienvenue dans l’ère des hackers synthétiques."*
 

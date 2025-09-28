@@ -6,8 +6,6 @@ tags: [chat-control, surveillance-totale, big-brother, chiffrement, anonymat]
 author: marvax
 ---
 
-# Chat Control, L'Architecture de la Surveillance Totale
-
 *Dans les profondeurs du système, là où la lumière ne passe plus et où chaque bit est surveillé, une nouvelle architecture émerge. Ce ne sont plus seulement les serveurs qui écoutent, mais vos propres appareils qui vous trahissent. Bienvenue dans l’ère du client-side scanning, où votre téléphone devient votre surveillant.*
 
 ---
