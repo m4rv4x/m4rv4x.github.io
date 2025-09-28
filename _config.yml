@@ -106,6 +106,16 @@ social_preview_image: # string, local or CORS resources
 # boolean type, the global switch for TOC in posts.
 toc: true
 
+# Favicon settings
+#
+# To add a favicon to your site, set the path to your favicon file below.
+# The favicon will be automatically included in the <head> tag.
+# For example, if your favicon is at /assets/img/favicon.ico, set:
+# favicon_ico: /assets/img/favicon.ico
+#
+# If you leave this blank, the theme will look for /favicon.ico by default.
+favicon_ico: https://avatars.githubusercontent.com/u/33978801
+
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
