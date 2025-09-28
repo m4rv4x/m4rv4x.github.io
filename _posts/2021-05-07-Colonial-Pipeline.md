@@ -2,7 +2,7 @@
 title: 2021 – Colonial Pipeline, Opération Blackout, Rapport confidentiel sur la cyberguerre énergétique
 date: 2021-05-07 00:00 +0100
 categories: [Histoire]
-tags: [Colonial Pipeline, ransomware, infrastructure, énergie, cybersécurité, guerre, CIA, Tom Clancy, underground]
+tags: [Colonial Pipeline, ransomware, infrastructure, énergie, cybersécurité, guerre, CIA]
 author: marvax
 ---
 
@@ -72,7 +72,6 @@ L’incident Colonial Pipeline marque un tournant dans la doctrine de la cybergu
 - Les communications avec les opérateurs se sont faites via un portail Tor, avec une interface de négociation automatisée.  
 - Les demandes de rançon étaient accompagnées de menaces de fuite de données sensibles (double extorsion).
 
-**Comparaison Tom Clancy :**  
 Ce scénario aurait pu sortir d’un roman de guerre moderne :  
 - Un commando invisible infiltre le réseau, coupe le carburant, sème la panique, puis disparaît dans la brume numérique.  
 - Les analystes de la CIA, la NSA et le FBI travaillent en cellule de crise, traquant les signaux faibles, recoupant les adresses Bitcoin, surveillant les forums russophones.  
