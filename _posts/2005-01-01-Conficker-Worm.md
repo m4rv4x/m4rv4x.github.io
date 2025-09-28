@@ -2,11 +2,11 @@
 title: 2005 – Conficker Worm, Le spectre cyberpunk qui hante les réseaux
 date: 2005-01-01 00:00 +0100
 categories: [Histoire]
-tags: [Conficker, malware, botnet, Windows, vulnérabilité, hacktivisme, underground, cyberpunk, no trust, black hat]
+tags: [Conficker, malware, botnet, Windows, vulnérabilité, hacktivisme, underground, no trust, black hat]
 author: marvax
 ---
 
-## 2005 – Conficker Worm : L’ombre qui rôde dans la matrice
+## L’ombre qui rôde dans la matrice
 
 **2005.** Nuit noire sur le réseau. Les néons clignotent, les firewalls suintent la parano.  
 Dans les bas-fonds du cyberespace, un murmure circule : **Conficker** est là.  

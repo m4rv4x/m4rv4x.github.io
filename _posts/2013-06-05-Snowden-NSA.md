@@ -6,8 +6,6 @@ tags: [Snowden, NSA, surveillance, fuites, lanceur d'alerte, vie privée, hackti
 author: marvax
 ---
 
-# 2013 – Snowden, NSA & L’Œil qui Veille : Quand la vérité a réveillé la malédiction
-
 > *"Dans la lumière blafarde des écrans, l’humanité a osé regarder l’abîme. Mais l’abîme, lui, a-t-il regardé en retour ? 5 juin 2013 : la confiance explose, la paranoïa s’installe. Bienvenue dans la dystopie de la surveillance, là où la vérité est un poison, et où chaque octet peut réveiller une malédiction venue d’ailleurs."*
 
 ---

@@ -6,7 +6,7 @@ tags: [Colonial Pipeline, ransomware, infrastructure, énergie, cybersécurité,
 author: marvax
 ---
 
-## 2021 – Colonial Pipeline : Rapport d’incident, Bureau 17, Langley, VA
+## Rapport d’incident, Bureau 17, Langley, VA
 
 **Classification : TOP SECRET // EYES ONLY**  
 **Source : Desk Analyst, Cyber Threat Division, CIA**

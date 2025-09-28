@@ -1,12 +1,10 @@
 ---
-title: 2019 – Première image d’un trou noir, L’œil interdit, IA, mystère cosmique & underground
+title: 2019 – Première image d’un trou noir, L’œil interdit, le mystère cosmique
 date: 2019-04-10 00:00 +0100
 categories: [Histoire]
 tags: [trou noir, image, IA, supercalcul, science, hacktivisme, underground, malédiction, extraterrestre, mystère, area 51]
 author: marvax
 ---
-
-# 2019 – Première image d’un trou noir : L’œil interdit, IA, mystère cosmique & underground
 
 > *"10 avril 2019. Sous la lumière spectrale des écrans, l’humanité braque ses instruments vers l’inconnu. Un œil noir s’ouvre dans le ciel, et soudain, tout le monde retient son souffle. Ce n’est plus de la science, c’est une rencontre du troisième type. L’univers nous observe, et personne ne sait ce qu’il va se passer."*
 

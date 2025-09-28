@@ -2,11 +2,11 @@
 title: 2020 – COVID-19 & Télétravail, Pandémie, dystopie et cyber-contrôle sous néons froids
 date: 2020-03-01 00:00 +0100
 categories: [Histoire]
-tags: [COVID-19, télétravail, pandémie, cybersécurité, Zoom, hacktivisme, underground, cyberpunk, dystopie, blackhat]
+tags: [COVID-19, télétravail, pandémie, cybersécurité, Zoom, dystopie, blackhat]
 author: marvax
 ---
 
-## 2020 – COVID-19 & Télétravail : Quand la pandémie a injecté le virus du contrôle dans la matrice du travail
+## Quand la pandémie injecte le virus du contrôle dans la matrice du travail
 
 > *"Dans la lumière blafarde des écrans, la liberté s’effrite. Les connexions s’enchaînent, les foyers deviennent des cellules, et chaque pixel est un œil. Bienvenue en 2020, année où la pandémie a hacké le monde du travail."*
 

@@ -6,8 +6,6 @@ tags: [Heartbleed, OpenSSL, vulnérabilité, web, sécurité, hacktivisme, under
 author: marvax
 ---
 
-## 2014 – Heartbleed Bug : Romance noire, arrogance et fun dans les veines du web
-
 *7 avril 2014. Nuit blanche sur la matrice. Les serveurs palpitent, le web saigne. Heartbleed vient d’être révélé, et dans l’underground, on sourit, arrogant, hoodie sur la tête, clavier en feu. Ce n’est pas juste un bug, c’est une histoire d’amour toxique entre la confiance et la trahison, une romance noire où chaque octet peut devenir une arme. Mr. Robot aurait applaudi, verre à la main, cynique et fasciné.*
 
 ---

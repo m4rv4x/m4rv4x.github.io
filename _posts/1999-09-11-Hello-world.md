@@ -6,8 +6,6 @@ tags: [premier-article, blog, open-source, anonymat, liberté, gafam]
 author: marvax
 ---
 
-## Mon premier article
-
 Bienvenue sur mon blog ! Je suis développeur, mais surtout hacker — du genre à plonger tête la première dans le terrier du lapin blanc, là où la lumière ne filtre plus et où la réalité se brouille. Je ne peux pas tout raconter ici, question d’anonymat et de sécurité, mais croyez-moi : ce que je touche va bien plus loin que la surface, jusqu’aux racines du système.
 
 Ma passion ? Détourner les outils des GAFAM, défendre l’open source, l’anonymat et la liberté d’expression, même quand il faut ruser et marcher sur la ligne. Ici, je partagerai des réflexions, des astuces techniques (certaines un peu borderline), et des ressources pour ceux qui veulent vraiment voir jusqu’où va le terrier.

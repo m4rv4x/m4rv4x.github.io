@@ -2,11 +2,11 @@
 title: 2018 – Cambridge Analytica, Le hack de la démocratie sous néons froids
 date: 2018-03-17 00:00 +0100
 categories: [Histoire]
-tags: [Cambridge Analytica, Facebook, données personnelles, manipulation, politique, hacktivisme, underground, cyberpunk, dystopie, blackhat]
+tags: [Cambridge Analytica, Facebook, données personnelles, manipulation, politique]
 author: marvax
 ---
 
-## 2018 – Cambridge Analytica : Démocratie piratée, société sous surveillance
+## Démocratie piratée, société sous surveillance
 
 > *"Dans la lumière blafarde des écrans, la vérité s’efface. Les données, elles, ne mentent jamais. Elles trahissent, elles manipulent, elles tuent la liberté. Bienvenue en 2018, année où la démocratie a été hackée."*
 

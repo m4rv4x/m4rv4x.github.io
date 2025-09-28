@@ -2,11 +2,9 @@
 title: 2017 – WannaCry Ransomware, Larmes numériques sur l’Empire des Machines
 date: 2017-05-12 00:00 +0100
 categories: [Histoire]
-tags: [WannaCry, ransomware, EternalBlue, Windows, cybersécurité, hacktivisme, underground, cyberpunk, dystopie, blackhat]
+tags: [WannaCry, ransomware, EternalBlue, Windows, cybersécurité, blackhat]
 author: marvax
 ---
-
-## 2017 – WannaCry : Le jour où la matrice a pleuré
 
 > *"Dans la lumière blafarde des écrans, les sirènes hurlent en silence. Les hôpitaux suffoquent, les entreprises s’effondrent, et les hackers rient dans l’ombre. 12 mai 2017 : le monde découvre que la confiance n’est qu’une illusion, et que chaque octet peut devenir une arme."*
 

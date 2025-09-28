@@ -6,7 +6,7 @@ tags: [Facebook, réseaux sociaux, données personnelles, surveillance, hacktivi
 author: marvax
 ---
 
-## 2004 – Facebook est lancé : Quand Zuckerberg a ouvert la boîte de Pandore numérique
+## Quand Zuckerberg a ouvert la boîte de Pandore numérique
 
 **4 février 2004.** Dans un dortoir de Harvard, un étudiant de 19 ans lance **"The Facebook"** depuis sa chambre. 
 
