@@ -14,7 +14,6 @@ author: marvax
 
 L’Internet des Objets, c’est la promesse d’un monde connecté, doux, rassurant.  
 Un monde où ton grille-pain te souhaite bonne journée, où ta caméra IP surveille ton chat, où ton frigo commande du lait tout seul.  
-Mais derrière la romance, il y a la faille.  
 Derrière chaque pixel, une backdoor.  
 Derrière chaque “OK Google”, un “Hello, Hacker”.
 
@@ -50,7 +49,7 @@ Les vrais hackers, eux, révèlent les failles, parfois pour le fun, parfois pou
 > Tu crois que ton routeur te protège ?  
 > Il t’a déjà trahi.”
 
-Certains codent des outils de défense, d’autres balancent des exploits sur Pastebin, tous participent à la grande romance de la vulnérabilité.  
+Certains codent des outils de défense, d’autres balancent des exploits sur Pastebin, tous participent à la grande quête de la vulnérabilité.  
 Dans l’ombre, on s’échange des payloads comme d’autres s’échangent des poèmes.  
 On reverse, on sniffe, on patch, on rit.
 
@@ -93,7 +92,7 @@ Aujourd’hui, les fabricants font semblant d’être vigilants, les utilisateur
 > “Tu veux sécuriser ton frigo ?  
 > Commence par comprendre qu’il rêve d’être piraté.”
 
-Mirai, c’est la romance du code noir, la déclaration d’amour à la faille, le baiser volé à la sécurité.  
+Mirai, c’est la poésie du code noir, la déclaration d’amour à la faille, le baiser volé à la sécurité.  
 C’est la preuve que dans ce monde, la seule constante, c’est la vulnérabilité.
 
 ---
@@ -115,4 +114,4 @@ Alors, keep secure, stay underground, et souviens-toi :
 **P.S.** : Si tu lis ces lignes, c’est que tu fais déjà partie du club.  
 Bienvenue dans la danse.  
 On t’attend sur IRC, dans les logs, ou dans les tréfonds de Shodan.  
-La romance continue.  
+La saga continue.  
