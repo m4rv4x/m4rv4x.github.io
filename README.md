@@ -1,43 +1,49 @@
-# Chirpy Starter
+<h1 align="center">marvax</h1>
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+<p align="center">
+  <i>Builder focused on self-hosted tools, web products, automation, and practical AI.</i>
+</p>
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+<p align="center">
+  <a href="https://marvax.fun"><img src="https://img.shields.io/badge/site-marvax.fun-111?style=flat-square&logo=cloudflare&logoColor=white" alt="site"/></a>
+  <a href="https://m4rv4x.github.io"><img src="https://img.shields.io/badge/blog-m4rv4x.github.io-111?style=flat-square&logo=githubpages&logoColor=white" alt="blog"/></a>
+  <img src="https://img.shields.io/github/followers/m4rv4x?style=flat-square&logo=github&label=follow" alt="followers"/>
+</p>
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+---
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+## What I build
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+- Self-hosted apps with simple deployment paths.
+- Small web products with clean UX and minimal overhead.
+- Automation, Linux tooling, and practical AI experiments.
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+## Current focus
 
-## Usage
+- Improving `marvax.fun` and my public writing pipeline.
+- Keeping a cleaner set of public repos with better docs.
+- Contributing useful fixes upstream when the scope is tight and real.
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## Selected public projects
 
-## Contributing
+| Project | Summary |
+|---|---|
+| [**marvax-fun-site**](https://github.com/m4rv4x/marvax-fun-site) | Personal landing page for `marvax.fun`. |
+| [**m4rv4x.github.io**](https://github.com/m4rv4x/m4rv4x.github.io) | Blog and notes hub powered by Jekyll Chirpy. |
+| [**mxgpt**](https://github.com/m4rv4x/mxgpt) | Self-hosted AI chat interface for Ollama-style local setups. |
+| [**scripts**](https://github.com/m4rv4x/scripts) | Shell and desktop utility scripts collected over time. |
+| [**kaomojis**](https://github.com/m4rv4x/kaomojis) | Lightweight kaomoji collection. |
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+## Stack
 
-## License
+TypeScript, React, Next.js, Python, Docker, Debian, Proxmox, Ollama.
 
-This work is published under [MIT][mit] License.
+## Find me
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+- Site: [marvax.fun](https://marvax.fun)
+- Blog: [m4rv4x.github.io](https://m4rv4x.github.io)
+- Discord: `@dirtyak6204`
+
+---
+
+<sub>Precision. Action. Impact.</sub>
