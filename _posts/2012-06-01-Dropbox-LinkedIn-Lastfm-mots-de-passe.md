@@ -67,7 +67,60 @@ Elle est comportementale, systémique, presque anthropologique.
 
 ---
 
-### IV. Le secret unique est mort
+### IV. Bureau Hash : autopsie d’un secret trop humain
+
+> *"Le sujet demande si son mot de passe a été volé.*  
+> *Réponse : le vrai problème est qu’il l’a offert à six services différents en croyant faire preuve d’organisation mentale.*"*
+
+Ce ton de bureau froid convient bien à 2012.  
+Cette année-là, on découvre que la faiblesse n’est pas seulement dans la base compromise.  
+Elle est dans la culture entière de l’authentification grand public.
+
+Le mot de passe est encore pensé comme un petit secret personnel, un objet presque intime, alors qu’il fonctionne déjà comme un jeton réutilisé d’un service à l’autre.
+
+Et dès qu’une base fuit, le masque tombe :
+
+- l’utilisateur n’a pas un secret, il a une habitude ;
+- l’entreprise ne protège pas une chaîne de caractères, elle protège une porte vers d’autres portes ;
+- l’attaquant n’exploite pas seulement la fuite, il exploite la répétition humaine.
+
+Le password compromise ne relève plus de l’exception.  
+Il devient l’état normal d’un web massifié.
+
+---
+
+### V. Dossier technique : hashing médiocre, cracking hors ligne, contamination en chaîne
+
+Le grand public voit des “mots de passe volés”.  
+Les attaquants, eux, voient un pipeline.
+
+La chaîne est connue :
+
+- récupération de la base ;
+- tri des formats ;
+- évaluation du hashing utilisé ;
+- attaque hors ligne ;
+- recoupement emails / secrets ;
+- test sur d’autres services.
+
+Ce qui rend 2012 important, c’est la vulgarisation brutale de ce processus.  
+Le secteur comprend davantage qu’un mot de passe compromis ne reste pas local à son service d’origine.  
+Il entre dans une circulation secondaire.
+
+Et cette circulation change le modèle de défense.  
+Il ne suffit plus de dire à l’utilisateur “change ton mot de passe ici”.  
+Il faut supposer que :
+
+- il l’a réutilisé ailleurs ;
+- il a des variantes proches ;
+- l’email associé servira à d’autres campagnes ;
+- d’autres services tomberont ensuite dans la même chaîne.
+
+Le credential stuffing n’est pas encore le mot le plus populaire du paysage, mais sa logique est déjà là, clairement visible sous les décombres.
+
+---
+
+### VI. Le secret unique est mort
 
 L’année 2012 acte quelque chose que les plus paranoïaques savaient déjà :  
 le mot de passe unique, mémorisable, réutilisable et durable n’est plus compatible avec un Internet massif.
@@ -90,9 +143,21 @@ Le nouveau monde exige autre chose :
 L’utilisateur moyen déteste cette complexité.  
 Le réseau, lui, l’impose.
 
+Le vrai tournant culturel se situe ici.  
+À partir du moment où le web grand public comprend qu’un seul mot de passe “fort” ne suffit plus, l’authentification cesse d’être un geste mémoriel.  
+Elle devient une discipline outillée.
+
+Cette mutation prépare :
+
+- les gestionnaires de mots de passe ;
+- la MFA ;
+- les politiques de rotation ;
+- les alertes de fuite ;
+- la surveillance de l’identité comme surface d’attaque autonome.
+
 ---
 
-### V. Résonance actuelle : infostealers, MFA fatigue et fin du mot de passe roi
+### VII. Résonance actuelle : infostealers, MFA fatigue et fin du mot de passe roi
 
 Avec le recul, 2012 ressemble à une répétition générale.  
 Aujourd’hui, le paysage a changé de forme, mais pas de logique :
@@ -106,9 +171,16 @@ Le mot de passe n’a pas disparu.
 Il a simplement perdu son statut monarchique.  
 Il reste partout, mais plus personne de sérieux ne peut le considérer comme une garantie autonome.
 
+Les années suivantes ne feront que confirmer cette déchéance :
+
+- les navigateurs deviennent des coffres parfois mal protégés ;
+- les infostealers industrialisent le pillage de sessions ;
+- les campagnes d’auth fatigue montrent que même le second facteur peut être socialement contourné ;
+- les comptes deviennent des assemblages de preuves, pas des portes à serrure unique.
+
 ---
 
-### VI. Héritage : naissance d’une culture de la suspicion authentifiée
+### VIII. Héritage : naissance d’une culture de la suspicion authentifiée
 
 Dropbox, LinkedIn et Last.fm n’ont pas inventé les fuites d’identifiants.  
 Mais ensemble, ils ont cristallisé une mutation culturelle.
@@ -129,5 +201,4 @@ C’est une pièce fragile dans une chaîne de confiance plus large.
 ---
 
 *Cette année-là, les identifiants ne sont pas seulement tombés.  
-Ils ont changé de statut.  
-De secret personnel à matière première pour l’attaque à grande échelle.*
+Ils ont changé de statut : de secret personnel à matière première pour l’attaque à grande échelle.*

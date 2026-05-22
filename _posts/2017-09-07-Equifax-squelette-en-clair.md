@@ -47,7 +47,61 @@ on peut changer un mot de passe, pas une date de naissance ni un historique d’
 
 ---
 
-### IV. Résonance actuelle : data brokers, scoring et permanence des traces
+### IV. Dossier technique : Apache Struts, gouvernance faible et donnée impossible à réinitialiser
+
+Equifax reste un classique parce que l’affaire condense plusieurs fautes que le secteur connaît trop bien :
+
+- dépendance à un composant vulnérable ;
+- difficulté ou échec du patching effectif ;
+- visibilité incomplète ;
+- détection tardive ;
+- exposition de données à très longue durée de vie.
+
+Le plus déprimant, c’est que le scénario paraît presque banal sur le papier.  
+Mais il devient gigantesque à cause de la nature de la donnée stockée.
+
+Quand une entreprise garde :
+
+- numéros de sécurité sociale ;
+- dates de naissance ;
+- identifiants civils ;
+- dossiers de crédit ;
+- éléments corrélables à d’autres bases,
+
+elle ne protège pas seulement des comptes.  
+Elle protège une couche profonde de l’identité administrative.
+
+Et cette couche, une fois fissurée, continue de fuir pendant des années.
+
+---
+
+### V. Le marché noir de l’identité longue durée
+
+Toutes les données volées ne vieillissent pas au même rythme.
+
+Une carte bancaire peut expirer.  
+Un mot de passe se change.  
+Un compte se révoque.
+
+Mais une identité civile fuitée fonctionne autrement.  
+Elle nourrit :
+
+- usurpation ;
+- fraude administrative ;
+- fraude au crédit ;
+- enrichissement de profils déjà existants ;
+- recoupements avec d’autres leaks ;
+- attaques sociales plus crédibles.
+
+Equifax a donc mis en circulation un type de matière première dont la valeur criminelle ne se limite pas à l’instant de la fuite.  
+Elle s’étire dans le temps.
+
+Ce n’est plus un incident.  
+C’est une rente pour l’attaque future.
+
+---
+
+### VI. Résonance actuelle : data brokers, scoring et permanence des traces
 
 Relire Equifax aujourd’hui, c’est aussi relire l’économie entière du profiling.  
 La collecte massive, la corrélation, le scoring et la revente de contexte font de chaque citoyen un dossier composite.
@@ -55,11 +109,36 @@ La collecte massive, la corrélation, le scoring et la revente de contexte font 
 Equifax n’a pas inventé ce monde.  
 Il l’a fait fuir.
 
+Aujourd’hui encore, l’affaire résonne dans chaque débat sur :
+
+- les data brokers ;
+- le scoring automatisé ;
+- la centralisation des profils ;
+- les identités recoupées entre secteurs ;
+- la dépendance des institutions à des opérateurs privés de mémoire civile.
+
+Equifax ne choque pas seulement parce que ça fuit.  
+Il choque parce que ça révèle à quel point des fragments décisifs de l’identité citoyenne vivent dans des architectures d’entreprise ordinaires.
+
 ---
 
-### V. Héritage : l’identité civile comme surface d’attaque longue durée
+### VII. Chambre froide administrative : note pour une commission qui arrive trop tard
+
+> *"Le sinistre ne se mesure pas en serveurs compromis. Il se mesure en décennies de conséquences probables pour des personnes qui n’ont jamais choisi ce stockage, ni ce risque, ni cet opérateur."*
+
+Ce ton de rapport sec est probablement celui qui convient le mieux à Equifax.  
+L’affaire est moins une flambée cyberpunk qu’une autopsie bureaucratique.
+
+---
+
+### VIII. Héritage : l’identité civile comme surface d’attaque longue durée
 
 Equifax reste l’un des grands rappels que certaines données, une fois exposées, ne se réinitialisent pas.  
 Elles deviennent un risque chronique.
 
 > *"Le pire vol n’est pas toujours celui qui vide un compte. C’est celui qui apprend au système entier à vous confondre durablement avec votre fuite."*
+
+---
+
+*En 2017, l’Amérique n’a pas seulement perdu des données.  
+Elle a vu une partie de son squelette administratif exposée à l’air libre.*

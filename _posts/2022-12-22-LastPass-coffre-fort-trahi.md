@@ -50,7 +50,52 @@ la centralisation des secrets donne aussi à l’attaquant une cible d’une den
 
 ---
 
-### IV. Résonance actuelle : sécurité d’usage contre sécurité de plateforme
+### IV. Dossier technique : ce qu’un coffre chiffré continue de révéler
+
+La réaction intuitive du grand public consiste souvent à demander :
+
+> *"Oui, mais si c’est chiffré, où est le problème ?"*
+
+Le problème est dans les nuances.
+
+Un coffre chiffré n’est pas un coffre inutile pour l’attaquant.  
+Il peut contenir ou révéler :
+
+- des métadonnées précieuses ;
+- des URLs et contextes d’usage ;
+- des sauvegardes exploitables dans le temps ;
+- des archives intéressantes pour du cassage hors ligne ;
+- une concentration de valeur exceptionnelle dans un seul objet logique.
+
+Le cœur du sujet LastPass n’est donc pas seulement le secret lu immédiatement.  
+C’est le **temps long** de l’exploitation possible.
+
+Quand le mot de passe maître est faible, quand les habitudes utilisateur sont mauvaises, quand les contextes d’usage sont riches, le coffre volé devient une bombe à retardement plutôt qu’un échec instantané.
+
+---
+
+### V. Serruriers du doute : pourquoi l’incident a touché plus profond que d’autres
+
+Un gestionnaire de mots de passe n’est pas un service comme les autres.  
+Il occupe une place psychologique particulière.
+
+L’utilisateur lui délègue :
+
+- sa discipline ;
+- sa mémoire ;
+- son hygiène d’authentification ;
+- parfois même sa confiance en l’idée qu’une sécurité sérieuse reste possible à échelle humaine.
+
+Quand ce type de service vacille, la blessure n’est pas seulement technique.  
+Elle est presque philosophique.
+
+LastPass rappelle brutalement qu’aucun outil ne permet de sortir entièrement de la logique de dépendance.  
+On ne supprime pas le risque.  
+On choisit son point de concentration.
+
+---
+
+### VI. Résonance actuelle : sécurité d’usage contre sécurité de plateforme
 
 LastPass a relancé plusieurs débats qui dépassent largement son cas :
 
@@ -62,11 +107,27 @@ LastPass a relancé plusieurs débats qui dépassent largement son cas :
 Le dossier n’invalide pas l’idée du gestionnaire de mots de passe.  
 Il rappelle juste qu’aucune solution centralisée n’échappe à la logique de cible premium.
 
+Il relance surtout la vieille tension entre :
+
+- sécurité d’usage pour le plus grand nombre ;
+- sécurité de plateforme à très forte concentration ;
+- confort cloud ;
+- souveraineté personnelle sur ses secrets.
+
+Le débat ne se résume plus à “faut-il un gestionnaire ?”  
+Il devient : “quel type de dépendance suis-je prêt à accepter pour ne pas sombrer ailleurs ?”
+
 ---
 
-### V. Héritage : même les serruriers ont une surface d’attaque
+### VII. Héritage : même les serruriers ont une surface d’attaque
 
 L’affaire LastPass a forcé beaucoup d’utilisateurs à regarder une vérité inconfortable :  
 la sécurité sérieuse ne consiste pas à trouver un objet magique, mais à choisir où placer sa dépendance.
 
 > *"Le coffre-fort n’annule pas la paranoïa. Il la professionnalise."*
+
+---
+
+*LastPass a rappelé quelque chose que les vieux paranoïaques savaient déjà :  
+la bonne sécurité ne tue jamais le doute.  
+Elle le rend plus discipliné.*

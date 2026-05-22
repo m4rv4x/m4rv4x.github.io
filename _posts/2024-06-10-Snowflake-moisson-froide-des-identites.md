@@ -73,7 +73,49 @@ la compromission cloud la plus dangereuse est souvent celle qui ressemble à de 
 
 ---
 
-### V. Résonance actuelle : le MFA comme ligne de partage réelle
+### V. Dossier d’enquête : l’endpoint sale comme auxiliaire du braquage cloud
+
+Snowflake a rappelé une vérité embarrassante pour tous les amoureux du cloud propre :  
+le plus beau service managé du monde ne vaut rien si les identités qui y accèdent naissent sur des postes déjà contaminés.
+
+Les infostealers jouent ici un rôle central.  
+Ils vivent en amont, sur les machines des opérateurs, des analystes, des admins, des employés distraits.  
+Ils aspirent :
+
+- credentials ;
+- cookies ;
+- sessions ;
+- secrets stockés localement ;
+- traces d’outils métier.
+
+Snowflake agit alors comme un miroir cruel :  
+le cloud n’est pas seulement sécurisé par sa propre architecture.  
+Il dépend de la propreté des terminaux et de la rigueur des identités qui viennent le toucher.
+
+On ne vole pas uniquement un entrepôt.  
+On vole d’abord la poignée.
+
+---
+
+### VI. Salle froide : anatomie d’une exfiltration qui ressemble à un rapport d’activité
+
+L’une des raisons pour lesquelles le dossier fascine autant les équipes défense, c’est son apparente banalité.  
+Pas de ransomware criard.  
+Pas de splash screen.  
+Pas de destruction spectaculaire.
+
+Juste des connexions plausibles, des exports, des jeux de données qui quittent leur hangar de verre sous l’apparence d’un travail ordinaire.
+
+Dans un autre contexte, cela pourrait presque ressembler à un ETL un peu chargé.  
+Et c’est exactement ce qui inquiète.
+
+Le cloud moderne adore la légitimité syntaxique.  
+Une action correcte dans la forme peut être catastrophique dans l’intention.  
+Snowflake fait partie de ces affaires qui rappellent que l’ennemi le plus rentable est souvent celui qui ne casse aucun protocole, mais exploite ceux qu’on lui offre déjà.
+
+---
+
+### VII. Résonance actuelle : le MFA comme ligne de partage réelle
 
 Snowflake a laissé une leçon triviale et pourtant toujours mal appliquée :  
 tant que l’identité client reste inégalement durcie, le cloud continuera de transformer la négligence locale en incident global.
@@ -86,11 +128,19 @@ Aujourd’hui encore, la différence entre incident contenu et saignée massive 
 - surveillance d’extraction anormale ;
 - durcissement des endpoints où vivent les credentials.
 
+Il n’y a rien de sexy dans cette liste.  
+Et c’est peut-être justement le problème.  
+La résilience réelle repose encore sur des disciplines ingrates, rarement mises en avant, rarement glamourisées, mais toujours décisives.
+
 ---
 
-### VI. Héritage : le cloud n’oublie pas qui ouvre la porte
+### VIII. Héritage : le cloud n’oublie pas qui ouvre la porte
 
 Snowflake ne raconte pas seulement une fuite.  
 Il raconte l’âge où l’identité est devenue la vraie serrure du cloud, et où cette serrure est encore trop souvent laissée dans la poche d’un endpoint sale.
 
 > *"Le futur des grandes fuites n’est pas toujours dans le zero-day. Il est souvent dans le mot de passe qui a survécu trop longtemps."*
+
+---
+
+*L’entrepôt le plus moderne du monde ne résiste jamais longtemps à une clé volée, si tout le bâtiment a été conçu pour faire confiance à celui qui la tient.*

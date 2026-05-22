@@ -47,7 +47,98 @@ on ne corrige pas vite ce qu’on ne sait pas localiser.
 
 ---
 
-### IV. Résonance actuelle : SBOM, dépendances et vérité du legacy
+### IV. Dossier d’incendie : pourquoi cette faille a terrorisé les équipes produit
+
+Log4Shell ne traumatise pas le secteur seulement parce qu’elle est grave.  
+Elle traumatise parce qu’elle combine presque toutes les qualités du cauchemar :
+
+- déclenchement à distance ;
+- simplicité relative de l’exploitation ;
+- présence ubiquitaire ;
+- visibilité partielle sur l’exposition réelle ;
+- difficulté de correction uniforme ;
+- contournements et patchs successifs.
+
+Dans beaucoup d’organisations, la crise ne se résume pas à “patcher Log4j”.  
+Il faut d’abord répondre à des questions humiliantes :
+
+- où la bibliothèque tourne-t-elle réellement ?
+- dans quels produits tiers est-elle embarquée ?
+- dans quelles versions ?
+- sur quels environnements exposés ?
+- avec quelles mitigations réalistes ?
+
+Log4Shell devient alors moins une vulnérabilité qu’un exercice de cartographie forcée des dépendances réelles.
+
+---
+
+### V. Brigade JVM : bulletin d’un feu qui saute les cloisons
+
+Dans un incendie classique, on voit la fumée.  
+Dans une crise comme Log4Shell, on voit d’abord les mails, les tickets, les scans, les avis contradictoires, les tableaux d’exposition qui ne veulent pas converger.
+
+Chaque équipe vit le même scénario :
+
+- le SOC surveille ;
+- les devs cherchent ;
+- les ops redémarrent ;
+- les responsables produits demandent combien de temps cela va durer ;
+- personne n’a envie de répondre honnêtement.
+
+Ce n’est pas seulement du feu.  
+C’est du feu dans les murs, dans les bibliothèques, dans les dépendances transitives, dans les produits vendus depuis longtemps qu’on croyait stables.
+
+---
+
+### VI. L’Internet qui se scanne lui-même en panique
+
+L’un des traits les plus saisissants de Log4Shell, c’est la vitesse à laquelle le réseau entier se met à se fouiller lui-même.
+
+En quelques heures, on voit :
+
+- des scans massifs ;
+- des tentatives d’exploitation opportunistes ;
+- des recherches automatisées d’indicateurs ;
+- des preuves de concept circuler à grande vitesse ;
+- des équipes produit redécouvrir la réalité de leurs dépendances sous pression maximale.
+
+La crise prend alors une forme très contemporaine : une vulnérabilité devient un événement total, à la fois technique, médiatique, logistique et psychologique.
+
+Les attaquants professionnels, les opportunistes, les chercheurs, les blue teams, les plateformes cloud, tout le monde touche le même point faible au même moment.  
+Le web semble se scanner lui-même dans un état de panique lucide.
+
+---
+
+### VII. JNDI, contournements et patchs qui donnent encore du travail
+
+Comme souvent dans les grandes crises de dépendance, l’histoire ne s’arrête pas au premier patch.
+
+Log4Shell oblige les équipes à vivre plusieurs niveaux d’usure :
+
+- comprendre le problème initial ;
+- déployer une mitigation d’urgence ;
+- suivre les contournements ;
+- corriger à nouveau ;
+- vérifier que les produits tiers ont eux aussi bougé ;
+- documenter le risque restant pendant que le business veut déjà passer à autre chose.
+
+Le temps de la faille devient alors presque aussi dangereux que la faille elle-même.
+
+---
+
+### VIII. Bureau Delta-J : pourquoi les responsables produits vieillissent d’un coup
+
+> *"Le SOC demande si c’est exploitable.*  
+> *Les devs demandent où la dépendance entre vraiment dans le build.*  
+> *Le produit demande si l’annonce client peut attendre.*  
+> *Le juridique demande quelle formulation minimise sans mentir.*  
+> *Tout le monde comprend en silence que personne ne connaît vraiment l’inventaire."*
+
+Cette scène résume l’élégance toxique de Log4Shell : la faille ne révèle pas seulement une bibliothèque vulnérable. Elle révèle l’état de préparation réel de l’organisation.
+
+---
+
+### IX. Résonance actuelle : SBOM, dépendances et vérité du legacy
 
 Log4Shell a renforcé l’obsession actuelle pour :
 
@@ -60,11 +151,31 @@ Log4Shell a renforcé l’obsession actuelle pour :
 Le legacy n’a pas disparu.  
 Il s’est juste encapsulé dans des stacks modernes.
 
+Après Log4Shell, les organisations parlent davantage de :
+
+- SBOM ;
+- inventaire ;
+- provenance logicielle ;
+- dépendances transitives ;
+- politiques de mise à jour réalistes ;
+- réduction de la dette invisible.
+
+La faille agit comme un révélateur d’humilité.  
+Le logiciel moderne n’est pas proprement empilé.  
+Il est stratifié, recousu, hérité, bricolé, souvent mal cartographié.
+
+Et c’est précisément pour cela que Log4Shell reste plus qu’un souvenir : il continue de servir de référence à chaque fois qu’une organisation prétend connaître totalement sa chaîne logicielle.
+
 ---
 
-### V. Héritage : la bibliothèque qui a révélé la dette du monde
+### X. Héritage : la bibliothèque qui a révélé la dette du monde
 
 Log4Shell ne restera pas seulement comme une RCE célèbre.  
 Ce sera l’un des grands moments où l’industrie a compris que sa dépendance aux briques communes dépassait largement sa capacité à les cartographier proprement.
 
 > *"On ne patchait pas une faille. On essayait d’éteindre une bibliothèque qui brûlait dans les murs de tout le bâtiment."*
+
+---
+
+*En décembre 2021, l’industrie a découvert que la dette logicielle ne se cache pas seulement dans le vieux code.  
+Elle vit aussi dans les bibliothèques que tout le monde croyait trop banales pour devenir apocalyptiques, exactement parce qu’elles semblaient trop banales pour être regardées de près.*
