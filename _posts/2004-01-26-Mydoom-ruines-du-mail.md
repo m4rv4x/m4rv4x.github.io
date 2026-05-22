@@ -2,7 +2,7 @@
 title: 2004 – Mydoom, Le ver qui a transformé le mail en champ de ruines
 date: 2004-01-26 12:00 +0100
 categories: [Histoire]
-tags: [Mydoom, email, ver, botnet, Outlook, SCO, cybersécurité, malware]
+tags: [Mydoom, email, ver, malware, botnet, Outlook, cybersécurité]
 author: marvax
 ---
 

@@ -2,7 +2,7 @@
 title: 2022 – LastPass, Le coffre-fort qui a laissé entrer la lumière
 date: 2022-12-22 12:00 +0100
 categories: [Histoire]
-tags: [LastPass, password manager, vault, cloud storage, identité, cybersécurité]
+tags: [LastPass, password manager, vault, identité, secrets, cybersécurité]
 author: marvax
 ---
 

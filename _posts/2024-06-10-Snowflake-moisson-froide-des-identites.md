@@ -2,7 +2,7 @@
 title: 2024 – Snowflake, La moisson froide des identités dans le cloud sans sommeil
 date: 2024-06-10 12:00 +0100
 categories: [Histoire]
-tags: [Snowflake, cloud, identités, infostealer, data breach, Mandiant, cybersécurité]
+tags: [Snowflake, cloud, identités, infostealer, Mandiant, cybersécurité]
 author: marvax
 ---
 

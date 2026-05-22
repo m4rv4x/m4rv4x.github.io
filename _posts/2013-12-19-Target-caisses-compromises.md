@@ -2,7 +2,7 @@
 title: 2013 – Target, Les caisses compromises et l’hiver des retailers
 date: 2013-12-19 12:00 +0100
 categories: [Histoire]
-tags: [Target, POS, retail, cartes bancaires, supply chain, cybersécurité]
+tags: [Target, POS, retail, cartes bancaires, prestataire, supply chain, cybersécurité]
 author: marvax
 ---
 
