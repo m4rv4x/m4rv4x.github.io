@@ -28,6 +28,8 @@
   }
 
   body {
+    position: relative;
+    isolation: isolate;
     background:
       radial-gradient(circle at top, rgba(78, 255, 145, 0.08), transparent 34%),
       linear-gradient(180deg, #040605 0%, #060a08 48%, #030504 100%);
@@ -49,7 +51,7 @@
         transparent 3px
       );
     opacity: 0.08;
-    z-index: 0;
+    z-index: -1;
   }
 
   body::after {
@@ -58,17 +60,7 @@
     inset: 0;
     pointer-events: none;
     background: radial-gradient(circle at center, transparent 52%, rgba(0, 0, 0, 0.38) 100%);
-    z-index: 0;
-  }
-
-  #main-wrapper,
-  #sidebar,
-  #topbar-wrapper,
-  #search-result-wrapper,
-  main,
-  footer {
-    position: relative;
-    z-index: 1;
+    z-index: -1;
   }
 
   [data-mode='dark'],
