@@ -157,7 +157,54 @@ Cette mutation prépare :
 
 ---
 
-### VII. Résonance actuelle : infostealers, MFA fatigue et fin du mot de passe roi
+### VII. Bureau Hash 2 : l’anatomie froide d’un utilisateur moyen
+
+> *"Profil étudié : 14 comptes actifs, 3 mots de passe principaux, 2 variantes, 1 boîte mail centrale, aucune segmentation sérieuse entre vie personnelle et usages sensibles.*  
+> *Évaluation : l’utilisateur ne fuit pas par accident. Il fuit par réutilisation systémique."*
+
+Cette caricature de rapport n’en est presque pas une.  
+Le grand drame de 2012, c’est précisément la révélation que l’utilisateur moyen n’est pas protégé par un secret.  
+Il est entouré d’un petit écosystème d’habitudes répétitives.
+
+Et ces habitudes ont une inertie terrible :
+
+- elles résistent aux campagnes de sensibilisation ;
+- elles survivent aux incidents ;
+- elles contaminent plusieurs comptes à la fois ;
+- elles rendent les fuites cumulatives plutôt qu’isolées.
+
+Le credential compromise n’est donc pas seulement un problème de base volée.  
+C’est un problème de culture numérique insuffisamment outillée face à un web déjà trop vaste.
+
+---
+
+### VIII. Les années d’après : de la fuite au marché de la session
+
+2012 n’est pas un épilogue.  
+C’est un point de départ.
+
+Après cette série noire, le paysage évolue, mais dans la continuité de ce qu’elle a révélé :
+
+- les bases fuitées deviennent archives de travail pour d’autres campagnes ;
+- les recoupements entre services se normalisent ;
+- les navigateurs stockent toujours plus ;
+- les utilisateurs délèguent de plus en plus leur mémoire à des outils ;
+- les attaquants comprennent qu’une identité numérique se découpe en couches exploitables.
+
+Peu à peu, on passe d’un monde centré sur le mot de passe pur à un monde où ce qui vaut cher, c’est l’accès plausible :
+
+- session active ;
+- contexte utilisateur ;
+- cookie ;
+- récupération mail ;
+- facteur secondaire contournable.
+
+Autrement dit, l’année 2012 est aussi le début d’une dégradation symbolique.  
+Le mot de passe cesse d’être roi bien avant que les entreprises le reconnaissent officiellement.
+
+---
+
+### IX. Résonance actuelle : infostealers, MFA fatigue et fin du mot de passe roi
 
 Avec le recul, 2012 ressemble à une répétition générale.  
 Aujourd’hui, le paysage a changé de forme, mais pas de logique :
@@ -178,9 +225,15 @@ Les années suivantes ne feront que confirmer cette déchéance :
 - les campagnes d’auth fatigue montrent que même le second facteur peut être socialement contourné ;
 - les comptes deviennent des assemblages de preuves, pas des portes à serrure unique.
 
+On n’est donc pas sorti du problème.  
+On l’a simplement déplacé vers des formes plus fines, plus contextuelles, plus persistantes.
+
+Le vrai enseignement de 2012, relu aujourd’hui, tient peut-être en une phrase :  
+**ce n’est pas seulement le secret qui compte, c’est tout l’environnement qui le rend réutilisable.**
+
 ---
 
-### VIII. Héritage : naissance d’une culture de la suspicion authentifiée
+### X. Héritage : naissance d’une culture de la suspicion authentifiée
 
 Dropbox, LinkedIn et Last.fm n’ont pas inventé les fuites d’identifiants.  
 Mais ensemble, ils ont cristallisé une mutation culturelle.
@@ -200,5 +253,15 @@ C’est une pièce fragile dans une chaîne de confiance plus large.
 
 ---
 
+### XI. Bureau mot de passe : la fin du secret artisanal
+
+> *"Avant, l’utilisateur croyait choisir un mot de passe. Désormais, il gère un portefeuille de risques liés à l’identité, à la réutilisation, au navigateur, au mail, au téléphone et à la session."*
+
+Cette phrase résume la bascule la plus importante : le mot de passe cesse d’être un petit objet mental privé. Il devient une pièce dans un écosystème d’accès beaucoup plus vaste.
+
+Et cette transformation explique pourquoi 2012 reste si important : ce n’est pas seulement une année de fuites, c’est l’année où l’utilisateur sérieux commence à comprendre que sa sécurité ne pourra plus tenir dans sa seule mémoire.
+
+---
+
 *Cette année-là, les identifiants ne sont pas seulement tombés.  
-Ils ont changé de statut : de secret personnel à matière première pour l’attaque à grande échelle.*
+Ils ont changé de statut : de secret personnel à matière première pour l’attaque à grande échelle, puis pour toute une économie de la session et du contexte d’accès.*

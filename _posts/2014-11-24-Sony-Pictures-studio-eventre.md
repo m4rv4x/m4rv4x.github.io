@@ -192,7 +192,33 @@ Et il laisse derrière lui une leçon qui dépasse le cinéma : quand l’organi
 
 ---
 
-### IX. Bureau des scripts morts : pourquoi Sony Pictures reste une affaire école
+### IX. Le personnel comme champ de ruines silencieux
+
+On parle beaucoup de réputation, de diplomatie, de films, de serveurs.  
+On parle moins de l’intérieur humain de ce type d’attaque.
+
+Quand Sony Pictures se fait éventrer, les conséquences ne se résument pas à des communiqués et des unes de presse.  
+Elles traversent aussi :
+
+- les relations de travail ;
+- la confiance verticale ;
+- la peur quotidienne des salariés ;
+- le sentiment de sécurité psychologique ;
+- l’impression que chaque mot écrit peut devenir une munition future.
+
+Après une affaire comme celle-ci, l’entreprise continue de fonctionner, mais elle ne se parle plus de la même manière.
+
+Les équipes apprennent à se censurer.  
+Les dirigeants deviennent plus rigides ou plus paranoïaques.  
+Les juristes montent en gravité.  
+Les communicants gagnent du pouvoir.  
+La messagerie change d’atmosphère.
+
+Le cyber a alors réussi quelque chose de très rare : il a modifié le climat humain d’une organisation par la publication ciblée de son intimité écrite.
+
+---
+
+### X. Bureau des scripts morts : pourquoi Sony Pictures reste une affaire école
 
 > *"Les postes se restaurent. Les images disque se reconstruisent. Les contrats se renégocient. Mais une organisation dont l’intimité a été projetée sur écran géant n’habite plus ses bureaux de la même manière."*
 
@@ -201,7 +227,7 @@ la certitude qu’une attaque pouvait viser la **psychologie institutionnelle** 
 
 ---
 
-### X. Héritage : l’entreprise comme théâtre psychologique
+### XI. Héritage : l’entreprise comme théâtre psychologique
 
 Sony Pictures reste une balise parce qu’il a montré que la sécurité d’entreprise n’était plus seulement affaire de disponibilité ou de confidentialité, mais aussi de narration publique.
 
@@ -209,5 +235,60 @@ Sony Pictures reste une balise parce qu’il a montré que la sécurité d’ent
 
 ---
 
+### XII. L’attribution comme deuxième film de l’affaire
+
+Comme souvent dans les gros dossiers cyber, l’attribution ne se contente pas d’éclairer l’incident.  
+Elle devient elle-même une partie du récit.
+
+Dans le cas Sony Pictures, la dimension nord-coréenne, les tensions diplomatiques et les lectures politiques superposent plusieurs couches de débat :
+
+- que sait-on vraiment ?
+- que déduit-on ?
+- que dit l’État ?
+- que retient le public ?
+
+Cette zone trouble compte énormément.  
+L’attaque ne blesse pas seulement l’entreprise ; elle l’inscrit dans une narration géopolitique qui la dépasse.
+
+---
+
+### XII. L’attribution comme deuxième film de l’affaire
+
+Comme souvent dans les gros dossiers cyber, l’attribution ne se contente pas d’éclairer l’incident. Elle devient elle-même une partie du récit.
+
+Dans le cas Sony Pictures, la dimension nord-coréenne, les tensions diplomatiques et les lectures politiques superposent plusieurs couches de débat :
+
+- que sait-on vraiment ?
+- que déduit-on ?
+- que dit l’État ?
+- que retient le public ?
+
+Cette zone trouble compte énormément. L’attaque ne blesse pas seulement l’entreprise ; elle l’inscrit dans une narration géopolitique qui la dépasse.
+
+---
+
 *Hollywood croyait produire des récits.  
-En 2014, il a découvert qu’une attaque bien menée pouvait en écrire un à sa place, avec des mails internes pour dialogues, des sauvegardes comme figurants, et des journalistes comme salle de projection involontaire.*
+En 2014, il a découvert qu’une attaque bien menée pouvait en écrire un à sa place, avec des mails internes pour dialogues, des sauvegardes comme figurants, des salariés comme dommages collatéraux, et des journalistes comme salle de projection involontaire.*
+
+---
+
+### XIII. Le studio après l’attaque : survivre à sa propre mise à nu
+
+Le plus étrange dans les grandes affaires cyber, c’est qu’on les raconte souvent comme des événements finis. Or une organisation compromise continue longtemps de vivre dans leur après.
+
+Dans le cas Sony Pictures, cet après ressemble à un espace où :
+
+- chaque communication interne pèse plus lourd ;
+- chaque mot potentiellement archivable devient plus dangereux ;
+- chaque dirigeant redoute une seconde scène ;
+- chaque salarié comprend qu’une infrastructure documentaire peut se transformer, du jour au lendemain, en projecteur hostile.
+
+Le studio survit, bien sûr. Mais il survit comme survivent beaucoup d’organisations après exposition totale : moins innocent, moins spontané, plus juridique, plus prudent, parfois plus sec.
+
+---
+
+### XIV. Archives toxiques : pourquoi cette affaire parle encore à toutes les entreprises bavardes
+
+Sony Pictures dépasse largement le cinéma parce qu’il raconte quelque chose de très contemporain sur le travail numérique : la prolifération d’archives internes semi-spontanées.
+
+Une organisation moderne écrit partout : email, chat, documents collaboratifs, notes rapides, feedbacks non destinés à sortir, commentaires de versions, échanges latéraux produits par la vitesse du travail. Tout cela semble banal tant que cela reste derrière les murs. Mais une fois exfiltré, cet ensemble devient un matériau de crise extraordinairement riche.

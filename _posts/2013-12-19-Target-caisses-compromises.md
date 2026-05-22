@@ -181,5 +181,89 @@ Elle peut fuir au moment le plus banal du monde : celui où l’on paie en caiss
 
 ---
 
+### X. Bureau Fin d’Année : ce que le client ne voit jamais
+
+> *"Le consommateur pense entrer dans un magasin. Le RSSI voit une chaîne d’approvisionnement, des badges tiers, des flux de paiement, des contrats de maintenance, des terminaux hétérogènes et des semaines où personne n’a le droit d’arrêter la musique commerciale."*
+
+Cette tension résume l’héritage le plus intéressant de Target.  
+Le retail moderne est une forme d’infrastructure critique qui ne s’assume pas comme telle.
+
+Il n’a ni le prestige de l’énergie, ni la gravité de la santé, ni la symbolique d’une base militaire.  
+Mais il concentre :
+
+- argent ;
+- rythme social ;
+- logistique ;
+- confiance de masse ;
+- exposition médiatique immédiate.
+
+Et c’est précisément pour cela qu’il reste un terrain de chasse durable pour les attaquants.
+
+---
+
+### XI. Héritage : la grande distribution comme infrastructure critique molle
+
 *L’affaire Target n’a pas juste révélé un vol massif.  
 Elle a révélé que la grande distribution moderne ressemble beaucoup plus à une infrastructure critique qu’à un simple alignement de rayons, d’étiquettes et de néons, et qu’une caisse n’est jamais qu’un terminal sur un front beaucoup plus vaste.*
+
+---
+
+### XII. Après la fuite : mémoire bancaire et fatigue client
+
+Le grand public retient souvent un chiffre de cartes compromises. Mais l’après-incident se vit dans une poussière de conséquences plus diffuses.
+
+Pour les clients :
+
+- remplacement de cartes ;
+- surveillance de mouvements suspects ;
+- temps perdu ;
+- défiance envers l’enseigne.
+
+Pour les banques et les acteurs de paiement :
+
+- coûts de réémission ;
+- fraude secondaire ;
+- gestion de l’incertitude ;
+- arbitrages de responsabilité.
+
+Target rappelle ainsi qu’une compromission retail ne s’arrête pas quand le malware cesse de tourner. Elle continue dans le système financier, dans la relation client, et dans la mémoire commerciale du nom frappé.
+
+---
+
+### XIII. Bureau carte bleue : le commerce comme surface de confiance négociée
+
+> *"Le client pense payer. La banque pense autoriser. Le magasin pense encaisser. L’attaquant pense récolter. Le RSSI pense surtout que tout le monde parle du même geste avec des réalités techniques radicalement différentes."*
+
+Cette dissonance fait partie du legs de Target. Le paiement n’est pas un instant simple. C’est une négociation silencieuse entre plusieurs couches de confiance, toutes très rentables, et pas toujours très bien alignées.
+
+---
+
+### XIV. Le magasin comme architecture de paix apparente
+
+Le grand magasin moderne donne une impression de stabilité : éclairage constant, flux clients fluides, interfaces simplifiées, transaction réduite à quelques secondes. Derrière cette paix apparente, il y a pourtant une profondeur technique énorme : réseau, intégration, télémaintenance, systèmes de paiement, héritage matériel, chaîne bancaire, segmentation parfois plus théorique que réelle.
+
+Le cyber aime particulièrement ces environnements parce qu’ils vivent de la confiance ambiante. Tout doit sembler simple à l’utilisateur final. Et cette simplicité d’usage masque parfois une complexité défensive trop peu gouvernée.
+
+---
+
+### XII. Après la fuite : mémoire bancaire et fatigue client
+
+Le grand public retient souvent un chiffre de cartes compromises.  
+Mais l’après-incident se vit dans une poussière de conséquences plus diffuses.
+
+Pour les clients :
+
+- remplacement de cartes ;
+- surveillance de mouvements suspects ;
+- temps perdu ;
+- défiance envers l’enseigne.
+
+Pour les banques et les acteurs de paiement :
+
+- coûts de réémission ;
+- fraude secondaire ;
+- gestion de l’incertitude ;
+- arbitrages de responsabilité.
+
+Target rappelle ainsi qu’une compromission retail ne s’arrête pas quand le malware cesse de tourner.  
+Elle continue dans le système financier, dans la relation client, et dans la mémoire commerciale du nom frappé.

@@ -154,7 +154,63 @@ Il force le réseau à imaginer le pire, à se mobiliser, à se regarder lui-mê
 
 ---
 
-### VIII. Héritage : la crise qui a appris au réseau à anticiper ensemble
+### VIII. L’économie de la peur : médias, RSSI et fabrication du scénario global
+
+Une crise comme Conficker ne se joue pas seulement sur les machines.  
+Elle se joue aussi dans l’interface mentale du réseau mondial.
+
+Les rédactions veulent des scénarios lisibles.  
+Les RSSI veulent des probabilités crédibles.  
+Les gouvernements veulent éviter l’humiliation publique.  
+Les éditeurs veulent paraître utiles sans promettre l’impossible.  
+Et dans ce mélange, la menace gonfle, se recompose, se professionnalise dans le langage même qui la décrit.
+
+Le 1er avril 2009 devient ainsi un objet médiatique à part entière :
+
+- des papiers alarmistes ;
+- des notes de crise diffusées partout ;
+- des DSI sommés de rassurer ;
+- des opérateurs forcés d’expliquer des notions très techniques à des directions qui n’en veulent que le résumé ;
+- une tension inhabituelle entre vérité technique et narration publique.
+
+Cette économie de la peur n’est pas anecdotique.  
+Elle enseigne quelque chose de très moderne : en cybersécurité, l’imaginaire collectif est déjà un terrain d’impact.
+
+Un botnet massif produit du risque technique.  
+Mais il produit aussi :
+
+- des arbitrages budgétaires ;
+- des décisions précipitées ;
+- des débats politiques ;
+- des changements de priorités ;
+- une mémoire durable de la vulnérabilité.
+
+En somme, Conficker ne se contente pas d’infecter Windows.  
+Il infecte le discours sur la sécurité à grande échelle.
+
+---
+
+### IX. Bureau 31 bis : la nuit où les calendriers ont remplacé les indicateurs
+
+> *"03:12. Toujours aucune charge spectaculaire.*  
+> *03:28. L’absence d’événement devient elle-même l’événement principal.*  
+> *03:54. Les tableaux d’alerte restent stables, mais les salles de crise refusent de respirer.*  
+> *04:31. Pour la première fois, on mesure qu’un malware peut gouverner l’attention d’un réseau entier sans avoir encore déclenché son acte final."*
+
+Cette note imaginaire ne parle presque plus de code.  
+Et c’est précisément le point.
+
+À ce stade, Conficker est moins un objet binaire qu’un **centre de gravité anxieux**.  
+Les équipes sécurité vivent dans le temps du botnet.  
+Les horaires de travail, les astreintes, les appels, les briefings, les validations, les hypothèses : tout s’organise autour d’une date imposée par l’adversaire.
+
+Ce déplacement est fondamental.  
+Le malware ne se contente plus d’attaquer les systèmes.  
+Il réorganise les rythmes humains qui les défendent.
+
+---
+
+### X. Héritage : la crise qui a appris au réseau à anticiper ensemble
 
 Conficker version 2009 reste important parce qu’il a appris au monde connecté que la menace ne se mesure pas seulement en dégâts constatés, mais aussi en préparation imposée.
 
@@ -172,5 +228,24 @@ Et surtout, il a compris qu’on pouvait devoir organiser la défense d’un dé
 
 ---
 
+### XI. Bureau 31 ter : après l’alerte, l’apprentissage administratif
+
+Une fois la peur passée, ce qui reste est souvent moins spectaculaire mais plus structurant : des procédures, des listes de diffusion, des habitudes de coordination, des noms qu’on connaît enfin parce qu’on a dû travailler ensemble dans l’urgence.
+
+Conficker n’a pas seulement été un botnet.  
+Il a été une école accélérée de gouvernance cyber.
+
+On y apprend :
+
+- à partager plus vite ;
+- à coordonner hors hiérarchie pure ;
+- à parler au public sans lui mentir ;
+- à distinguer le risque vraisemblable de l’imaginaire hystérisé ;
+- à vivre avec l’incertitude sans cesser d’agir.
+
+Cette mémoire procédurale est peut-être l’un des vrais héritages du dossier. Le botnet ne détruit pas l’infrastructure globale ce soir-là, mais il améliore malgré lui la manière dont le réseau apprend à se défendre en commun.
+
+---
+
 *En 2009, Conficker n’a pas gagné en détruisant le réseau.  
-Il a gagné en lui imposant son tempo, son calendrier et sa grammaire de crise.*
+Il a gagné en lui imposant son tempo, son calendrier, sa nuit blanche et sa grammaire de crise.*

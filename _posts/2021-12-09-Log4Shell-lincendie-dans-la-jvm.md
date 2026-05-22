@@ -177,5 +177,58 @@ Ce sera l’un des grands moments où l’industrie a compris que sa dépendance
 
 ---
 
+### XI. Le prix invisible des bibliothèques communes
+
+Log4Shell a aussi rouvert un vieux dossier que l’industrie préfère souvent traiter en aparté : qui entretient réellement les briques communes sur lesquelles repose la civilisation logicielle ?
+
+Une bibliothèque critique ne devient pas cruciale parce qu’un comité l’a proclamé telle.  
+Elle le devient parce qu’elle a été aspirée partout :
+
+- dans les produits ;
+- dans les appliances ;
+- dans les services SaaS ;
+- dans les logiciels internes ;
+- dans les couches si banales qu’on oublie de les financer à la hauteur de leur rôle.
+
+La crise force donc un constat embarrassant : le monde adore mutualiser ses dépendances, mais beaucoup moins mutualiser leur maintenance réelle, leur audit, leur soutien humain et leur gouvernance.
+
+---
+
+### XI. Le prix invisible des bibliothèques communes
+
+Log4Shell a aussi rouvert un vieux dossier que l’industrie préfère souvent traiter en aparté : qui entretient réellement les briques communes sur lesquelles repose la civilisation logicielle ?
+
+Une bibliothèque critique ne devient pas cruciale parce qu’un comité l’a proclamé telle. Elle le devient parce qu’elle a été aspirée partout :
+
+- dans les produits ;
+- dans les appliances ;
+- dans les services SaaS ;
+- dans les logiciels internes ;
+- dans les couches si banales qu’on oublie de les financer à la hauteur de leur rôle.
+
+La crise force donc un constat embarrassant : le monde adore mutualiser ses dépendances, mais beaucoup moins mutualiser leur maintenance réelle, leur audit, leur soutien humain et leur gouvernance.
+
+---
+
 *En décembre 2021, l’industrie a découvert que la dette logicielle ne se cache pas seulement dans le vieux code.  
 Elle vit aussi dans les bibliothèques que tout le monde croyait trop banales pour devenir apocalyptiques, exactement parce qu’elles semblaient trop banales pour être regardées de près.*
+
+---
+
+### XII. La promesse impossible du "tout est patché"
+
+Dans les grandes organisations, il existe une phrase qui circule très vite après les premières mitigations :
+
+> *"C’est bon, on a patché."*
+
+Avec Log4Shell, cette phrase sonne presque toujours plus propre qu’elle ne l’est réellement.
+
+Parce qu’entre l’état affiché et l’état réel, il y a :
+
+- les environnements oubliés ;
+- les appliances muettes ;
+- les produits tiers qui n’ont pas encore communiqué ;
+- les exceptions “temporaires” ;
+- les héritages historiques que personne ne veut rouvrir sous stress.
+
+Le mot *patché* devient alors un mot politique plus que technique. Il sert à rassurer, à redonner une zone de maîtrise apparente, à rendre l’incendie administrable dans les tableaux. Mais les équipes savent qu’une faille comme Log4Shell laisse toujours des poches de doute.
