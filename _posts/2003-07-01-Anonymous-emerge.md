@@ -2,7 +2,7 @@
 title: 2003 – Anonymous émerge, Le masque sans visage dans les entrailles du web
 date: 2003-07-01 12:00 +0100
 categories: [Histoire]
-tags: [Anonymous, imageboards, hacktivisme, culture web, underground, cybersécurité]
+tags: [Anonymous, imageboards, lulz, hacktivisme, culture web, underground]
 author: marvax
 ---
 
