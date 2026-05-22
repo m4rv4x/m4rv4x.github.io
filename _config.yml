@@ -16,10 +16,10 @@ timezone: Europe/Paris
 
 title: blog.marvax.fun # the main title
 
-tagline: AI Enthusiast
+tagline: AI orchestration, threat notes, opsec
 
 description: >- # used by seo meta and the atom feed
-  Marvax, Blog, Github, DevOps, Python, Personal Blog
+  Marvax, AI orchestration, threat notes, opsec, self-hosting, offensive culture, technical write-ups
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

@@ -2,7 +2,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
-  href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+  href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Space+Grotesk:wght@500;700&display=swap"
   rel="stylesheet"
 >
 
@@ -34,6 +34,45 @@
       radial-gradient(circle at top, rgba(88, 144, 168, 0.1), transparent 34%),
       linear-gradient(180deg, #04070a 0%, #081018 48%, #04060a 100%);
     color: var(--ops-text);
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  #main-wrapper,
+  .post-content,
+  .post-content p,
+  .post-content li,
+  .post-content blockquote,
+  .content p,
+  .content li,
+  .post-preview .card-text,
+  article {
+    font-family: 'Source Serif 4', Georgia, serif;
+  }
+
+  .post-content,
+  .post-content p,
+  .post-content li,
+  .content p,
+  .content li,
+  .post-preview .card-text {
+    font-size: 1.06rem;
+    line-height: 1.92;
+    letter-spacing: 0.01em;
+  }
+
+  .post-content strong,
+  .content strong {
+    color: #f2f8ff;
+    font-weight: 600;
+  }
+
+  .post-content code,
+  .post-content pre,
+  .post-content .highlight,
+  .post-content kbd,
+  .post-meta,
+  .post-tail-wrapper,
+  .post-tail-wrapper * {
     font-family: 'JetBrains Mono', monospace;
   }
 
@@ -204,6 +243,42 @@
     font-size: 0.68rem;
   }
 
+  #sidebar .sidebar-signal {
+    margin: 1.35rem 0 1.1rem;
+    padding: 0.85rem 0.9rem 0.95rem;
+    border: 1px solid rgba(88, 144, 168, 0.18);
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(88, 144, 168, 0.08), rgba(88, 144, 168, 0.04));
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.015);
+  }
+
+  #sidebar .sidebar-signal__label,
+  #sidebar .sidebar-signal__refs {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  #sidebar .sidebar-signal__label {
+    margin-bottom: 0.45rem;
+    color: #d8ecfb;
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  #sidebar .sidebar-signal__body {
+    color: #bcd2e1;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  #sidebar .sidebar-signal__refs {
+    margin-top: 0.7rem;
+    color: #7f97a8;
+    font-size: 0.67rem;
+    line-height: 1.6;
+  }
+
   #sidebar .nav-link,
   #sidebar .sidebar-bottom a,
   #sidebar #mode-toggle {
@@ -345,6 +420,18 @@
     text-shadow: 0 0 8px rgba(88, 144, 168, 0.1);
   }
 
+  @media (max-width: 768px) {
+    .post-content,
+    .post-content p,
+    .post-content li,
+    .content p,
+    .content li,
+    .post-preview .card-text {
+      font-size: 1rem;
+      line-height: 1.82;
+    }
+  }
+
   ::selection {
     background: rgba(88, 144, 168, 0.28);
     color: #ffffff;
@@ -381,4 +468,23 @@
 
 <script>
   document.documentElement.setAttribute('data-mode', 'dark');
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const sidebar = document.getElementById('sidebar');
+    const subtitle = sidebar && sidebar.querySelector('.site-subtitle');
+
+    if (!sidebar || !subtitle || sidebar.querySelector('.sidebar-signal')) {
+      return;
+    }
+
+    const panel = document.createElement('section');
+    panel.className = 'sidebar-signal';
+    panel.innerHTML = `
+      <div class="sidebar-signal__label">ops.notes</div>
+      <div class="sidebar-signal__body">AI orchestration, threat notes, infra discrete, opsec, et autopsies techniques publiees sans vernis corporate.</div>
+      <div class="sidebar-signal__refs">2600 Hz · Phrack · RFC 1149 · phreaking · null route · zero-day folklore</div>
+    `;
+
+    subtitle.insertAdjacentElement('afterend', panel);
+  });
 </script>
