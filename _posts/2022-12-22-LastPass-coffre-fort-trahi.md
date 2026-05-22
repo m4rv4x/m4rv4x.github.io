@@ -131,3 +131,24 @@ la sécurité sérieuse ne consiste pas à trouver un objet magique, mais à cho
 *LastPass a rappelé quelque chose que les vieux paranoïaques savaient déjà :  
 la bonne sécurité ne tue jamais le doute.  
 Elle le rend plus discipliné.*
+
+---
+
+### VIII. Bureau Sigma 2 : le gestionnaire de mots de passe comme compromis adulte
+
+Il y a une maturité étrange dans la leçon LastPass.  
+L’affaire ne conduit pas les plus sérieux à jeter le gestionnaire de mots de passe.  
+Elle les oblige plutôt à assumer quelque chose de plus difficile : en sécurité, on ne choisit pas l’absence de dépendance, on choisit la dépendance qu’on comprend le mieux.
+
+Le gestionnaire reste souvent préférable au chaos humain pur.  
+Mais il cesse d’être perçu comme un totem.  
+Il redevient ce qu’il n’aurait jamais dû cesser d’être :
+
+- un outil ;
+- un compromis ;
+- une concentration de valeur ;
+- un objet qu’il faut auditer, questionner, situer dans une stratégie plus large.
+
+Cette sobriété fait partie de la maturité post-incident.  
+On ne demande plus à l’outil d’abolir le risque.  
+On lui demande d’en déplacer intelligemment la forme.

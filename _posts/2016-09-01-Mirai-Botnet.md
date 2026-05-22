@@ -83,7 +83,26 @@ Mais la vérité, c’est que la plupart des objets connectés sont toujours aus
 
 ---
 
-### VI. L’héritage Mirai : vigilance, poésie noire et underground forever
+### VI. Dossier technique : Telnet, mots de passe par défaut et recrutement industriel
+
+Mirai n’est pas devenu légendaire par magie.  
+Sa réussite repose sur une vérité d’une simplicité humiliante : l’IoT de l’époque regorge d’appareils exposés, mal configurés, livrés avec des identifiants par défaut ou des combinaisons triviales.
+
+Le botnet prospère alors sur une mécanique presque grotesque dans sa banalité :
+
+- scan ;
+- tentative d’identifiants connus ;
+- compromission ;
+- enrôlement ;
+- répétition à grande vitesse.
+
+Le résultat n’a rien d’élégant côté victime.  
+Mais côté attaquant, c’est une industrialisation parfaite du mépris manufacturier.  
+Mirai transforme les économies faites par les fabricants sur la sécurité en puissance offensive distribuée.
+
+---
+
+### VII. L’héritage Mirai : vigilance, poésie noire et underground forever
 
 Mirai a gravé son nom dans le marbre du chaos.  
 Il a prouvé que chaque objet connecté est une porte d’entrée, que la vigilance n’est pas une option, et que les hackers sont les seuls vrais lanceurs d’alerte.  
@@ -97,7 +116,19 @@ C’est la preuve que dans ce monde, la seule constante, c’est la vulnérabili
 
 ---
 
-### VII. L’ultime arrogance : manifeste pour un IoT underground
+### VIII. Bureau Shodan : carnet d’un recruteur de machines sans défense
+
+> *"La cible n’a pas besoin d’être brillante. Elle a juste besoin d’être allumée, connectée et livrée avec la paresse de son fabricant."*
+
+Cette phrase résume toute la poésie noire de Mirai.  
+Le botnet ne triomphe pas parce que les objets sont intelligents.  
+Il triomphe parce qu’ils ne le sont pas.
+
+Chaque caméra, chaque routeur, chaque DVR vulnérable devient une preuve supplémentaire que l’industrie adore vendre des appareils plus vite qu’elle ne sait les rendre dignes d’être branchés au réel.
+
+---
+
+### IX. L’ultime arrogance : manifeste pour un IoT underground
 
 L’IoT, c’est la promesse d’un monde meilleur, mais c’est surtout un terrain de jeu pour ceux qui n’ont pas peur de regarder la vérité en face.  
 La sécurité, c’est pas un produit, c’est un état d’esprit.  

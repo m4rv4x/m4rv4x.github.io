@@ -123,3 +123,11 @@ Parce qu’au fond, Conficker, c’est le rappel que **dans la parano, on trouve
 ---
 
 **Keep hacking, stay underground, et souviens-toi : les meilleurs malwares sont ceux qui attendent dans l’ombre… jusqu’au jour où ils dévorent la lumière.** 👻
+
+---
+
+### Addendum : le spectre qui a rendu respectable la peur du botnet
+
+Conficker version 2008 reste une pierre noire du folklore malware parce qu’il a prouvé qu’un ver pouvait acquérir une présence presque mythologique sans même avoir besoin d’une cause politique lisible.  
+Il lui suffisait d’être vaste, adaptable et silencieux.  
+Dans un univers où les systèmes veulent croire à la stabilité, ce type de présence fait plus qu’infecter : il contamine l’imaginaire défensif.

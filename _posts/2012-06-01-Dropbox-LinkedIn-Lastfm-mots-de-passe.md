@@ -265,3 +265,32 @@ Et cette transformation explique pourquoi 2012 reste si important : ce n’est p
 
 *Cette année-là, les identifiants ne sont pas seulement tombés.  
 Ils ont changé de statut : de secret personnel à matière première pour l’attaque à grande échelle, puis pour toute une économie de la session et du contexte d’accès.*
+
+---
+
+### XII. L’identité comme chaîne de dépendances fragiles
+
+Le mot de passe a longtemps été vendu comme un secret intime.  
+En réalité, il fonctionne déjà en 2012 comme un point d’entrée branché sur une chaîne beaucoup plus longue :
+
+- l’email de récupération ;
+- le navigateur ;
+- l’appareil ;
+- les habitudes de réutilisation ;
+- les services tiers connectés ;
+- les procédures de réinitialisation.
+
+Cette vision plus systémique change tout.  
+On ne protège plus seulement une chaîne de caractères.  
+On protège un environnement de confiance où chaque faiblesse secondaire peut redonner de la valeur à une fuite ancienne.
+
+Et c’est précisément pourquoi les grandes séries noires de 2012 comptent encore aujourd’hui : elles ont obligé le web à sortir d’une vision artisanale du secret.  
+Le mot de passe n’est plus un talisman individuel.  
+Il est une pièce dans une architecture d’identité distribuée, bancale, rentable à attaquer.
+
+À partir de là, l’utilisateur sérieux cesse progressivement d’espérer une sécurité purement mémorielle.  
+Il entre dans un monde d’outils, de segmentation, de couches, de compromis, de vigilance permanente.
+
+En d’autres termes :  
+2012 n’est pas seulement l’année où des mots de passe ont fui.  
+C’est l’année où l’identité numérique grand public a cessé d’être une affaire simple.

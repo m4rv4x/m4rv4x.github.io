@@ -249,3 +249,30 @@ Cette mémoire procédurale est peut-être l’un des vrais héritages du dossie
 
 *En 2009, Conficker n’a pas gagné en détruisant le réseau.  
 Il a gagné en lui imposant son tempo, son calendrier, sa nuit blanche et sa grammaire de crise.*
+
+---
+
+### XII. Leçon d’époque : avant les APT glamours, l’angoisse distribuée
+
+Avec le recul, Conficker 2009 est presque émouvant.  
+Pas parce qu’il serait naïf, mais parce qu’il montre un moment charnière où la cybersécurité moderne apprend encore à nommer ce qu’elle voit.
+
+On n’est pas encore dans la grande mythologie des supply chains compromises racontées en threads fleuves, ni dans la culture presque industrielle du threat intel telle qu’on la connaît aujourd’hui.  
+On est dans une époque où un botnet massif, silencieux, souple, suffit à produire une crise transnationale de coordination.
+
+Conficker montre alors une vérité qui survivra à toutes les modes :  
+la menace la plus structurante n’est pas toujours celle qui détruit le plus.  
+C’est parfois celle qui force les défenseurs à inventer une nouvelle manière de travailler ensemble.
+
+Ce 1er avril a donc une valeur historique étrange.  
+Il n’est pas le soir d’un effondrement.  
+Il est le matin difficile d’une profession qui comprend qu’elle devra désormais vivre avec :
+
+- l’alerte longue ;
+- le brouillard ;
+- la coordination forcée ;
+- l’attention mondiale ;
+- la possibilité qu’un code très banal en apparence gouverne des semaines entières de préparation.
+
+Conficker n’a pas donné le spectacle attendu.  
+Mais il a laissé un acquis plus profond : une grammaire de veille, de partage et de fatigue collective qui irrigue encore les grandes crises actuelles.

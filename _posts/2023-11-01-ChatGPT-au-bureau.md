@@ -129,3 +129,50 @@ Il est devenu une machine à plausible interne.
 
 *En 2023, ChatGPT n’a pas seulement changé le web.  
 Il a changé le bruit de fond du travail de bureau.*
+
+---
+
+### VII. Bureau 7C bis : la réunion où personne n’ose dire que le texte sent l’autocomplétion
+
+L’un des traits les plus contemporains de cette histoire, c’est sa politesse.  
+Le problème ne se présente pas toujours sous la forme d’une catastrophe criante.  
+Il apparaît souvent comme un léger glissement de texture.
+
+Les documents deviennent plus fluides mais plus interchangeables.  
+Les comptes rendus semblent propres mais perdent en densité.  
+Les réponses clients sont mieux tournées mais moins ancrées.  
+Les notes RH paraissent irréprochables, tout en introduisant parfois un contresens discret.
+
+Et le plus étrange, c’est que tout le monde le sent un peu, sans toujours vouloir le formuler.  
+Parce qu’admettre que le bureau écrit désormais du texte qu’il ne pense plus entièrement, c’est toucher à une gêne professionnelle profonde.
+
+L’IA générative ne sabote pas seulement la vérité.  
+Elle fragilise aussi les critères sociaux de compétence, de sérieux et d’effort visibles dans les organisations.
+
+---
+
+### VIII. Dossier technique : BEC, prompting et fuite du contexte métier
+
+Le bureau 2023 ne se contente pas d’utiliser ChatGPT pour écrire plus vite.  
+Il commence aussi à lui confier du contexte métier.
+
+Et c’est là qu’apparaît une seconde ligne de risque :
+
+- copier-coller de mails internes ;
+- reformulation de propositions clients ;
+- résumés de documents confidentiels ;
+- assistance à la rédaction de réponses commerciales ;
+- prompts contenant des éléments sensibles par habitude ou paresse.
+
+Le danger ne réside plus uniquement dans l’hallucination.  
+Il réside aussi dans la désinvolture contextuelle.
+
+À côté de cela, la fraude suit naturellement :
+
+- BEC mieux rédigés ;
+- ton managérial imité ;
+- emails de pression plus crédibles ;
+- messages support plus propres que ceux d’une vraie équipe débordée.
+
+L’outil n’est pas automatiquement malveillant.  
+Mais il réduit brutalement le coût du vernis professionnel, y compris pour l’attaquant.

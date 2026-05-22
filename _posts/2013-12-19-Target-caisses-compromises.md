@@ -236,34 +236,39 @@ Target rappelle ainsi qu’une compromission retail ne s’arrête pas quand le 
 
 Cette dissonance fait partie du legs de Target. Le paiement n’est pas un instant simple. C’est une négociation silencieuse entre plusieurs couches de confiance, toutes très rentables, et pas toujours très bien alignées.
 
+Et lorsque cette négociation cède, chacun redécouvre soudain qu’il n’achetait pas seulement un produit ou un service.  
+Il achetait aussi la promesse implicite que l’infrastructure invisible tiendrait.  
+C’est cette promesse-là que Target a fissurée.
+
 ---
 
-### XIV. Le magasin comme architecture de paix apparente
+### XIV. Le magasin moderne comme machine critique mal nommée
+
+Target reste important parce qu’il oblige à regarder autrement des environnements que l’on considère encore trop souvent comme de simples surfaces commerciales.
+
+Un grand retailer, en réalité, orchestre :
+
+- logistique ;
+- paiement ;
+- réseaux de sites ;
+- accès tiers ;
+- données clients ;
+- intégration de maintenance ;
+- dépendance au temps réel.
+
+Autrement dit, une infrastructure critique qui refuse souvent de se penser avec le sérieux d’une infrastructure critique.
+
+Et c’est précisément ce refus symbolique qui fait mal.  
+On protège mieux ce qu’on considère noble, grave, vital.  
+On protège moins bien ce qu’on réduit à de l’ordinaire, même quand cet ordinaire porte en réalité des flux d’argent, de données et de confiance à très grande échelle.
+
+Target rappelle ainsi qu’il n’existe pas de secteur “trop banal” pour devenir stratégique.  
+Il n’existe que des systèmes suffisamment intégrés pour devenir vulnérables à leur propre fluidité.
+
+---
+
+### XV. Le magasin comme architecture de paix apparente
 
 Le grand magasin moderne donne une impression de stabilité : éclairage constant, flux clients fluides, interfaces simplifiées, transaction réduite à quelques secondes. Derrière cette paix apparente, il y a pourtant une profondeur technique énorme : réseau, intégration, télémaintenance, systèmes de paiement, héritage matériel, chaîne bancaire, segmentation parfois plus théorique que réelle.
 
 Le cyber aime particulièrement ces environnements parce qu’ils vivent de la confiance ambiante. Tout doit sembler simple à l’utilisateur final. Et cette simplicité d’usage masque parfois une complexité défensive trop peu gouvernée.
-
----
-
-### XII. Après la fuite : mémoire bancaire et fatigue client
-
-Le grand public retient souvent un chiffre de cartes compromises.  
-Mais l’après-incident se vit dans une poussière de conséquences plus diffuses.
-
-Pour les clients :
-
-- remplacement de cartes ;
-- surveillance de mouvements suspects ;
-- temps perdu ;
-- défiance envers l’enseigne.
-
-Pour les banques et les acteurs de paiement :
-
-- coûts de réémission ;
-- fraude secondaire ;
-- gestion de l’incertitude ;
-- arbitrages de responsabilité.
-
-Target rappelle ainsi qu’une compromission retail ne s’arrête pas quand le malware cesse de tourner.  
-Elle continue dans le système financier, dans la relation client, et dans la mémoire commerciale du nom frappé.

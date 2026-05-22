@@ -192,21 +192,9 @@ Elle le devient parce qu’elle a été aspirée partout :
 
 La crise force donc un constat embarrassant : le monde adore mutualiser ses dépendances, mais beaucoup moins mutualiser leur maintenance réelle, leur audit, leur soutien humain et leur gouvernance.
 
----
-
-### XI. Le prix invisible des bibliothèques communes
-
-Log4Shell a aussi rouvert un vieux dossier que l’industrie préfère souvent traiter en aparté : qui entretient réellement les briques communes sur lesquelles repose la civilisation logicielle ?
-
-Une bibliothèque critique ne devient pas cruciale parce qu’un comité l’a proclamé telle. Elle le devient parce qu’elle a été aspirée partout :
-
-- dans les produits ;
-- dans les appliances ;
-- dans les services SaaS ;
-- dans les logiciels internes ;
-- dans les couches si banales qu’on oublie de les financer à la hauteur de leur rôle.
-
-La crise force donc un constat embarrassant : le monde adore mutualiser ses dépendances, mais beaucoup moins mutualiser leur maintenance réelle, leur audit, leur soutien humain et leur gouvernance.
+Cette asymétrie ne se voit pas tant que tout fonctionne.  
+Elle n’apparaît qu’au moment où le composant discret devient point de rupture mondial.  
+Et c’est précisément là que Log4Shell a changé de statut : de faille grave à preuve presque théorique que l’écosystème logiciel repose souvent sur une économie de l’impensé.
 
 ---
 
@@ -232,3 +220,26 @@ Parce qu’entre l’état affiché et l’état réel, il y a :
 - les héritages historiques que personne ne veut rouvrir sous stress.
 
 Le mot *patché* devient alors un mot politique plus que technique. Il sert à rassurer, à redonner une zone de maîtrise apparente, à rendre l’incendie administrable dans les tableaux. Mais les équipes savent qu’une faille comme Log4Shell laisse toujours des poches de doute.
+
+---
+
+### XIII. Pourquoi Log4Shell reste l’affaire la plus “universelle” de son époque
+
+Certaines vulnérabilités traumatisent un secteur.  
+D’autres traumatisent toute l’industrie, parce qu’elles révèlent quelque chose de général sur sa manière d’exister.
+
+Log4Shell appartient à cette seconde catégorie.
+
+Elle touche à des invariants très profonds :
+
+- dépendance à des composants communs ;
+- ignorance partielle de l’inventaire réel ;
+- vitesse de circulation des proofs of concept ;
+- difficulté de correction homogène ;
+- tension entre vérité technique et communication rassurante.
+
+Ce n’est donc pas juste une “grosse CVE”.  
+C’est un moment où le logiciel moderne a dû se regarder comme une construction trop interconnectée pour être sereine, trop héritée pour être propre, trop rapide pour être totalement comprise par ceux qui l’opèrent.
+
+Log4Shell continue de servir de miroir parce qu’elle n’a pas montré une anomalie.  
+Elle a montré une normalité industrielle devenue, l’espace de quelques jours, impossible à maquiller.

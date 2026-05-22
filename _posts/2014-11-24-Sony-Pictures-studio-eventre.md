@@ -252,21 +252,6 @@ L’attaque ne blesse pas seulement l’entreprise ; elle l’inscrit dans une n
 
 ---
 
-### XII. L’attribution comme deuxième film de l’affaire
-
-Comme souvent dans les gros dossiers cyber, l’attribution ne se contente pas d’éclairer l’incident. Elle devient elle-même une partie du récit.
-
-Dans le cas Sony Pictures, la dimension nord-coréenne, les tensions diplomatiques et les lectures politiques superposent plusieurs couches de débat :
-
-- que sait-on vraiment ?
-- que déduit-on ?
-- que dit l’État ?
-- que retient le public ?
-
-Cette zone trouble compte énormément. L’attaque ne blesse pas seulement l’entreprise ; elle l’inscrit dans une narration géopolitique qui la dépasse.
-
----
-
 *Hollywood croyait produire des récits.  
 En 2014, il a découvert qu’une attaque bien menée pouvait en écrire un à sa place, avec des mails internes pour dialogues, des sauvegardes comme figurants, des salariés comme dommages collatéraux, et des journalistes comme salle de projection involontaire.*
 
@@ -292,3 +277,35 @@ Le studio survit, bien sûr. Mais il survit comme survivent beaucoup d’organis
 Sony Pictures dépasse largement le cinéma parce qu’il raconte quelque chose de très contemporain sur le travail numérique : la prolifération d’archives internes semi-spontanées.
 
 Une organisation moderne écrit partout : email, chat, documents collaboratifs, notes rapides, feedbacks non destinés à sortir, commentaires de versions, échanges latéraux produits par la vitesse du travail. Tout cela semble banal tant que cela reste derrière les murs. Mais une fois exfiltré, cet ensemble devient un matériau de crise extraordinairement riche.
+
+Plus une entreprise accélère sa communication, plus elle produit de futurs éclats narratifs.  
+Sony Pictures reste un rappel brutal de cette loi contemporaine : la vélocité interne d’écriture peut devenir, en cas de fuite, une vélocité d’humiliation publique.
+
+---
+
+### XV. Ce que Sony Pictures a appris aux dirigeants qui écrivent trop vite
+
+Beaucoup de dirigeants ont cru longtemps que la sécurité relevait d’abord des systèmes, des firewalls et des administrateurs.  
+Sony Pictures leur a rappelé une vérité bien plus humiliante : l’organisation produit elle-même une partie de sa vulnérabilité en écrivant comme si rien ne sortirait jamais.
+
+L’affaire a donc valeur de memento pour toutes les structures qui vivent de mail, de chat, de drafts, de commentaires et de versions de travail.
+
+Elle dit ceci :
+
+- tout ce qui est écrit peut devenir extrait ;
+- tout extrait peut devenir récit ;
+- tout récit peut devenir pression ;
+- toute pression peut reconfigurer la vie interne plus profondément qu’un arrêt technique court.
+
+Le cyber ne vient donc pas seulement de l’extérieur.  
+Il vient aussi de la manière dont une institution fabrique sans le vouloir son futur matériau de déstabilisation.
+
+Sony Pictures est une école parce qu’il montre l’intersection exacte entre :
+
+- sécurité ;
+- communication ;
+- politique ;
+- culture d’entreprise ;
+- dramaturgie médiatique.
+
+Et à cette intersection, très peu de grandes organisations sont véritablement sobres.
