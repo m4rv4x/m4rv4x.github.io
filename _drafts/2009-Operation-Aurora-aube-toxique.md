@@ -121,7 +121,25 @@ Il en est devenu l’une des langues principales.
 
 ---
 
-### VI. Héritage : la vitre est toujours brisée
+### VI. Résonance actuelle : éditeurs, cloud et chaînes de build sous pression
+
+Aurora paraît presque sobre comparé aux grandes affaires plus récentes.  
+Et pourtant, beaucoup de crises contemporaines rejouent son schéma sous d’autres vêtements :
+
+- éditeurs infiltrés ;
+- chaînes de build compromises ;
+- comptes cloud utilisés comme terrain de chasse ;
+- propriété intellectuelle et secrets produits comme cibles prioritaires.
+
+Ce qui a changé, ce n’est pas la logique profonde.  
+C’est l’échelle.  
+L’entreprise n’est plus seulement une cible pour ses données présentes, mais pour la place qu’elle occupe dans l’écosystème des autres.
+
+Aurora annonçait déjà ce capitalisme sous intrusion continue.
+
+---
+
+### VII. Héritage : la vitre est toujours brisée
 
 Aurora reste une date charnière parce qu’elle a transformé la naïveté en doctrine.  
 Avant elle, beaucoup d’organisations vivaient encore dans l’idée que le pire relevait surtout de l’incident technique ou du crime opportuniste.  

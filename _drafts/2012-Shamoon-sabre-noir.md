@@ -121,7 +121,23 @@ Un avertissement gravé dans des disques effacés.
 
 ---
 
-### VI. Héritage : le pétrole, le sable et les disques morts
+### VI. Résonance actuelle : le retour brutal des wipers en temps de guerre
+
+Shamoon a pris de la valeur rétrospective parce que le monde a ensuite revu des wipers dans des contextes de guerre et de confrontation étatique.
+
+L’actualité a confirmé son intuition centrale :
+
+- l’espionnage n’est pas toujours l’objectif final ;
+- l’effacement peut valoir autant que le vol ;
+- les organisations critiques peuvent être paralysées sans sabotage physique direct ;
+- le back-office reste une cible stratégique.
+
+Quand des wipers réapparaissent plus tard sur d’autres théâtres, Shamoon cesse d’être un épisode régional.  
+Il devient un prototype de la destruction administrative moderne.
+
+---
+
+### VII. Héritage : le pétrole, le sable et les disques morts
 
 L’héritage de Shamoon dépasse largement Saudi Aramco.  
 Il rappelle que les grandes organisations critiques ne sont pas seulement vulnérables à l’arrêt de production, mais à la paralysie de leur environnement de travail.

@@ -139,7 +139,24 @@ Inévitable.
 
 ---
 
-### VI. Héritage : no trust on wheels
+### VI. Résonance actuelle : OTA, flottes et voiture définie par logiciel
+
+Le Jeep hack n’est plus un simple cas d’école.  
+Il est devenu la préface de l’automobile contemporaine :
+
+- mises à jour OTA ;
+- applications compagnon ;
+- télémétrie permanente ;
+- flottes professionnelles connectées ;
+- promesse de "software-defined vehicle".
+
+À mesure que la voiture ressemble à une plateforme, ses incidents ressemblent de plus en plus à ceux du numérique classique, avec une différence de taille : ici, les bugs roulent à 130 km/h.
+
+Le clin d’œil cruel du secteur, c’est qu’il a fini par vendre comme innovation ce que les chercheurs avaient déjà identifié comme dette de sécurité.
+
+---
+
+### VII. Héritage : no trust on wheels
 
 Le Jeep Cherokee hack reste une date charnière parce qu’il a déplacé l’imaginaire du risque.  
 Le problème n’était plus seulement la fuite de données, l’espionnage ou la fraude.  

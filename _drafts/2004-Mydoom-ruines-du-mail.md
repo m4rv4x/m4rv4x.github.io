@@ -110,7 +110,25 @@ Il se glisse exactement dans cet élan.
 
 ---
 
-### VI. Héritage : chaque mail porte encore son fantôme
+### VI. Résonance actuelle : du mail piégé aux faux partages cloud
+
+Mydoom appartient à l’époque des pièces jointes qui sentent l’exécutable mal déguisé.  
+Mais sa logique vit encore, simplement repackagée.
+
+Aujourd’hui, le piège prend d’autres formes :
+
+- faux documents partagés ;
+- liens OneDrive ou Google Drive piégés ;
+- pages de login clonées ;
+- fichiers ZIP protégés ;
+- messages de facture ou RH mieux écrits qu’en 2004.
+
+Le vecteur change, l’intuition reste :  
+le canal quotidien est toujours le meilleur terrain pour l’infection de masse.
+
+---
+
+### VII. Héritage : chaque mail porte encore son fantôme
 
 Après Mydoom, l’email n’est plus jamais tout à fait innocent.  
 Les filtres s’améliorent.  

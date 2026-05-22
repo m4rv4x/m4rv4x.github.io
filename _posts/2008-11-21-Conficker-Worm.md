@@ -54,6 +54,29 @@ La parano qui monte.
 **Les gouvernements** voient une cyberarme dormante.  
 **Les hackers** comprennent : *le vrai pouvoir, c’est l’invisible*.
 
+### Anatomie technique : MS08-067, DGA et nettoyage impossible
+
+Conficker a gagné sa place dans l’histoire parce qu’il a combiné plusieurs leviers redoutables en même temps :
+
+- exploitation de **MS08-067**, vulnérabilité critique du service RPC Windows ;
+- propagation latérale rapide sur des parcs mal patchés ;
+- copie via supports amovibles et mécaniques autorun ;
+- blocage de certains services de sécurité et de sites d’éditeurs ;
+- **DGA** pour générer dynamiquement des domaines de contact, rendant la prise de contrôle défensive beaucoup plus difficile.
+
+À mesure que les variantes évoluent, le ver devient moins un simple incident qu’une épreuve de résistance pour l’écosystème défensif.  
+Ce n’est plus seulement le poste infecté qu’il faut sauver.  
+C’est la capacité du réseau entier à ne pas perdre le tempo.
+
+### Bureau 04 : note de cellule sur la psychose du 1er avril
+
+> *"Objet : risque Conficker / activation large échelle.*  
+> *Indicateurs : parc touché massif, domaines générés à cadence élevée, coordination défensive internationale en cours.*  
+> *Scénarios évalués : disruption DNS, charge secondaire, DDoS, activation silencieuse.*  
+> *Observation : le ver contrôle déjà l’agenda médiatique avant même de contrôler pleinement sa charge utile."*
+
+Conficker a réussi quelque chose de rare : transformer la simple attente en arme psychologique.
+
 ### Subversion, underground et manifeste du chaos
 
 **Dans les caves numériques, Conficker devient un manifeste.**  

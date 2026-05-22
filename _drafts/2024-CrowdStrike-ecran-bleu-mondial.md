@@ -128,7 +128,28 @@ Et quand le réel revient, il revient avec des files d’attente, des avions clo
 
 ---
 
-### VI. Héritage : la panne parfaite d’un monde trop connecté
+### VI. Section de crise : pourquoi l’affaire obsède encore les RSSI
+
+Si CrowdStrike a autant imprimé les esprits, c’est aussi parce que l’incident a réactivé trois débats très actuels :
+
+- jusqu’où laisser un agent de sécurité opérer au plus près du noyau ;
+- comment déployer sans blast radius mondial ;
+- ce que valent réellement les plans de continuité quand tout dépend du poste Windows.
+
+Dans les semaines qui suivent, beaucoup d’équipes remettent sur la table des sujets qu’elles repoussaient :
+
+- anneaux de déploiement ;
+- canaux de rollback testés ;
+- procédure papier pour les opérations vitales ;
+- inventaire réel des dépendances EDR ;
+- capacité à isoler un fournisseur critique sans arrêter l’entreprise.
+
+Le clin d’œil cruel de l’affaire, c’est celui-ci :  
+la cybersécurité contemporaine aime parler d’adversaires sophistiqués, mais elle est encore capable d’être terrassée par sa propre plomberie.
+
+---
+
+### VII. Héritage : la panne parfaite d’un monde trop connecté
 
 CrowdStrike ne sera pas retenu seulement comme une panne.  
 Ce sera probablement le moment où le grand public a entrevu, l’espace de quelques heures, la vérité structurelle de la société logicielle.
