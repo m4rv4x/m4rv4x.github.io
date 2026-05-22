@@ -1,6 +1,6 @@
 ---
 title: 2018 – Cambridge Analytica, Le hack de la démocratie sous néons froids
-date: 2018-03-17 00:00 +0100
+date: 2018-03-17 12:00 +0100
 categories: [Histoire]
 tags: [Cambridge Analytica, Facebook, données personnelles, manipulation, politique]
 author: marvax
