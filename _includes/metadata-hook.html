@@ -464,6 +464,93 @@
       backdrop-filter: blur(6px);
     }
   }
+
+  .ops-glitch {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 6;
+    mix-blend-mode: screen;
+    transition: opacity 140ms ease;
+  }
+
+  .ops-glitch.is-active {
+    opacity: 1;
+  }
+
+  .ops-glitch__scan,
+  .ops-glitch__ghost,
+  .ops-glitch__noise {
+    position: absolute;
+    inset: 0;
+  }
+
+  .ops-glitch__scan {
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      transparent calc(var(--glitch-top, 18%) - 1%),
+      rgba(88, 144, 168, 0.05) calc(var(--glitch-top, 18%) - 1%),
+      rgba(88, 144, 168, 0.18) var(--glitch-top, 18%),
+      rgba(88, 144, 168, 0.06) calc(var(--glitch-top, 18%) + var(--glitch-height, 12%)),
+      transparent calc(var(--glitch-top, 18%) + var(--glitch-height, 12%) + 1%),
+      transparent 100%
+    );
+  }
+
+  .ops-glitch__ghost {
+    background: linear-gradient(90deg, rgba(88, 144, 168, 0.12), transparent 38%, transparent 62%, rgba(88, 144, 168, 0.08));
+    transform: translate3d(var(--glitch-shift, 8px), 0, 0);
+    filter: blur(0.8px);
+    opacity: 0.5;
+  }
+
+  .ops-glitch__noise {
+    background:
+      repeating-linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.06) 0,
+        rgba(255, 255, 255, 0.06) 1px,
+        transparent 1px,
+        transparent 4px
+      );
+    opacity: 0.14;
+  }
+
+  .ops-glitch.is-active .ops-glitch__scan {
+    animation: ops-glitch-scan 420ms steps(4, end) 1;
+  }
+
+  .ops-glitch.is-active .ops-glitch__ghost {
+    animation: ops-glitch-ghost 420ms steps(3, end) 1;
+  }
+
+  .ops-glitch.is-active .ops-glitch__noise {
+    animation: ops-glitch-noise 420ms steps(5, end) 1;
+  }
+
+  @keyframes ops-glitch-scan {
+    0% { transform: translate3d(0, -2px, 0); opacity: 0; }
+    15% { transform: translate3d(0, 2px, 0); opacity: 0.85; }
+    45% { transform: translate3d(0, -1px, 0); opacity: 0.55; }
+    75% { transform: translate3d(0, 1px, 0); opacity: 0.3; }
+    100% { transform: translate3d(0, 0, 0); opacity: 0; }
+  }
+
+  @keyframes ops-glitch-ghost {
+    0% { transform: translate3d(0, 0, 0); opacity: 0; }
+    20% { transform: translate3d(var(--glitch-shift, 8px), 0, 0); opacity: 0.55; }
+    60% { transform: translate3d(calc(var(--glitch-shift, 8px) * -0.4), 0, 0); opacity: 0.28; }
+    100% { transform: translate3d(0, 0, 0); opacity: 0; }
+  }
+
+  @keyframes ops-glitch-noise {
+    0% { opacity: 0; }
+    30% { opacity: 0.18; }
+    65% { opacity: 0.08; }
+    100% { opacity: 0; }
+  }
 </style>
 
 <script>
@@ -486,5 +573,40 @@
     `;
 
     subtitle.insertAdjacentElement('afterend', panel);
+
+    const glitch = document.createElement('aside');
+    glitch.className = 'ops-glitch';
+    glitch.setAttribute('aria-hidden', 'true');
+    glitch.innerHTML = `
+      <div class="ops-glitch__scan"></div>
+      <div class="ops-glitch__ghost"></div>
+      <div class="ops-glitch__noise"></div>
+    `;
+    document.body.appendChild(glitch);
+
+    const triggerGlitch = () => {
+      const top = (12 + Math.random() * 58).toFixed(1) + '%';
+      const height = (6 + Math.random() * 16).toFixed(1) + '%';
+      const shift = (4 + Math.random() * 10).toFixed(0) + 'px';
+      glitch.style.setProperty('--glitch-top', top);
+      glitch.style.setProperty('--glitch-height', height);
+      glitch.style.setProperty('--glitch-shift', shift);
+      glitch.classList.remove('is-active');
+      void glitch.offsetWidth;
+      glitch.classList.add('is-active');
+      window.setTimeout(() => glitch.classList.remove('is-active'), 520);
+    };
+
+    const scheduleGlitch = () => {
+      const delay = 105000 + Math.floor(Math.random() * 30000);
+      window.setTimeout(() => {
+        if (!document.hidden) {
+          triggerGlitch();
+        }
+        scheduleGlitch();
+      }, delay);
+    };
+
+    scheduleGlitch();
   });
 </script>

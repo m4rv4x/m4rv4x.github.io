@@ -140,5 +140,52 @@ Elles deviennent un risque chronique.
 
 ---
 
+### IX. Bureau Rouge 2 : le rapport que personne ne veut présenter à des citoyens
+
+> *"Nous ne parlons pas d’un simple incident de sécurité. Nous parlons d’une exposition potentielle longue durée de millions d’individus qui n’avaient ni choisi cet opérateur, ni la centralisation de leurs traces, ni l’économie qui transforme leur identité en actif corrélable."*
+
+Ce ton administratif glacé convient particulièrement à Equifax.  
+L’affaire ne choque pas seulement parce qu’elle fuit.  
+Elle choque parce qu’elle fait apparaître la place énorme d’acteurs semi-invisibles dans la conservation d’éléments profondément structurants de la vie civile.
+
+Le citoyen n’a souvent aucune relation affective avec un bureau de crédit.  
+Et pourtant ce bureau porte :
+
+- ses coordonnées ;
+- sa date de naissance ;
+- son historique de solvabilité ;
+- des éléments qui peuvent façonner sa vie bancaire et sociale.
+
+Quand ça casse, on découvre un pouvoir documentaire sans visage.
+
+---
+
+### X. Le fichier qui vous précède partout
+
+L’identité administrative n’agit pas seulement comme un état civil.  
+Elle vous précède dans beaucoup de décisions silencieuses.
+
+Crédit, assurance, vérification, scoring, suspicion, recoupement :  
+ce ne sont pas seulement des mots abstraits.  
+Ce sont des mécanismes qui tournent à partir de dossiers composites.
+
+Equifax montre alors quelque chose d’assez brutal :  
+une fuite de ce type ne blesse pas seulement l’instant.  
+Elle peut dégrader la qualité de votre futur rapport au système.
+
+Le problème n’est pas simplement “quelqu’un sait quelque chose sur vous”.  
+Le problème, c’est :
+
+- qui peut corréler quoi ;
+- qui peut vous rejouer depuis des fragments ;
+- combien de temps ces fragments resteront exploitables ;
+- combien de décisions futures pourront être polluées par leur circulation.
+
+Cette inertie fait d’Equifax un dossier beaucoup plus philosophique qu’il n’en a l’air.  
+Il raconte un monde où l’identité n’est plus seulement vécue.  
+Elle est calculée, stockée, vendue, recoupée et parfois perdue par d’autres avant même que vous ayez compris où elle dormait.
+
+---
+
 *En 2017, l’Amérique n’a pas seulement perdu des données.  
 Elle a vu une partie de son squelette administratif exposée à l’air libre.*

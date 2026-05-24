@@ -176,3 +176,38 @@ Il réside aussi dans la désinvolture contextuelle.
 
 L’outil n’est pas automatiquement malveillant.  
 Mais il réduit brutalement le coût du vernis professionnel, y compris pour l’attaquant.
+
+---
+
+### IX. Le bureau qui préfère la forme à la pensée
+
+Le danger le plus discret n’est peut-être même pas la fraude.  
+C’est la mutation culturelle du travail écrit.
+
+Quand l’outil peut produire :
+
+- une structure ;
+- un ton ;
+- une réponse ;
+- une note ;
+- un résumé,
+
+alors la tentation est permanente de laisser la forme faire croire que le fond suit.
+
+Le bureau contemporain adore déjà les objets plausibles :
+
+- slides correctes ;
+- comptes rendus propres ;
+- messages “professionnels” ;
+- synthèses rassurantes ;
+- réponses qui sonnent juste.
+
+ChatGPT ne crée pas ce culte du plausible.  
+Il l’automatise.
+
+Et une fois l’automatisation installée, l’organisation doit choisir si elle veut :
+
+- produire plus ;
+- ou comprendre encore.
+
+Les deux ne coïncident plus naturellement.
