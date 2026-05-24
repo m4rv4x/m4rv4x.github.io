@@ -14,8 +14,29 @@ Personal blog and notes hub for experiments, write-ups, and technical posts.
 
 ## Local development
 
+Install the Ruby dependencies first:
+
 ```bash
 bundle install
+```
+
+Then use the repo helpers:
+
+```bash
+./tools/run.sh
+```
+
+This wraps `bundle exec jekyll s -l` with the repo defaults.
+
+For remote/dev-container testing you can bind a different host:
+
+```bash
+./tools/run.sh --host 0.0.0.0
+```
+
+If you prefer the raw Jekyll command, this still works:
+
+```bash
 bundle exec jekyll serve
 ```
 
@@ -24,6 +45,16 @@ Then open:
 ```text
 http://localhost:4000
 ```
+
+## Validation
+
+Before pushing content changes, run the repo test helper:
+
+```bash
+./tools/test.sh
+```
+
+That production-builds the site and runs `htmlproofer` with the repo's local URL ignores.
 
 ## Repository structure
 
