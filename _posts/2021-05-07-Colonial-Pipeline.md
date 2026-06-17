@@ -1,8 +1,8 @@
 ---
 title: 2021 – Colonial Pipeline, Opération Blackout, Rapport confidentiel sur la cyberguerre énergétique
 date: 2021-05-07 12:00 +0100
-categories: [Histoire]
-tags: [Colonial Pipeline, ransomware, infrastructure, énergie, cybersécurité, guerre, CIA]
+categories: ["Histoire"]
+tags: ["ransomware", "sysops", "géopolitique", "cybersécurité", "renseignement"]
 author: marvax
 ---
 

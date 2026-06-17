@@ -1,8 +1,8 @@
 ---
 title: Bienvenue dans l'Underground, Manifeste d'un Hacker Résistant
 date: 2006-01-01 13:37 +0100
-categories: [Blog]
-tags: [manifeste, hacker, résistance, underground, liberté, anonymat, gafam, surveillance]
+categories: ["Sécurité"]
+tags: ["opsec", "underground", "société", "anonymat", "gafam", "surveillance"]
 author: marvax
 ---
 

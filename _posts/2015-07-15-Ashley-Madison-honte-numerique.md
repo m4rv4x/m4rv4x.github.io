@@ -1,8 +1,8 @@
 ---
 title: 2015 – Ashley Madison, Adultère, fuite massive et autopsie d’une honte numérique
 date: 2015-07-15 12:00 +0100
-categories: [Histoire]
-tags: [Ashley Madison, fuite de données, vie privée, extorsion, doxing, cybersécurité]
+categories: ["Histoire"]
+tags: ["fuite-de-données", "vie-privée", "attaque", "cybersécurité"]
 author: marvax
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 2008 – Conficker Worm, Le spectre cyberpunk qui hante les réseaux
 date: 2008-11-21 12:00 +0100
-categories: [Histoire]
-tags: [Conficker, malware, botnet, Windows, vulnérabilité, hacktivisme, underground, no trust, black hat]
+categories: ["Histoire"]
+tags: ["malware", "botnet", "windows", "vulnérabilité", "hacktivisme", "underground", "opsec", "blackhat"]
 author: marvax
 ---
 

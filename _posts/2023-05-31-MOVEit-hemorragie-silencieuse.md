@@ -1,8 +1,8 @@
 ---
 title: 2023 – MOVEit, L’hémorragie silencieuse des données sous rançon
 date: 2023-05-31 12:00 +0100
-categories: [Histoire]
-tags: [MOVEit, Cl0p, extorsion, fuite de données, supply chain, cybersécurité]
+categories: ["Histoire"]
+tags: ["fuite-de-données", "ransomware", "attaque", "supply-chain", "cybersécurité"]
 author: marvax
 ---
 

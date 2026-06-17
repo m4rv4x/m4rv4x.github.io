@@ -1,8 +1,8 @@
 ---
 title: Mon premier article
 date: 1999-09-11 13:37 +0100
-categories: [Blog]
-tags: [premier-article, blog, open-source, anonymat, liberté, gafam]
+categories: ["Veille"]
+tags: ["blog", "dev", "anonymat", "société", "gafam"]
 author: marvax
 ---
 

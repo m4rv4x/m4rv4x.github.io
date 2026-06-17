@@ -1,8 +1,8 @@
 ---
 title: 2026 – Agents IA, Le bureau sans mains et la sous-traitance cognitive totale
 date: 2026-05-22 12:00 +0200
-categories: [Blog]
-tags: [agents IA, automatisation, productivité, bureau, opsec, cybersécurité]
+categories: ["Outils & IA"]
+tags: ["ia", "dev", "productivité", "société", "opsec", "cybersécurité"]
 author: marvax
 ---
 

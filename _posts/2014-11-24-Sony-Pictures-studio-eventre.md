@@ -1,8 +1,8 @@
 ---
 title: 2014 – Sony Pictures, Le studio éventré et la guerre psychologique en pièces jointes
 date: 2014-11-24 12:00 +0100
-categories: [Histoire]
-tags: [Sony Pictures, wiper, fuite de données, emails, Corée du Nord, cybersécurité]
+categories: ["Histoire"]
+tags: ["sony", "malware", "fuite-de-données", "emails", "géopolitique", "cybersécurité"]
 author: marvax
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 2013 – Snowden, NSA & L’Œil qui Veille, Chronique d’une Malédiction Numérique
 date: 2013-06-05 12:00 +0100
-categories: [Histoire]
-tags: [Snowden, NSA, surveillance, fuites, lanceur d'alerte, vie privée, hacktivisme, underground, dystopie]
+categories: ["Histoire"]
+tags: ["surveillance", "renseignement", "fuite-de-données", "lanceur-d-alerte", "vie-privée", "hacktivisme", "underground", "société"]
 author: marvax
 ---
 

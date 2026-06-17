@@ -1,8 +1,8 @@
 ---
 title: 2024 – CrowdStrike, L’écran bleu mondial et la fragilité totale de l’infrastructure
 date: 2024-07-19 12:00 +0100
-categories: [Histoire]
-tags: [CrowdStrike, Falcon, Windows, BSOD, infrastructure, panne mondiale, cybersécurité]
+categories: ["Histoire"]
+tags: ["sécurité-outils", "windows", "sysops", "cybersécurité"]
 author: marvax
 ---
 

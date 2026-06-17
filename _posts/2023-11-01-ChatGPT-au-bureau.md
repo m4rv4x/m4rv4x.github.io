@@ -1,8 +1,8 @@
 ---
 title: 2023 – ChatGPT au bureau, L’automatisation du plausible dans les open spaces
 date: 2023-11-01 12:00 +0100
-categories: [Histoire]
-tags: [ChatGPT, IA générative, productivité, open space, fraude, cybersécurité]
+categories: ["Histoire"]
+tags: ["ia", "productivité", "société", "attaque", "cybersécurité"]
 author: marvax
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 2012 – Dropbox, LinkedIn, Last.fm, L’année où les mots de passe ont cessé d’être des secrets
 date: 2012-06-01 12:00 +0100
-categories: [Histoire]
-tags: [Dropbox, LinkedIn, Last.fm, mots de passe, credential stuffing, fuite de données, cybersécurité]
+categories: ["Histoire"]
+tags: ["cloud", "réseaux-sociaux", "sécurité-outils", "attaque", "fuite-de-données", "cybersécurité"]
 author: marvax
 ---
 

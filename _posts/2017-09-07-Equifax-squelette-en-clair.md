@@ -1,8 +1,8 @@
 ---
 title: 2017 – Equifax, Le squelette administratif de l’Amérique exposé en clair
 date: 2017-09-07 12:00 +0100
-categories: [Histoire]
-tags: [Equifax, Apache Struts, données personnelles, identité, crédit, cybersécurité]
+categories: ["Histoire"]
+tags: ["fuite-de-données", "java", "données-personnelles", "cybersécurité"]
 author: marvax
 ---
 

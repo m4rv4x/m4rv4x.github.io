@@ -1,8 +1,8 @@
 ---
 title: 2020 – COVID-19 & Télétravail, Pandémie, dystopie et cyber-contrôle sous néons froids
 date: 2020-03-01 12:00 +0100
-categories: [Histoire]
-tags: [COVID-19, télétravail, pandémie, cybersécurité, Zoom, dystopie, blackhat]
+categories: ["Histoire"]
+tags: ["société", "sysops", "cybersécurité", "blackhat"]
 author: marvax
 ---
 

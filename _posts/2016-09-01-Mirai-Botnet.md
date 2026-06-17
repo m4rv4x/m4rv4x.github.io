@@ -1,8 +1,8 @@
 ---
 title: 2016 – Mirai Botnet DDoS, L'armée des objets connectés en révolte
 date: 2016-09-01 12:00 +0100
-categories: [Histoire]
-tags: [Mirai, botnet, DDoS, IoT, objets connectés, cybersécurité]
+categories: ["Histoire"]
+tags: ["Mirai", "botnet", "ddos", "iot", "cybersécurité"]
 author: marvax
 ---
 

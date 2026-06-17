@@ -1,8 +1,8 @@
 ---
 title: 2009 – Conficker, Le 1er avril où Internet a attendu la fin du monde
 date: 2009-04-01 12:00 +0100
-categories: [Histoire]
-tags: [Conficker, botnet, CERT, DNS, Windows, cybersécurité, malware]
+categories: ["Histoire"]
+tags: ["malware", "botnet", "cybersécurité", "réseau", "windows"]
 author: marvax
 ---
 
