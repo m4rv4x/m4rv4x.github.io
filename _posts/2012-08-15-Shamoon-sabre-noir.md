@@ -2,7 +2,7 @@
 title: 2012 – Shamoon, Le sabre noir qui a effacé les pétroliers du Golfe
 date: 2012-08-15 12:00 +0100
 categories: ["Histoire"]
-tags: ["malware", "géopolitique", "attaque", "cybersécurité"]
+tags: ["malware", "géopolitique", "attaque"]
 author: marvax
 ---
 

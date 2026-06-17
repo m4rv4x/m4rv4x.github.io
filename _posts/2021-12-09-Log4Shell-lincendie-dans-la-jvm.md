@@ -2,7 +2,7 @@
 title: 2021 – Log4Shell, L’incendie silencieux dans la JVM
 date: 2021-12-09 12:00 +0100
 categories: ["Histoire"]
-tags: ["vulnérabilité", "java", "supply-chain", "cybersécurité"]
+tags: ["vulnérabilité", "java", "supply-chain"]
 author: marvax
 ---
 

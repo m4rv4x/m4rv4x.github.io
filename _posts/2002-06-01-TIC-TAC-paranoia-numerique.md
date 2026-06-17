@@ -2,7 +2,7 @@
 title: 2002 – TIC TAC, surveillance post-11 septembre et naissance de la paranoïa numérique
 date: 2002-06-01 12:00 +0100
 categories: ["Histoire"]
-tags: ["surveillance", "renseignement", "vie-privée", "cybersécurité"]
+tags: ["surveillance", "renseignement", "vie-privée"]
 author: marvax
 ---
 

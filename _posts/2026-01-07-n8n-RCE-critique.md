@@ -2,7 +2,7 @@
 title: "n8n — RCE critique (CVSS 10.0) dans les workflows automatisés"
 date: 2026-01-07 10:00 +0200
 categories: ["Sécurité"]
-tags: ["n8n", "RCE", "CVE", "automatisation", "supply-chain", "cybersécurité", "dev"]
+tags: ["n8n", "rce", "automatisation", "supply-chain", "dev"]
 author: marvax
 ---
 

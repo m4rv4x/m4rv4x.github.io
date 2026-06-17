@@ -2,7 +2,7 @@
 title: 2009 – Operation Aurora, L’aube toxique de l’espionnage industriel moderne
 date: 2009-12-15 12:00 +0100
 categories: ["Histoire"]
-tags: ["attaque", "google", "surveillance", "géopolitique", "zero-day", "cybersécurité"]
+tags: ["attaque", "google", "surveillance", "géopolitique", "zero-day"]
 author: marvax
 ---
 

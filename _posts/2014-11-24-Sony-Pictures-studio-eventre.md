@@ -2,7 +2,7 @@
 title: 2014 – Sony Pictures, Le studio éventré et la guerre psychologique en pièces jointes
 date: 2014-11-24 12:00 +0100
 categories: ["Histoire"]
-tags: ["sony", "malware", "fuite-de-données", "email", "géopolitique", "cybersécurité"]
+tags: ["sony", "malware", "fuite-de-données", "email", "géopolitique"]
 author: marvax
 ---
 

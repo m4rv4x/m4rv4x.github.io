@@ -2,7 +2,7 @@
 title: 2022 – LastPass, Le coffre-fort qui a laissé entrer la lumière
 date: 2022-12-22 12:00 +0100
 categories: ["Histoire"]
-tags: ["sécurité-outils", "données-personnelles", "cybersécurité"]
+tags: ["sécurité-outils", "données-personnelles"]
 author: marvax
 ---
 

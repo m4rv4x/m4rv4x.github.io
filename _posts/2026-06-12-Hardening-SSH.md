@@ -2,7 +2,7 @@
 title: "Hardening SSH : au-delà des basics"
 date: 2026-06-12 10:00 +0200
 categories: ["Sécurité"]
-tags: ["ssh", "hardening", "linux", "cybersécurité", "sysops", "opsec", "infrastructure", "CVE", "regreSSHion", "DirtyFrag", "Copy-Fail", "kernel", "zero-day"]
+tags: ["ssh", "hardening", "linux", "sysops", "opsec", "infrastructure", "kernel", "zero-day"]
 author: marvax
 ---
 

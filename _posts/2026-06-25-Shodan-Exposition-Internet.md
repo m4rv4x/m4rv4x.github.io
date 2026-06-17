@@ -2,7 +2,7 @@
 title: "Shodan : découvrir ce qui est exposé sur Internet"
 date: 2026-06-25 10:00 +0200
 categories: ["Sécurité"]
-tags: ["shodan", "reconnaissance", "cybersécurité", "exposition", "sysops", "infrastructure", "osint"]
+tags: ["shodan", "reconnaissance", "exposition", "sysops", "infrastructure", "osint"]
 author: marvax
 ---
 

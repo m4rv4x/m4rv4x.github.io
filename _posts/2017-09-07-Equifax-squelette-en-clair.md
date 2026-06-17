@@ -2,7 +2,7 @@
 title: 2017 – Equifax, Le squelette administratif de l’Amérique exposé en clair
 date: 2017-09-07 12:00 +0100
 categories: ["Histoire"]
-tags: ["fuite-de-données", "java", "données-personnelles", "cybersécurité"]
+tags: ["fuite-de-données", "java", "données-personnelles"]
 author: marvax
 ---
 

@@ -2,7 +2,7 @@
 title: 2015 – Jeep Cherokee Hack, Quand une voiture devient une cible roulante
 date: 2015-07-21 12:00 +0100
 categories: ["Histoire"]
-tags: ["iot", "cybersécurité"]
+tags: ["iot"]
 author: marvax
 ---
 
