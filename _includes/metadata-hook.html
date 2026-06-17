@@ -889,6 +889,74 @@
     };
     scheduleGlitch();
 
+
+    /* ===== FAKE PAGEVIEWS ===== */
+    const fakeViews = {
+      'guide-hygiene-post-fuite': 2847,
+      'monitoring-prometheus-grafana': 1923,
+      'hardening-ssh': 3614,
+      'automatiser-infra-ansible': 1456,
+      'docker-security-erreurs': 2108,
+      'reverse-proxy-nginx-tls': 1687,
+      'badhost-starlette-rce': 892,
+      'agents-ia-bureau-sans-mains': 1245,
+      'n8n-rce-critique': 1534,
+      'chat-control-et-fin-anonymat': 967,
+      'crowdstrike-ecran-bleu-mondial': 4521,
+      'snowflake-moisson-froide-des-identites': 1876,
+      'chatgpt-au-bureau': 2340,
+      'moveit-hemorragie-silencieuse': 1654,
+      'ai-generative-threats': 3890,
+      'lastpass-coffre-fort-trahi': 5234,
+      'log4shell-lincendie-dans-la-jvm': 7812,
+      'colonial-pipeline': 6423,
+      'covid19-telework': 4102,
+      'black-hole-image': 890,
+      'cambridge-analytica': 6734,
+      'equifax-squelette-en-clair': 4567,
+      'wannacry-ransomware': 8901,
+      'mirai-botnet': 3456,
+      'jeep-cherokee-cible-roulante': 2134,
+      'ashley-madison-honte-numerique': 5678,
+      'office-365': 1234,
+      'sony-pictures-studio-eventre': 3890,
+      'heartbleed': 9234,
+      'target-caisses-compromises': 2567,
+      'snowden-nsa': 11234,
+      'shamoon-sabre-noir': 2890,
+      'dropbox-linkedin-lastfm-mots-de-passe': 3456,
+      'flame-malware': 1876,
+      'psn-hack': 4321,
+      'operation-aurora-aube-toxique': 2345,
+      'conficker-fin-du-monde': 1567,
+      'conficker-worm': 1890,
+      'bitcoin': 5678,
+      'stuxnet': 7234,
+      'iphone': 3456,
+      'wikileaks-fuite-permanente': 2890,
+      'manifeste-resistance': 1234,
+      'sony-bmg-rootkit': 2567,
+      'facebook-est-lance': 1890,
+      'mydoom-ruines-du-mail': 1234,
+      'anonymous-emerge': 2345,
+      'tic-tac-paranoia-numerique': 1567,
+      'sortie-xp': 3456,
+      'bug-an-2000': 2890,
+      'hello-world': 456,
+    };
+
+    const pageviewsEl = document.getElementById('pageviews');
+    if (pageviewsEl) {
+      const slug = window.location.pathname.split('/').filter(Boolean).pop();
+      if (fakeViews[slug]) {
+        const count = fakeViews[slug];
+        const formatted = count >= 1000 ? (count / 1000).toFixed(1) + 'k' : count;
+        pageviewsEl.innerHTML = '<i class="fas fa-eye"></i> ' + formatted;
+        pageviewsEl.style.fontStyle = 'normal';
+        pageviewsEl.style.opacity = '0.7';
+      }
+    }
+
     /* ===== PAGE TRANSITION ===== */
     document.body.classList.add('page-transition-enter');
     requestAnimationFrame(() => {
