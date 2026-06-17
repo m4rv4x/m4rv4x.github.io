@@ -2,7 +2,7 @@
 title: "Automatiser son infra avec Ansible : guide terrain"
 date: 2026-06-10 10:00 +0200
 categories: ["Dev"]
-tags: ["ansible", "automatisation", "infrastructure-as-code", "linux", "devops", "sysops", "docker"]
+tags: ["ansible", "automatisation", "devops", "linux", "sysops", "docker"]
 author: marvax
 ---
 

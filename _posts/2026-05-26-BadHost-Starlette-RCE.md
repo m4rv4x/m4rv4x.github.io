@@ -2,7 +2,7 @@
 title: "BadHost — Un caractère et votre framework web passe à l'ennemi"
 date: 2026-05-26 10:00 +0200
 categories: ["Sécurité"]
-tags: ["RCE", "CVE", "starlette", "fastapi", "python", "web", "sécurité", "supply-chain", "agents-IA"]
+tags: ["RCE", "CVE", "starlette", "fastapi", "python", "web", "cybersécurité", "supply-chain", "agents-IA"]
 author: marvax
 ---
 

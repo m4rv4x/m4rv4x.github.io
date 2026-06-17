@@ -2,7 +2,7 @@
 title: 2005 – Sony BMG Rootkit, Le DRM qui s’est comporté comme un malware
 date: 2005-10-31 12:00 +0100
 categories: ["Histoire"]
-tags: ["sony", "malware", "drm", "windows", "cybersécurité"]
+tags: ["sony", "malware", "windows", "cybersécurité"]
 author: marvax
 ---
 

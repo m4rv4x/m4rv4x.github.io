@@ -2,7 +2,7 @@
 title: "Guide opérationnel d'hygiène post-fuite"
 date: 2026-06-17 10:00 +0200
 categories: ["Veille"]
-tags: ["fuite-de-données", "phishing", "hygiène-numérique", "usurpation-identité", "VPN", "ingénierie-sociale", "ANSSI", "sécurité", "données-personnelles"]
+tags: ["fuite-de-données", "phishing", "cybersécurité", "usurpation-identité", "VPN", "ingénierie-sociale", "ANSSI", "données-personnelles"]
 author: marvax
 ---
 

@@ -2,7 +2,7 @@
 title: 2006 – WikiLeaks, La fuite permanente et la panique des États
 date: 2006-12-04 12:00 +0100
 categories: ["Histoire"]
-tags: ["hacktivisme", "fuite-de-données", "transparence", "anonymat", "renseignement"]
+tags: ["hacktivisme", "fuite-de-données", "anonymat", "renseignement"]
 author: marvax
 ---
 

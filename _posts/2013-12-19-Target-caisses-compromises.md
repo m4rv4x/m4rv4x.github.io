@@ -2,7 +2,7 @@
 title: 2013 – Target, Les caisses compromises et l’hiver des retailers
 date: 2013-12-19 12:00 +0100
 categories: ["Histoire"]
-tags: ["attaque", "système", "entreprise", "données-personnelles", "supply-chain", "cybersécurité"]
+tags: ["attaque", "linux", "entreprise", "données-personnelles", "supply-chain", "cybersécurité"]
 author: marvax
 ---
 

@@ -2,7 +2,7 @@
 title: "Docker security : les erreurs que tout le monde fait"
 date: 2026-06-08 10:00 +0200
 categories: ["Sécurité"]
-tags: ["docker", "sécurité", "container", "sysops", "hardening", "devops", "infrastructure"]
+tags: ["docker", "cybersécurité", "sysops", "hardening", "devops", "infrastructure"]
 author: marvax
 ---
 

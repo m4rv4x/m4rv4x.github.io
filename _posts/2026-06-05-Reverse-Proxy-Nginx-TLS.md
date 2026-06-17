@@ -2,7 +2,7 @@
 title: "Reverse proxy Nginx avec TLS : le guide complet"
 date: 2026-06-05 10:00 +0200
 categories: ["Sysops"]
-tags: ["nginx", "tls", "reverse-proxy", "letsencrypt", "sysops", "sécurité", "infrastructure", "web"]
+tags: ["nginx", "sysops", "cybersécurité", "infrastructure", "web"]
 author: marvax
 ---
 

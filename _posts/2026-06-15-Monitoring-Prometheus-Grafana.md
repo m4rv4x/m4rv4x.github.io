@@ -2,7 +2,7 @@
 title: "Monitoring self-hosted : Prometheus + Grafana de zéro"
 date: 2026-06-15 10:00 +0200
 categories: ["Sysops"]
-tags: ["monitoring", "prometheus", "grafana", "docker", "sysops", "infrastructure", "self-hosted", "linux"]
+tags: ["monitoring", "prometheus", "grafana", "docker", "sysops", "infrastructure", "linux"]
 author: marvax
 ---
 
