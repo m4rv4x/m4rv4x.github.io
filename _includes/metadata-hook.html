@@ -72,7 +72,7 @@
   .post-content kbd,
   .post-meta,
   .post-tail-wrapper,
-  .post-tail-wrapper * {
+  .post-tail-wrapper *:not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.fa-solid):not(.fa-regular):not(.fa-brands):not([class*="fa-"]) {
     font-family: 'JetBrains Mono', monospace;
   }
 
@@ -213,6 +213,12 @@
   #search-results a,
   .breadcrumb {
     font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Fix: never override Font Awesome icon fonts */
+  .far, .fas, .fab, .fa-solid, .fa-regular, .fa-brands,
+  [class*="fa-"] {
+    font-family: 'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 7 Free', 'Font Awesome 7 Brands', inherit !important;
   }
 
   a {
