@@ -214,6 +214,38 @@ Persistance / rootkit
 - [CVE-2024-3094 (Backdoor XZ Utils) — Red Hat](https://www.redhat.com/en/blog/xz-backdoor-update)
 - [ssh-audit — GitHub](https://github.com/jtesta/ssh-audit)
 
+## 9. Désactiver les services réseau inutiles (telnetd, CUPS...)
+
+SSH n'est pas le seul vecteur. Tout service réseau exposé est une porte d'entrée potentielle.
+
+### CVE-2026-32746 — telnetd : RCE avant même le login
+
+En mars 2026, une vulnérabilité critique (CVSS 9.8) a été découverte dans `telnetd` de GNU inetutils ≤ 2.7. Un débordement de buffer dans le gestionnaire LINEMODE SLC permet à un attaquant distant **non authentifié** d'exécuter du code arbitraire. Pas besoin de credentials. Pas besoin d'interaction utilisateur.
+
+| | |
+|---|---|
+| **CVE** | CVE-2026-32746 |
+| **CVSS** | 9.8 CRITICAL |
+| **Affecte** | GNU inetutils ≤ 2.7 (telnetd) |
+| **Impact** | RCE non authentifié, accès root |
+| **Fix** | inetutils 2.8+ ou désactiver telnetd |
+
+```bash
+# Vérifier si telnetd tourne
+ss -tlnp | grep :23
+
+# Désactiver
+sudo systemctl disable --now inetd
+# ou supprimer purement
+sudo apt purge inetutils-telnetd
+```
+
+**La règle** : si tu n'utilises pas un service, éteins-le. Chaque daemon en écoute est une surface d'attaque. `telnetd`, `cupsd`, `rpcbind`, `avahi` — tous ces services sont des cibles régulières.
+
+Références :
+- [NVD — CVE-2026-32746](https://nvd.nist.gov/vuln/detail/CVE-2026-32746)
+- [GNU inetutils changelog](https://git.savannah.gnu.org/cgit/inetutils.git/)
+
 ## Checklist récap
 
 - [ ] Port non-standard

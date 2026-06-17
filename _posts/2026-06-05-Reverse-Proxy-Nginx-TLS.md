@@ -211,6 +211,27 @@ proxy_buffers 8 4k;
 - [ ] Logs d'accès activés et rotés
 - [ ] Monitoring du certificat (expiration)
 
+## Vulnérabilité récente — CVE-2026-42945
+
+En mai 2026, une faille vieille de **18 ans** a été découverte dans le module `ngx_http_rewrite_module` de Nginx. Un heap buffer overflow déclenché par un `rewrite` contenant un `?` dans la chaîne de remplacement.
+
+| | |
+|---|---|
+| **CVE** | CVE-2026-42945 |
+| **CVSS** | 9.2 CRITICAL (v4.0) / 8.1 HIGH (v3.1) |
+| **Affecte** | Nginx 0.6.27 → 1.30.0, NGINX Plus R32–R36 |
+| **Impact** | DoS (crash worker) trivial, RCE démontré sans ASLR |
+| **Fix** | Nginx 1.31.0 / 1.30.1, NGINX Plus R36 P4 |
+
+Le bug vient d'un flag `is_args` qui reste actif après un rewrite contenant `?`, causant un décalage entre le calcul de taille du buffer (non-échappé) et les données écrites (échappées). L'architecture multi-process de Nginx facilite l'exploitation car les workers héritent de layouts mémoire identiques.
+
+**Leçon** : même un serveur aussi mature que Nginx peut contenir des bugs critiques depuis des années. Mettre à jour Nginx fait partie des patches prioritaires, au même titre que le noyau ou OpenSSL.
+
+Références :
+- [NVD — CVE-2026-42945](https://nvd.nist.gov/vuln/detail/CVE-2026-42945)
+- [BleepingComputer — 18-year-old nginx vulnerability](https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/)
+- [GitHub — DepthFirstDisclosures/Nginx-Rift](https://github.com/DepthFirstDisclosures/Nginx-Rift)
+
 ## Conclusion
 
 Un reverse proxy Nginx avec TLS bien configuré, c'est 15 minutes de boulot pour un gain de sécurité énorme. C'est aussi ce qui te permet d'exposer proprement plusieurs services derrière une seule IP, avec des certificats automatiques.

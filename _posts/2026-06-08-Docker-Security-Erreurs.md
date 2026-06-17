@@ -161,6 +161,36 @@ Sans rotation, les logs remplissent le disque. Et si tu perds le conteneur, tu p
 - [ ] Scan de vulnérabilités intégré au CI/CD
 - [ ] Logs rotés et collectés
 
+## Vulnérabilité récente — CUPS RCE (CVE-2026-34980 / CVE-2026-34990)
+
+En avril 2026, deux failles critiques ont été découvertes dans CUPS (le système d'impression Linux/macOS). **Découverte par des agents IA** lors d'un audit automatisé — une première significative.
+
+| | |
+|---|---|
+| **CVE** | CVE-2026-34980 + CVE-2026-34990 |
+| **CVSS** | 7.5 HIGH + 7.8 HIGH |
+| **Affecte** | CUPS ≤ 2.4.16 (Linux, macOS) |
+| **Impact** | RCE distant sur les serveurs CUPS exposés, escalade root |
+| **Fix** | Pas encore patché à la divulgation — commits publics uniquement |
+
+La faille exploite une injection via les nouvelles lignes dans les options d'impression, permettant de re-parser des enregistrements PPD comme des commandes scheduler. Enchaînée avec la seconde CVE, un attaquant distant non authentifié peut obtenir une écriture arbitraire de fichiers root.
+
+**Pourquoi c'est pertinent pour Docker** : beaucoup de conteneurs incluent `cupsd` sans s'en rendre compte (images de base Ubuntu, Debian). Si le service tourne dans le conteneur et que le port est exposé, la surface d'attaque est la même.
+
+```bash
+# Vérifier si CUPS tourne dans un conteneur
+docker exec mon-conteneur systemctl is-active cups 2>/dev/null
+docker exec mon-conteneur ss -tlnp | grep :631
+
+# Désactiver dans le Dockerfile
+RUN systemctl disable cups 2>/dev/null || true
+```
+
+Références :
+- [NVD — CVE-2026-34980](https://nvd.nist.gov/vuln/detail/CVE-2026-34980)
+- [NVD — CVE-2026-34990](https://nvd.nist.gov/vuln/detail/CVE-2026-34990)
+- [The Register — AI agents discover CUPS RCE](https://www.theregister.com/2026/04/06/ai_agents_cups_server_rce/)
+
 ## Conclusion
 
 La sécurité Docker ce n'est pas un truc qu'on "ajoute après". C'est dès le premier Dockerfile. Les conteneurs ne sont pas des VM — l'isolation est beaucoup plus fine. Chaque erreur listée ici a été exploitée dans des incidents réels.
