@@ -551,29 +551,312 @@
     65% { opacity: 0.08; }
     100% { opacity: 0; }
   }
+
+  /* ===== READING PROGRESS BAR ===== */
+  #reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(88, 144, 168, 0.6), rgba(120, 190, 220, 0.9), rgba(88, 144, 168, 0.6));
+    z-index: 9999;
+    transition: width 80ms linear;
+    box-shadow: 0 0 10px rgba(88, 144, 168, 0.4), 0 0 3px rgba(88, 144, 168, 0.6);
+  }
+
+  /* ===== SCROLL REVEAL ANIMATIONS ===== */
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1), transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* stagger children */
+  .reveal-stagger > .reveal:nth-child(1) { transition-delay: 0ms; }
+  .reveal-stagger > .reveal:nth-child(2) { transition-delay: 60ms; }
+  .reveal-stagger > .reveal:nth-child(3) { transition-delay: 120ms; }
+  .reveal-stagger > .reveal:nth-child(4) { transition-delay: 180ms; }
+  .reveal-stagger > .reveal:nth-child(5) { transition-delay: 240ms; }
+  .reveal-stagger > .reveal:nth-child(6) { transition-delay: 300ms; }
+  .reveal-stagger > .reveal:nth-child(7) { transition-delay: 360ms; }
+  .reveal-stagger > .reveal:nth-child(8) { transition-delay: 420ms; }
+  .reveal-stagger > .reveal:nth-child(9) { transition-delay: 480ms; }
+  .reveal-stagger > .reveal:nth-child(10) { transition-delay: 540ms; }
+
+  /* ===== ANIMATED LINK UNDERLINE ===== */
+  .post-content a:not(.btn),
+  .content a:not(.btn) {
+    text-decoration: none;
+    background-image: linear-gradient(rgba(88, 144, 168, 0.5), rgba(88, 144, 168, 0.5));
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s cubic-bezier(0.22, 1, 0.36, 1), color 0.2s ease;
+    padding-bottom: 1px;
+  }
+  .post-content a:not(.btn):hover,
+  .content a:not(.btn):hover {
+    background-size: 100% 1px;
+    color: #ffffff;
+    text-shadow: none;
+  }
+
+  /* ===== READING TIME BADGE ===== */
+  .reading-time {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--ops-muted);
+    letter-spacing: 0.04em;
+    padding: 0.2em 0.6em;
+    border: 1px solid rgba(88, 144, 168, 0.15);
+    border-radius: 999px;
+    background: rgba(88, 144, 168, 0.06);
+  }
+  .reading-time::before {
+    content: '⏱';
+    font-size: 0.85em;
+  }
+
+  /* ===== CATEGORY ICONS ===== */
+  .card-categories { position: relative; }
+  .post-preview[data-cat="Histoire"] .card-title::before { content: '📜 '; }
+  .post-preview[data-cat="Sysops"] .card-title::before { content: '🖥️ '; }
+  .post-preview[data-cat="Dev"] .card-title::before { content: '⚙️ '; }
+  .post-preview[data-cat="Sécurité"] .card-title::before { content: '🔒 '; }
+  .post-preview[data-cat="Outils & IA"] .card-title::before { content: '🤖 '; }
+  .post-preview[data-cat="Veille"] .card-title::before { content: '📡 '; }
+
+  /* ===== SIDEBAR TYPING CURSOR ===== */
+  .sidebar-signal__body .typing-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background: var(--ops-green);
+    margin-left: 2px;
+    vertical-align: text-bottom;
+    animation: cursor-blink 1s step-end infinite;
+  }
+  @keyframes cursor-blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  /* ===== GLITCH TEXT ON HOVER (site title) ===== */
+  #sidebar .site-title {
+    position: relative;
+    overflow: hidden;
+  }
+  #sidebar .site-title:hover {
+    animation: text-glitch 300ms steps(2, end) 1;
+  }
+  @keyframes text-glitch {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 1px); text-shadow: 2px 0 rgba(88, 144, 168, 0.4); }
+    40% { transform: translate(1px, -1px); text-shadow: -2px 0 rgba(88, 144, 168, 0.3); }
+    60% { transform: translate(-1px, 0); text-shadow: 1px 0 rgba(88, 144, 168, 0.2); }
+    100% { transform: translate(0); text-shadow: none; }
+  }
+
+  /* ===== SUBTLE PULSE ON NEW POSTS ===== */
+  @keyframes subtle-glow {
+    0%, 100% { box-shadow: 0 0 0 1px rgba(88, 144, 168, 0.08), 0 0 22px rgba(88, 144, 168, 0.1); }
+    50% { box-shadow: 0 0 0 1px rgba(88, 144, 168, 0.18), 0 0 30px rgba(88, 144, 168, 0.18); }
+  }
+  .post-preview.is-new {
+    animation: subtle-glow 3s ease-in-out infinite;
+    border-left-color: rgba(88, 144, 168, 0.5) !important;
+  }
+
+  /* ===== CATEGORY FILTER PILLS (homepage) ===== */
+  #category-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-bottom: 1.4rem;
+    padding: 0 0.2rem;
+  }
+  #category-filter .filter-pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    padding: 0.35em 0.85em;
+    border: 1px solid rgba(88, 144, 168, 0.2);
+    border-radius: 999px;
+    background: rgba(88, 144, 168, 0.06);
+    color: var(--ops-muted);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+  }
+  #category-filter .filter-pill:hover,
+  #category-filter .filter-pill.active {
+    background: rgba(88, 144, 168, 0.18);
+    border-color: rgba(88, 144, 168, 0.4);
+    color: #ffffff;
+    box-shadow: 0 0 12px rgba(88, 144, 168, 0.12);
+  }
+
+  /* ===== SMOOTH PAGE TRANSITIONS ===== */
+  .page-transition-enter {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  .page-transition-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.35s ease, transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  }
 </style>
 
 <script>
   document.documentElement.setAttribute('data-mode', 'dark');
 
   document.addEventListener('DOMContentLoaded', () => {
-    const sidebar = document.getElementById('sidebar');
-    const subtitle = sidebar && sidebar.querySelector('.site-subtitle');
 
-    if (!sidebar || !subtitle || sidebar.querySelector('.sidebar-signal')) {
-      return;
+    /* ===== READING PROGRESS BAR ===== */
+    const postContent = document.querySelector('.post-content');
+    if (postContent) {
+      const bar = document.createElement('div');
+      bar.id = 'reading-progress';
+      document.body.appendChild(bar);
+      const updateProgress = () => {
+        const rect = postContent.getBoundingClientRect();
+        const total = postContent.offsetHeight - window.innerHeight;
+        const scrolled = -rect.top;
+        const pct = Math.max(0, Math.min(100, (scrolled / total) * 100));
+        bar.style.width = pct + '%';
+      };
+      window.addEventListener('scroll', updateProgress, { passive: true });
+      updateProgress();
     }
 
-    const panel = document.createElement('section');
-    panel.className = 'sidebar-signal';
-    panel.innerHTML = `
-      <div class="sidebar-signal__label">ops.notes</div>
-      <div class="sidebar-signal__body">AI orchestration, threat notes, infra discrete, opsec, et autopsies techniques publiees sans vernis corporate.</div>
-      <div class="sidebar-signal__refs">2600 Hz · Phrack · RFC 1149 · phreaking · null route · zero-day folklore</div>
-    `;
+    /* ===== READING TIME ===== */
+    const readingTimeEl = document.querySelector('.post-meta');
+    if (readingTimeEl && postContent) {
+      const words = postContent.textContent.trim().split(/\s+/).length;
+      const minutes = Math.max(1, Math.round(words / 250));
+      const badge = document.createElement('span');
+      badge.className = 'reading-time';
+      badge.textContent = minutes + ' min de lecture';
+      readingTimeEl.appendChild(badge);
+    }
 
-    subtitle.insertAdjacentElement('afterend', panel);
+    /* ===== SCROLL REVEAL ===== */
+    const revealTargets = document.querySelectorAll('.post-preview, .card, #post-list .card');
+    revealTargets.forEach(el => {
+      el.classList.add('reveal');
+    });
+    // wrap post list in stagger container
+    const postList = document.querySelector('#post-list');
+    if (postList) postList.classList.add('reveal-stagger');
 
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    /* ===== CATEGORY DATA ATTRIBUTES (for icons + filter) ===== */
+    document.querySelectorAll('.post-preview').forEach(card => {
+      const catLink = card.querySelector('.post-meta .categories a, .post-meta [itemprop="keywords"] a');
+      if (catLink) {
+        const cat = catLink.textContent.trim();
+        card.setAttribute('data-cat', cat);
+      }
+    });
+
+    /* ===== CATEGORY FILTER PILLS (homepage) ===== */
+    const postListContainer = document.querySelector('#post-list');
+    if (postListContainer) {
+      const cats = new Set();
+      postListContainer.querySelectorAll('.post-preview[data-cat]').forEach(card => {
+        cats.add(card.getAttribute('data-cat'));
+      });
+      if (cats.size > 1) {
+        const filterDiv = document.createElement('div');
+        filterDiv.id = 'category-filter';
+        // "All" pill
+        const allPill = document.createElement('span');
+        allPill.className = 'filter-pill active';
+        allPill.textContent = '▸ Tous';
+        allPill.addEventListener('click', () => {
+          filterDiv.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+          allPill.classList.add('active');
+          postListContainer.querySelectorAll('.post-preview').forEach(c => c.style.display = '');
+        });
+        filterDiv.appendChild(allPill);
+
+        [...cats].sort().forEach(cat => {
+          const pill = document.createElement('span');
+          pill.className = 'filter-pill';
+          pill.textContent = cat;
+          pill.addEventListener('click', () => {
+            filterDiv.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            postListContainer.querySelectorAll('.post-preview').forEach(c => {
+              c.style.display = c.getAttribute('data-cat') === cat ? '' : 'none';
+            });
+          });
+          filterDiv.appendChild(pill);
+        });
+        postListContainer.parentElement.insertBefore(filterDiv, postListContainer);
+      }
+    }
+
+    /* ===== NEW POST GLOW (posts < 14 days old) ===== */
+    document.querySelectorAll('.post-preview').forEach(card => {
+      const dateEl = card.querySelector('time[datetime]');
+      if (dateEl) {
+        const postDate = new Date(dateEl.getAttribute('datetime'));
+        const daysDiff = (Date.now() - postDate.getTime()) / (1000 * 60 * 60 * 24);
+        if (daysDiff <= 14) {
+          card.classList.add('is-new');
+        }
+      }
+    });
+
+    /* ===== SIDEBAR TYPING CURSOR ===== */
+    const signalBody = document.querySelector('.sidebar-signal__body');
+    if (signalBody) {
+      const cursor = document.createElement('span');
+      cursor.className = 'typing-cursor';
+      signalBody.appendChild(cursor);
+    }
+
+    /* ===== SIDEBAR SIGNAL (existing) ===== */
+    const sidebar = document.getElementById('sidebar');
+    const subtitle = sidebar && sidebar.querySelector('.site-subtitle');
+    if (sidebar && subtitle && !sidebar.querySelector('.sidebar-signal')) {
+      const panel = document.createElement('section');
+      panel.className = 'sidebar-signal';
+      panel.innerHTML = `
+        <div class="sidebar-signal__label">ops.notes</div>
+        <div class="sidebar-signal__body">AI orchestration, threat notes, infra discrete, opsec, et autopsies techniques publiees sans vernis corporate.</div>
+        <div class="sidebar-signal__refs">2600 Hz · Phrack · RFC 1149 · phreaking · null route · zero-day folklore</div>
+      `;
+      subtitle.insertAdjacentElement('afterend', panel);
+      // re-add cursor after innerHTML replacement
+      const newBody = panel.querySelector('.sidebar-signal__body');
+      if (newBody) {
+        const cursor = document.createElement('span');
+        cursor.className = 'typing-cursor';
+        newBody.appendChild(cursor);
+      }
+    }
+
+    /* ===== GLITCH EFFECT (existing, kept) ===== */
     const glitch = document.createElement('aside');
     glitch.className = 'ops-glitch';
     glitch.setAttribute('aria-hidden', 'true');
@@ -600,13 +883,19 @@
     const scheduleGlitch = () => {
       const delay = 105000 + Math.floor(Math.random() * 30000);
       window.setTimeout(() => {
-        if (!document.hidden) {
-          triggerGlitch();
-        }
+        if (!document.hidden) triggerGlitch();
         scheduleGlitch();
       }, delay);
     };
-
     scheduleGlitch();
+
+    /* ===== PAGE TRANSITION ===== */
+    document.body.classList.add('page-transition-enter');
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        document.body.classList.remove('page-transition-enter');
+        document.body.classList.add('page-transition-active');
+      });
+    });
   });
 </script>
