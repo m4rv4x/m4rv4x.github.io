@@ -128,10 +128,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: m4rv4x/m4rv4x.github.io  # crée une Discussion category "Announcements" sur GitHub
-    repo_id: # va sur https://giscus.app pour générer ces valeurs
+    repo: m4rv4x/m4rv4x.github.io
+    repo_id: R_kgDOP0-9DQ
     category: Announcements
-    category_id: # idem — copie depuis giscus.app
+    category_id: DIC_kwDOP0-9Dc4C_U_j
     mapping: pathname
     strict: '0'
     input_position: bottom
