@@ -1,26 +1,31 @@
 ---
-title: "Fuite de données et fonctionnaires : 10 réflexes qui sauvent"
+title: "Tes données ont fuité ? 10 réflexes avant que ce soit trop tard"
 date: 2026-06-17 10:00 +0200
 categories: ["Veille"]
-tags: ["fuite-de-données", "phishing", "hygiène-numérique", "fonctionnaires", "usurpation-identité", "VPN", "ingénierie-sociale", "ANSSI", "sécurité"]
+tags: ["fuite-de-données", "phishing", "hygiène-numérique", "usurpation-identité", "VPN", "ingénierie-sociale", "ANSSI", "sécurité", "données-personnelles"]
 author: marvax
 ---
 
-> Tes données administratives traînent dans une fuite ? Noms, emails, numéros, adresses — tout y est. Ça ne sert à rien de paniquer. Par contre, il y a 10 trucs à faire maintenant, pas la semaine prochaine.
+> France Travail, mutuelles, opérateurs, administrations — tes données ont fuité au moins une fois ces deux dernières années. Noms, emails, numéros, adresses, situations familiales. Le problème c'est pas la fuite. C'est ce que tu fais après.
 
 <!--more-->
 
-## Le contexte
+## Pourquoi cet article
 
-Fuites France Travail, mutuelles, opérateurs, administrations — en 2024-2026, des dizaines de millions de dossiers administratifs français ont fuité. Noms, prénoms, emails pro et perso, numéros de téléphone, adresses postales, situations familiales.
+En 2024-2026, des dizaines de millions de dossiers administratifs français ont fuité. Pas par un hack spectaculaire. Par un serveur mal configuré, un prestataire négligent, une base de données exposée sans mot de passe.
 
-Pour un fonctionnaire, c'est un jackpot pour un attaquant : ça permet du phishing ultra-ciblé, de l'usurpation d'identité, ou de l'ingénierie sociale contre des systèmes publics.
+Ce qui circule maintenant dans les bases underground : ton nom, ton email, ton téléphone, ton adresse, parfois ta situation familiale et ton employeur.
 
-Les 10 réflexes ci-dessous ne demandent pas un diplôme en cybersécurité. Juste 30 minutes et de la discipline.
+Pour un attaquant, c'est suffisant pour :
+- Du **phishing ultra-ciblé** qui a l'air légitime
+- De l'**usurpation d'identité** (faux comptes, demandes de crédit)
+- De l'**ingénierie sociale** contre ton entreprise ou ton administration
+
+Les 10 réflexes ci-dessous ne demandent pas un diplôme en cybersécurité. 30 minutes et de la discipline.
 
 ## 1. Changer les mots de passe réutilisés — maintenant
 
-Si tu as utilisé le même mot de passe sur le service qui a fuité ET sur un autre compte, c'est déjà compromis. L'attaquant essaiera automatiquement partout (credential stuffing).
+Si tu as utilisé le même mot de passe sur le service qui a fuité ET sur un autre compte, c'est déjà compromis. L'attaquant essaiera automatiquement partout — ça s'appelle du **credential stuffing**, et c'est 100% automatisé.
 
 ```
 Action immédiate :
@@ -31,9 +36,9 @@ Action immédiate :
 
 Pas demain. Maintenant.
 
-## 2. Activer la double authentification (2FA/MFA)
+## 2. Activer la double authentification (2FA)
 
-Partout où c'est proposé. Gmail, Outlook, administration fiscale, impots.gouv, Ameli, tout.
+Partout où c'est proposé. Gmail, Outlook, impots.gouv, Ameli, ta banque, tout.
 
 - **Applications TOTP** (FreeOTP, Aegis, Google Authenticator) > SMS
 - Le SMS peut être intercepté par swap SIM. Le TOTP non.
@@ -73,7 +78,7 @@ L'[ANSSI recommande](https://www.ssi.gouv.fr/) exactement ça : en cas de doute,
 
 ## 5. Vérifier les connexions actives
 
-Gmail, Outlook, la plupart des services montrent l'historique des connexions :
+La plupart des services montrent l'historique des connexions :
 
 - **Gmail** → [myaccount.google.com/security](https://myaccount.google.com/security) → "Vos connexions"
 - **Outlook** → [account.microsoft.com/security](https://account.microsoft.com/security) → "Activité récente"
@@ -82,9 +87,9 @@ Tu y vois les appareils, les IP, les localisations. Si quelque chose ne correspo
 
 ## 6. Séparer pro et perso
 
-L'email pro `prenom.nom@administration.fr` ne doit pas être utilisé pour créer un compte Instagram ou un compte sur un forum.
+L'email professionnel ne doit pas servir à créer un compte Instagram ou un forum.
 
-Pourquoi ? Parce que si le forum fuite, l'attaquant sait que tu es fonctionnaire, dans quelle administration, et peut cibler ton infrastructure pro.
+Pourquoi ? Parce que si le forum fuite, l'attaquant sait où tu travailles et peut cibler tes accès pro avec des attaques personnalisées.
 
 ```
 Règle :
@@ -95,45 +100,42 @@ Règle :
 
 ## 7. Maintenir ses équipements à jour
 
-Les mises à jour ne sont pas cosmétiques. Elles corrigent des vulnérabilités **activement exploitées**.
+Les mises à jour ne sont pas cosmétiques. Elles corrigent des vulnérabilités **activement exploitées** dans la nature.
 
 ```
 Priorité de patch :
 1. Navigateur (Chrome, Firefox) — mis à jour automatiquement
 2. OS (Windows Update, macOS, Linux) — redémarrer quand demandé
 3. Apps sur téléphone — Play Store / App Store
-4. Client VPN — voir section VPN ci-dessous
-5. Firmware routeur/box — souvent oublié
+4. Client VPN — voir la section VPN ci-dessous
+5. Firmware routeur/box — souvent oublié, jamais patché
 ```
 
 Un Windows non patché avec un mot de passe fuité = compromission en quelques minutes.
 
 ## 8. Limiter les infos publiques sur les réseaux sociaux
 
-L'attaquant qui a tes données de la fuite (nom, email, téléphone) va chercher à compléter le profil :
+L'attaquant qui a tes données de la fuite va chercher à compléter ton profil :
 
 - **LinkedIn** : ton poste exact, ta hiérarchie, tes collègues → spear-phishing crédible
 - **Facebook/Instagram** : tes habitudes, tes déplacements, ta famille → ingénierie sociale
 - **Twitter/X** : tes opinions, tes projets → personnalisation de l'attaque
 
-**Vérifie** :
-- Qui peut voir tes posts ? (amis uniquement, pas public)
-- Ton profil LinkedIn est-il un CV ouvert au monde ?
-- As-tu des posts qui révèlent ta hiérarchie ou tes outils internes ?
+Vérifie qui peut voir tes posts. Ton profil LinkedIn est-il un CV ouvert au monde ? As-tu des posts qui révèlent tes outils internes ou ta hiérarchie ?
 
 ## 9. Surveiller les signes d'usurpation
 
 Après une fuite, surveille ces signaux :
 
 - Demandes de crédit ou de micro-crédit à ton nom
-- Courriers postaux de banques ou organismes que tu ne connais pas
+- Courriers postaux de banques que tu ne connais pas
 - Changements d'adresse sur des comptes existants
-- Appels de recouvrement pour des dettes contractées par un usurpateur
+- Appels de recouvrement pour des dettes que tu n'as pas contractées
 
-**Outils** :
-- Tu peux vérifier ton fichier bancaire (FICP) gratuitement sur [bdif.france-banque.fr](https://bdif.france-banque.fr)
+**Outils utiles** :
+- Vérifier ton fichier bancaire (FICP) gratuitement sur [bdif.france-banque.fr](https://bdif.france-banque.fr)
 - **Bloctel** ([bloctel.fr](https://www.bloctel.fr)) pour réduire les appels frauduleux
-- **Victim Assistance** de l'ANSSI pour les signalements liés aux fuites
+- **Cybermalveillance.gouv.fr** pour l'assistance aux victimes
 
 ## 10. Signaler tout incident
 
@@ -141,28 +143,28 @@ Message suspect ? Demande d'info anormale ? Connexion bizarre ? Ne pas ignorer.
 
 ```
 Circuit de signalement :
-→ Immédiat    : service informatique / RSSI de ton administration
+→ Ton service informatique / RSSI
 → Cybermalveillance.gouv.fr  : assistance aux victimes
-→ ANSSI       : incidents touchant les systèmes d'information publics
-→ Pharos       : plateforme de signalement des contenus illicites (police/gendarmerie)
+→ ANSSI / CERT-FR             : incidents touchant les SI publics
+→ Pharos                       : contenus illicites (police/gendarmerie)
 ```
 
 Le signalement rapide permet souvent de bloquer une attaque avant qu'elle ne se propage.
 
 ## Bonus — Le mythe du VPN
 
-Beaucoup d'agents pensent qu'utiliser un VPN les protège de tout. C'est faux, et les attaquants exploitent cette fausse confiance.
+Beaucoup de gens pensent qu'un VPN les protège de tout. C'est faux, et les attaquants exploitent cette fausse confiance.
 
-### Comment les attaquants ciblent le VPN
+### Comment ça se passe dans la vraie vie
 
-Des campagnes récentes de phishing ciblé ont imité les portails VPN d'administrations publiques. Les étapes :
+Des campagnes récentes de phishing ciblé ont imité des portails VPN d'entreprises et d'administrations. Le scénario :
 
 1. L'attaquant envoie un email "du service informatique" avec un lien vers un faux portail VPN
 2. La victime saisit ses identifiants (login + MFA)
-3. L'attaquant récupère les credentials en temps réel
+3. L'attaquant récupère les credentials en temps réel (technique du reverse proxy)
 4. Il se connecte au vrai VPN avec ces identifiants
 
-Résultat : accès direct au réseau interne de l'administration. Sans exploiter aucune vulnérabilité technique.
+Résultat : accès direct au réseau interne. Sans exploiter aucune vulnérabilité technique.
 
 ### Ce que le VPN protège (et ne protège pas)
 
@@ -177,12 +179,12 @@ Résultat : accès direct au réseau interne de l'administration. Sans exploiter
 ### Les règles
 
 - **Vérifie systématiquement l'URL** du portail VPN avant de saisir tes identifiants
-- **Utilise uniquement les liens donnés par le SI** de ton administration
+- **Utilise uniquement les liens donnés par ton service IT**
 - **Ne valide JAMAIS une demande MFA** que tu n'as pas initiée toi-même
-- **Mets à jour le client VPN** sur tous tes appareils (poste + mobile)
+- **Mets à jour le client VPN** sur tous tes appareils
 - **Un VPN ne remplace pas l'hygiène numérique** — c'est une couche, pas une forteresse
 
-> En 2024-2026, plusieurs compromissions d'organisations publiques françaises ont commencé par le vol d'identifiants VPN, parfois facilité par des données issues de fuites massives permettant de personnaliser les attaques. Source : rapports d'incidents ANSSI, CERT-FR.
+> En 2024-2026, plusieurs compromissions majeures ont commencé par le vol d'identifiants VPN, parfois facilité par des données issues de fuites massives permettant de personnaliser les attaques. Sources : rapports ANSSI, CERT-FR.
 
 ## En résumé
 
@@ -204,6 +206,21 @@ Les fuites ne peuvent pas toujours être évitées. Mais les dégâts, si.
 
 ---
 
+### Note aux RSSI, DSI et responsables informatiques
+
+Si tu gères une équipe ou une infrastructure, cet article est fait pour être partagé. Les 10 points ci-dessus sont les mêmes que ceux que l'ANSSI recommande dans son [guide d'hygiène informatique](https://www.ssi.gouv.fr/guide/directeur-des-systemes-dinformation/) — mais dans un langage que tout le monde comprend.
+
+Quelques pistes concrètes pour les responsables IT :
+- **Diffuser cet article** en interne après chaque annonce de fuite
+- **Organiser un atelier de 30 min** sur la 2FA et les gestionnaires de mots de passe
+- **Simuler une campagne de phishing** interne pour mesurer le niveau de vigilance
+- **Documenter le circuit de signalement** et s'assurer que tout le monde le connaît
+- **Auditer les accès VPN** : qui a accès, depuis où, avec quel niveau de vérification
+
+La meilleure défense, c'est pas un firewall de dernière génération. C'est une équipe qui sait repérer un email piégé.
+
+---
+
 *Sources : [ANSSI — Guide d'hygiène informatique](https://www.ssi.gouv.fr/guide/directeur-des-systemes-dinformation/), [CERT-FR — Bulletins d'alerte](https://www.cert.ssi.gouv.fr/), [Cybermalveillance.gouv.fr](https://www.cybermalveillance.gouv.fr/)*
 
-*Tu veux sensibiliser tes équipes ? [Contacte-moi](mailto:m4rv4x@protonmail.com) pour un atelier ou un audit.*
+*Besoin d'un atelier de sensibilisation ou d'un audit ? [Contacte-moi](mailto:m4rv4x@protonmail.com).*
