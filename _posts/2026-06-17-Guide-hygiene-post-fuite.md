@@ -1,16 +1,16 @@
 ---
-title: "Tes données ont fuité ? 10 réflexes avant que ce soit trop tard"
+title: "Guide opérationnel d'hygiène post-fuite"
 date: 2026-06-17 10:00 +0200
 categories: ["Veille"]
 tags: ["fuite-de-données", "phishing", "hygiène-numérique", "usurpation-identité", "VPN", "ingénierie-sociale", "ANSSI", "sécurité", "données-personnelles"]
 author: marvax
 ---
 
-> France Travail, mutuelles, opérateurs, administrations — tes données ont fuité au moins une fois ces deux dernières années. Noms, emails, numéros, adresses, situations familiales. Le problème c'est pas la fuite. C'est ce que tu fais après.
+> Fuite de données France Travail, mutuelles, opérateurs, administrations — des dizaines de millions de dossiers exposés en 2024-2026. Noms, emails, numéros, adresses, situations familiales. Ce document détaille les 10 contre-mesures prioritaires à appliquer pour réduire l'impact opérationnel d'une telle exposition.
 
 <!--more-->
 
-## Pourquoi cet article
+## Contexte
 
 En 2024-2026, des dizaines de millions de dossiers administratifs français ont fuité. Pas par un hack spectaculaire. Par un serveur mal configuré, un prestataire négligent, une base de données exposée sans mot de passe.
 
