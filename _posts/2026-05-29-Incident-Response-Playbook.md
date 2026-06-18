@@ -223,7 +223,7 @@ Le meilleur incident, c'est celui qui n'arrive pas. Voire mesures préventives e
 
 *Références :*
 
-- [NIST SP 800-61 — Computer Security Incident Handling Guide](https://csf.tools/reference/nist-sp-800-61/)
+- [NIST SP 800-61 — Computer Security Incident Handling Guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)
 - [CrowdStrike 2024](/posts/CrowdStrike-ecran-bleu-mondial/)
 - [Log4Shell](/posts/Log4Shell-lincendie-dans-la-jvm/)
 - [LastPass](/posts/LastPass-coffre-fort-trahi/)

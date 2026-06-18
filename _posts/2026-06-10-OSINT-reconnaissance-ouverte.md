@@ -77,7 +77,7 @@ site:example.com "sql syntax" OR "mysql_fetch" OR "ORA-"
 site:github.com "example.com" "api_key" OR "apikey" OR "secret"
 ```
 
-Ressource incontournable : [Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hackers/) — une collection de dorks classés par catégorie.
+Ressource incontournable : [Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database) — une collection de dorks classés par catégorie.
 
 ### DNS Reconnaissance
 
@@ -236,7 +236,7 @@ Chaque outil alimente le suivant. L'OSINT, c'est pas un outil, c'est une **méth
 *Références :*
 
 - [Shodan](https://www.shodan.io/)
-- [Google Hacking Database](https://www.exploit-db.com/google-hackers/)
+- [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
 - [theHarvester](https://github.com/laramies/theHarvester)
 - [SpiderFoot](https://www.spiderfoot.net/)
 - [Maltego](https://www.maltego.com/)
