@@ -63,7 +63,7 @@ sudo chown $USER:$USER /mnt/backup/borg
 borg init --encryption=repokey-blake2 /mnt/backup/borg/monserveur
 ```
 
-Tu seras demandé de définir une passphrase. **Stocke-la dans ton gestionnaire de mots de passe** ([Vaultwarden](/posts/2026-02-01-Vaultwarden-self-hosted-mdp/)). Sans cette passphrase, tes backups sont inaccessibles.
+Tu seras demandé de définir une passphrase. **Stocke-la dans ton gestionnaire de mots de passe** ([Vaultwarden](/posts/Vaultwarden-self-hosted-mdp/)). Sans cette passphrase, tes backups sont inaccessibles.
 
 ## Premier backup
 
@@ -118,7 +118,7 @@ borg create \
 command="borg serve --restrict-to-path /home/user/borg",no-pty,no-agent-forwarding,no-port-forwarding,no-X11-forwarding,no-user-rc ssh-ed25519 AAAA...
 ```
 
-Voir [Hardening SSH](/posts/2026-06-12-Hardening-SSH/) pour la config complète. Si tu veux chiffrer le transport en plus, passe par [WireGuard](/posts/2026-06-19-WireGuard-VPN-SelfHosted/).
+Voir [Hardening SSH](/posts/Hardening-SSH/) pour la config complète. Si tu veux chiffrer le transport en plus, passe par [WireGuard](/posts/WireGuard-VPN-SelfHosted/).
 
 ## Automatisation avec systemd timer
 
@@ -191,7 +191,7 @@ Alternative : un simple cron si tu préfères :
 
 ## Automatisation avec Ansible
 
-Si tu gères plusieurs serveurs ([Automatiser avec Ansible](/posts/2026-06-10-Automatiser-Infra-Ansible/)) :
+Si tu gères plusieurs serveurs ([Automatiser avec Ansible](/posts/Automatiser-Infra-Ansible/)) :
 
 ```yaml
 - name: Installer BorgBackup
@@ -237,7 +237,7 @@ borg umount /mnt/borg
 
 ## Monitoring des backups
 
-Intègre le suivi dans ta stack de monitoring ([Monitoring Prometheus & Grafana](/posts/2026-06-15-Monitoring-Prometheus-Grafana/)) :
+Intègre le suivi dans ta stack de monitoring ([Monitoring Prometheus & Grafana](/posts/Monitoring-Prometheus-Grafana/)) :
 
 ```bash
 # Script de vérification envoyant des métriques
@@ -272,12 +272,12 @@ Alerte si aucun backup n'a été créé dans les dernières 24h.
 
 *Références :*
 - [BorgBackup Documentation](https://borgbackup.readthedocs.io/)
-- [Hardening SSH](/posts/2026-06-12-Hardening-SSH/)
-- [WireGuard VPN Self-Hosted](/posts/2026-06-19-WireGuard-VPN-SelfHosted/)
-- [Automatiser avec Ansible](/posts/2026-06-10-Automatiser-Infra-Ansible/)
-- [Monitoring Prometheus & Grafana](/posts/2026-06-15-Monitoring-Prometheus-Grafana/)
-- [Vaultwarden self-hosted](/posts/2026-02-01-Vaultwarden-self-hosted-mdp/)
-- [Cloudflare Tunnel](/posts/2026-02-14-Cloudflare-Tunnel-zero-port/)
-- [Incident Response Playbook](/posts/2026-05-29-Incident-Response-Playbook/)
+- [Hardening SSH](/posts/Hardening-SSH/)
+- [WireGuard VPN Self-Hosted](/posts/WireGuard-VPN-SelfHosted/)
+- [Automatiser avec Ansible](/posts/Automatiser-Infra-Ansible/)
+- [Monitoring Prometheus & Grafana](/posts/Monitoring-Prometheus-Grafana/)
+- [Vaultwarden self-hosted](/posts/Vaultwarden-self-hosted-mdp/)
+- [Cloudflare Tunnel](/posts/Cloudflare-Tunnel-zero-port/)
+- [Incident Response Playbook](/posts/Incident-Response-Playbook/)
 
 Besoin d'un audit de ta stratégie de backup ou d'un coup de main sur BorgBackup ? [Contacte-moi](mailto:m4rv4x@protonmail.com).

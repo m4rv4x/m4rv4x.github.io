@@ -175,7 +175,7 @@ Ne patch pas aveuglément. Un score "moyen" sur un service exposé publiquement 
 
 ### CI/CD
 
-Intègre Nuclei dans ton pipeline ([CI/CD GitHub Actions](/posts/2026-06-20-CICD-GitHub-Actions/)) :
+Intègre Nuclei dans ton pipeline ([CI/CD GitHub Actions](/posts/CICD-GitHub-Actions/)) :
 
 ```yaml
 name: Security Scan
@@ -200,7 +200,7 @@ Le flag `-fail-on-matched` fait échouer le pipeline si une vulnérabilité est 
 
 ### Alertes et monitoring
 
-Envoie les résultats vers ta stack de monitoring ([Monitoring Prometheus & Grafana](/posts/2026-06-15-Monitoring-Prometheus-Grafana/)) :
+Envoie les résultats vers ta stack de monitoring ([Monitoring Prometheus & Grafana](/posts/Monitoring-Prometheus-Grafana/)) :
 
 ```bash
 # Parser les résultats JSON et envoyer vers un webhook
@@ -213,11 +213,11 @@ cat /var/log/nuclei/$(date +%F).json | jq -r '. | select(.info.severity == "crit
 Scanner c'est bien, corriger c'est mieux. Priorise :
 
 1. **Patch** : mets à jour les logiciels exposés
-2. **Harden SSH** : désactive les versions obsolètes ([Hardening SSH](/posts/2026-06-12-Hardening-SSH/))
-3. **Fail2ban** : bloque les tentatives d'exploitation ([Fail2ban avancé](/posts/2026-06-21-Fail2ban-avance/))
-4. **CrowdSec** : protection collaborative ([CrowdSec : le futur de Fail2ban](/posts/2026-01-16-CrowdSec-fail2ban-futur/))
-5. **Docker security** : vérifie tes images ([Sécurité Docker](/posts/2026-06-08-Docker-Security-Erreurs/))
-6. **Supply chain** : audite tes dépendances ([Supply Chain Attacks](/posts/2026-02-05-Supply-Chain-Attacks-2026/))
+2. **Harden SSH** : désactive les versions obsolètes ([Hardening SSH](/posts/Hardening-SSH/))
+3. **Fail2ban** : bloque les tentatives d'exploitation ([Fail2ban avancé](/posts/Fail2ban-avance/))
+4. **CrowdSec** : protection collaborative ([CrowdSec : le futur de Fail2ban](/posts/CrowdSec-fail2ban-futur/))
+5. **Docker security** : vérifie tes images ([Sécurité Docker](/posts/Docker-Security-Erreurs/))
+6. **Supply chain** : audite tes dépendances ([Supply Chain Attacks](/posts/Supply-Chain-Attacks-2026/))
 
 ## Checklist de mise en place
 
@@ -234,12 +234,12 @@ Scanner c'est bien, corriger c'est mieux. Priorise :
 *Références :*
 - [Nuclei — ProjectDiscovery](https://github.com/projectdiscovery/nuclei)
 - [Greenbone OpenVAS](https://www.greenbone.net/en/community-edition/)
-- [Hardening SSH](/posts/2026-06-12-Hardening-SSH/)
-- [Sécurité Docker](/posts/2026-06-08-Docker-Security-Erreurs/)
-- [Fail2ban avancé](/posts/2026-06-21-Fail2ban-avance/)
-- [CrowdSec : le futur de Fail2ban](/posts/2026-01-16-CrowdSec-fail2ban-futur/)
-- [CI/CD GitHub Actions](/posts/2026-06-20-CICD-GitHub-Actions/)
-- [Monitoring Prometheus & Grafana](/posts/2026-06-15-Monitoring-Prometheus-Grafana/)
-- [Supply Chain Attacks](/posts/2026-02-05-Supply-Chain-Attacks-2026/)
+- [Hardening SSH](/posts/Hardening-SSH/)
+- [Sécurité Docker](/posts/Docker-Security-Erreurs/)
+- [Fail2ban avancé](/posts/Fail2ban-avance/)
+- [CrowdSec : le futur de Fail2ban](/posts/CrowdSec-fail2ban-futur/)
+- [CI/CD GitHub Actions](/posts/CICD-GitHub-Actions/)
+- [Monitoring Prometheus & Grafana](/posts/Monitoring-Prometheus-Grafana/)
+- [Supply Chain Attacks](/posts/Supply-Chain-Attacks-2026/)
 
 Besoin d'un audit de vulnérabilités ou d'un coup de main sur le durcissement ? [Contacte-moi](mailto:m4rv4x@protonmail.com).

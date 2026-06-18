@@ -14,7 +14,7 @@ author: marvax
 
 Quand ça pète, le stress prend le dessus. Tu oublies des étapes, tu prends des décisions à l'arrache, tu effaces des preuves sans le vouloir. Un playbook, c'est ton GPS dans le chaos. Tu le prépares **avant** l'incident, pas pendant.
 
-Les incidents qu'on a couverts sur ce blog — [CrowdStrike](/posts/2024-07-19-CrowdStrike-ecran-bleu-mondial/), [Log4Shell](/posts/2021-12-09-Log4Shell-lincendie-dans-la-jvm/), [LastPass](/posts/2022-12-22-LastPass-coffre-fort-trahi/) — montrent tous la même chose : les organisations qui s'en sortent le mieux sont celles qui avaient un plan.
+Les incidents qu'on a couverts sur ce blog — [CrowdStrike](/posts/CrowdStrike-ecran-bleu-mondial/), [Log4Shell](/posts/Log4Shell-lincendie-dans-la-jvm/), [LastPass](/posts/LastPass-coffre-fort-trahi/) — montrent tous la même chose : les organisations qui s'en sortent le mieux sont celles qui avaient un plan.
 
 ## Phase 1 : Détection
 
@@ -33,10 +33,10 @@ L'incident est là. Première étape : confirmer que c'est réel et évaluer l'a
 
 | Outil | Usage |
 |---|---|
-| [Prometheus + Grafana](/posts/2026-06-15-Monitoring-Prometheus-Grafana/) | Métriques, alertes sur anomalies |
-| [CrowdSec](/posts/2026-01-16-CrowdSec-fail2ban-futur/) | Détection d'attaques en temps réel |
-| [Nuclei](/posts/2026-03-08-Nuclei-OpenVAS-scan-vuln/) | Scan de vulnérabilités post-détection |
-| [OSINT](/posts/2026-06-10-OSINT-reconnaissance-ouverte/) | Vérification de fuite sur sources ouvertes |
+| [Prometheus + Grafana](/posts/Monitoring-Prometheus-Grafana/) | Métriques, alertes sur anomalies |
+| [CrowdSec](/posts/CrowdSec-fail2ban-futur/) | Détection d'attaques en temps réel |
+| [Nuclei](/posts/Nuclei-OpenVAS-scan-vuln/) | Scan de vulnérabilités post-détection |
+| [OSINT](/posts/OSINT-reconnaissance-ouverte/) | Vérification de fuite sur sources ouvertes |
 | Logs centralisés (ELK, Loki) | Corrélation d'événements |
 
 ### Décision clé
@@ -53,7 +53,7 @@ Objectif : limiter les dégâts. Isoler les systèmes compromis sans détruire l
 
 - [ ] Isoler le réseau des systèmes compromis (VLAN, firewall, déconnexion)
 - [ ] **Ne pas éteindre** la machine (tu perds la mémoire volatile) — préfère un snapshot mémoire
-- [ ] Bloquer les IPs/domaines malveillants au niveau [UFW/iptables](/posts/2026-06-18-UFW-iptables-Firewall-Linux/)
+- [ ] Bloquer les IPs/domaines malveillants au niveau [UFW/iptables](/posts/UFW-iptables-Firewall-Linux/)
 - [ ] Révoquer les credentials potentiellement compromis (tokens, clés API, mots de passe)
 - [ ] Activer la collecte de logs renforcée
 - [ ] Sauvegarder les logs actuels (ils seront écrasés sinon)
@@ -63,7 +63,7 @@ Objectif : limiter les dégâts. Isoler les systèmes compromis sans détruire l
 
 **Court terme** (heures) : isolation réseau, blocage IP, désactivation de comptes.
 
-**Long terme** (jours) : segmentation réseau, mise en place de [CrowdSec](/posts/2026-01-16-CrowdSec-fail2ban-futur/) renforcé, patch des vulnérabilités.
+**Long terme** (jours) : segmentation réseau, mise en place de [CrowdSec](/posts/CrowdSec-fail2ban-futur/) renforcé, patch des vulnérabilités.
 
 ```bash
 # Snapshot mémoire d'urgence (Linux)
@@ -84,11 +84,11 @@ Tu as isolé le problème. Maintenant, tu nettoies.
 
 - [ ] Identifier la cause racine (vulnérabilité exploitée, phishing, config fautive…)
 - [ ] Supprimer les backdoors, webshells, comptes non autorisés
-- [ ] Patcher la vulnérabilité exploitée (voir [scan Nuclei](/posts/2026-03-08-Nuclei-OpenVAS-scan-vuln/))
+- [ ] Patcher la vulnérabilité exploitée (voir [scan Nuclei](/posts/Nuclei-OpenVAS-scan-vuln/))
 - [ ] Reconstruire les systèmes compromis à partir d'une image saine
 - [ ] Vérifier l'intégrité des fichiers système (`aide`, `tripwire`, `rpm -Va`)
 - [ ] Scanner l'ensemble de l'infra pour d'autres compromissions
-- [ ] Vérifier les [chaînes d'approvisionnement](/posts/2026-02-05-Supply-Chain-Attacks-2026/)
+- [ ] Vérifier les [chaînes d'approvisionnement](/posts/Supply-Chain-Attacks-2026/)
 
 ### Forensics : ne pas tout effacer
 
@@ -110,13 +110,13 @@ Tu remets en service. Progressivement, pas d'un coup.
 
 ### Checklist Récupération
 
-- [ ] Restaurer les systèmes à partir de backups vérifiés (pas de backup ? → [BorgBackup](/posts/2026-03-13-BorgBackup-strategie-backup/))
+- [ ] Restaurer les systèmes à partir de backups vérifiés (pas de backup ? → [BorgBackup](/posts/BorgBackup-strategie-backup/))
 - [ ] Appliquer tous les patches de sécurité
 - [ ] Réinitialiser **tous** les mots de passe et clés (pas seulement ceux compromis)
-- [ ] Activer l'authentification forte ([passkeys/FIDO2](/posts/2026-02-07-Passkeys-FIDO2-mort-mdp/))
+- [ ] Activer l'authentification forte ([passkeys/FIDO2](/posts/Passkeys-FIDO2-mort-mdp/))
 - [ ] Remettre en production par étapes (canary deployment)
 - [ ] Surveiller intensivement pendant 72h minimum
-- [ ] Vérifier que les [reverse proxies](/posts/2026-06-05-Reverse-Proxy-Nginx-TLS/) et [configs Docker](/posts/2026-06-08-Docker-Security-Erreurs/) sont sains
+- [ ] Vérifier que les [reverse proxies](/posts/Reverse-Proxy-Nginx-TLS/) et [configs Docker](/posts/Docker-Security-Erreurs/) sont sains
 
 ### Priorisation du redémarrage
 
@@ -182,11 +182,11 @@ La phase la plus importante et la plus souvent sautée. Ne la skip pas.
 
 Chaque incident majeur apporte des leçons. Voici ceux qu'on a décortiqués :
 
-- **[CrowdStrike 2024](/posts/2024-07-19-CrowdStrike-ecran-bleu-mondial/)** — Un mauvais update peut paralyser des millions de machines. Leçon : rollback automatique, déployer par vagues.
-- **[Log4Shell 2021](/posts/2021-12-09-Log4Shell-lincendie-dans-la-jvm/)** — Vulnérabilité dans une dépendance omniprésente. Leçon : inventaire des dépendances, SBOM.
-- **[LastPass 2022](/posts/2022-12-22-LastPass-coffre-fort-trahi/)** — Compromission du stockage de vaults. Leçon : chiffrement de bout en bout, zero-knowledge.
-- **[n8n RCE 2026](/posts/2026-01-07-n8n-RCE-critique/)** — Exécution de code à distance via un outil d'automatisation. Leçon : ne pas exposer d'outils d'admin sur Internet.
-- **[Hygiène post-fuite](/posts/2026-06-17-Guide-hygiene-post-fuite/)** — Guide pratique pour nettoyer après une fuite de données.
+- **[CrowdStrike 2024](/posts/CrowdStrike-ecran-bleu-mondial/)** — Un mauvais update peut paralyser des millions de machines. Leçon : rollback automatique, déployer par vagues.
+- **[Log4Shell 2021](/posts/Log4Shell-lincendie-dans-la-jvm/)** — Vulnérabilité dans une dépendance omniprésente. Leçon : inventaire des dépendances, SBOM.
+- **[LastPass 2022](/posts/LastPass-coffre-fort-trahi/)** — Compromission du stockage de vaults. Leçon : chiffrement de bout en bout, zero-knowledge.
+- **[n8n RCE 2026](/posts/n8n-RCE-critique/)** — Exécution de code à distance via un outil d'automatisation. Leçon : ne pas exposer d'outils d'admin sur Internet.
+- **[Hygiène post-fuite](/posts/Guide-hygiene-post-fuite/)** — Guide pratique pour nettoyer après une fuite de données.
 
 ## Outils indispensables dans ta boîte à outils IR
 
@@ -207,31 +207,31 @@ journalctl, lnav, logsurfer
 ir-responder, linux-explorer, UAC (Unix-like Artifacts Collector)
 ```
 
-Intègre ces outils dans ton [pipeline d'automatisation](/posts/2026-06-10-Automatiser-Infra-Ansible/) pour qu'ils soient prêts quand tu en auras besoin.
+Intègre ces outils dans ton [pipeline d'automatisation](/posts/Automatiser-Infra-Ansible/) pour qu'ils soient prêts quand tu en auras besoin.
 
 ## Prévention > Réaction
 
 Le meilleur incident, c'est celui qui n'arrive pas. Voire mesures préventives essentielles :
 
-- [Hardening SSH](/posts/2026-06-12-Hardening-SSH/) — réduire la surface d'attaque
-- [CrowdSec + Fail2ban](/posts/2026-06-21-Fail2ban-avance/) — détection proactive
-- [Sécurité Docker](/posts/2026-06-08-Docker-Security-Erreurs/) — ne pas exposer le socket
-- [Monitoring](/posts/2026-06-15-Monitoring-Prometheus-Grafana/) — détecter avant que ça devienne critique
-- [BorgBackup](/posts/2026-03-13-BorgBackup-strategie-backup/) — pouvoir restaurer quand tout pète
+- [Hardening SSH](/posts/Hardening-SSH/) — réduire la surface d'attaque
+- [CrowdSec + Fail2ban](/posts/Fail2ban-avance/) — détection proactive
+- [Sécurité Docker](/posts/Docker-Security-Erreurs/) — ne pas exposer le socket
+- [Monitoring](/posts/Monitoring-Prometheus-Grafana/) — détecter avant que ça devienne critique
+- [BorgBackup](/posts/BorgBackup-strategie-backup/) — pouvoir restaurer quand tout pète
 
 ---
 
 *Références :*
 
 - [NIST SP 800-61 — Computer Security Incident Handling Guide](https://csf.tools/reference/nist-sp-800-61/)
-- [CrowdStrike 2024](/posts/2024-07-19-CrowdStrike-ecran-bleu-mondial/)
-- [Log4Shell](/posts/2021-12-09-Log4Shell-lincendie-dans-la-jvm/)
-- [LastPass](/posts/2022-12-22-LastPass-coffre-fort-trahi/)
-- [CrowdSec](/posts/2026-01-16-CrowdSec-fail2ban-futur/)
-- [Nuclei scan](/posts/2026-03-08-Nuclei-OpenVAS-scan-vuln/)
-- [BorgBackup](/posts/2026-03-13-BorgBackup-strategie-backup/)
-- [OSINT](/posts/2026-06-10-OSINT-reconnaissance-ouverte/)
-- [Monitoring Prometheus/Grafana](/posts/2026-06-15-Monitoring-Prometheus-Grafana/)
-- [Hygiène post-fuite](/posts/2026-06-17-Guide-hygiene-post-fuite/)
+- [CrowdStrike 2024](/posts/CrowdStrike-ecran-bleu-mondial/)
+- [Log4Shell](/posts/Log4Shell-lincendie-dans-la-jvm/)
+- [LastPass](/posts/LastPass-coffre-fort-trahi/)
+- [CrowdSec](/posts/CrowdSec-fail2ban-futur/)
+- [Nuclei scan](/posts/Nuclei-OpenVAS-scan-vuln/)
+- [BorgBackup](/posts/BorgBackup-strategie-backup/)
+- [OSINT](/posts/OSINT-reconnaissance-ouverte/)
+- [Monitoring Prometheus/Grafana](/posts/Monitoring-Prometheus-Grafana/)
+- [Hygiène post-fuite](/posts/Guide-hygiene-post-fuite/)
 
 *Besoin d'un audit de ta posture de réponse aux incidents ? [Contacte-moi](mailto:m4rv4x@protonmail.com).*

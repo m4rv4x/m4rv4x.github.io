@@ -12,7 +12,7 @@ author: marvax
 
 ## Pourquoi Traefik plutôt que Nginx ?
 
-J'ai déjà couvert [Nginx comme reverse proxy](/posts/2026-06-05-Reverse-Proxy-Nginx-TLS/) sur ce blog. Nginx fait le taf, mais dans un environnement Docker, c'est de la plomberie. Chaque nouveau conteneur = modifier la config + recharger. Traefik élimine ça grâce à son **auto-discovery**.
+J'ai déjà couvert [Nginx comme reverse proxy](/posts/Reverse-Proxy-Nginx-TLS/) sur ce blog. Nginx fait le taf, mais dans un environnement Docker, c'est de la plomberie. Chaque nouveau conteneur = modifier la config + recharger. Traefik élimine ça grâce à son **auto-discovery**.
 
 | Critère | Nginx | Traefik |
 |---|---|---|
@@ -97,7 +97,7 @@ certificatesResolvers:
 
 Points clés :
 
-- `exposedByDefault: false` — seuls les conteneurs avec le label `traefik.enable=true` sont exposés. C'est **indispensable** pour la [sécurité Docker](/posts/2026-06-08-Docker-Security-Erreurs/).
+- `exposedByDefault: false` — seuls les conteneurs avec le label `traefik.enable=true` sont exposés. C'est **indispensable** pour la [sécurité Docker](/posts/Docker-Security-Erreurs/).
 - Le socket Docker est monté en **read-only** (`:ro`).
 - Le challenge HTTP se fait sur le port 80, puis redirection vers 443.
 
@@ -140,7 +140,7 @@ labels:
   - "traefik.http.routers.app.middlewares=ratelimit@docker"
 ```
 
-Tu peux aussi combiner ça avec [CrowdSec](/posts/2026-01-16-CrowdSec-fail2ban-futur/) pour un blocage adaptatif basé sur la communauté.
+Tu peux aussi combiner ça avec [CrowdSec](/posts/CrowdSec-fail2ban-futur/) pour un blocage adaptatif basé sur la communauté.
 
 ### Basic Auth
 
@@ -167,7 +167,7 @@ labels:
   - "traefik.http.routers.app.middlewares=headers@docker"
 ```
 
-Ces headers complètent la [config TLS de Nginx](/posts/2026-06-05-Reverse-Proxy-Nginx-TLS/) que tu peux migrer intégralement vers Traefik.
+Ces headers complètent la [config TLS de Nginx](/posts/Reverse-Proxy-Nginx-TLS/) que tu peux migrer intégralement vers Traefik.
 
 ## Dashboard sécurisé
 
@@ -185,11 +185,11 @@ services:
       - "traefik.http.middlewares.auth.basicauth.users=admin:$$2y$$..."
 ```
 
-**Protège-le derrière un VPN** comme [WireGuard](/posts/2026-06-19-WireGuard-VPN-SelfHosted/) ou un [Cloudflare Tunnel](/posts/2026-02-14-Cloudflare-Tunnel-zero-port/) sans exposition de port. Et débloque les ports sur ton [UFW](/posts/2026-06-18-UFW-iptables-Firewall-Linux/).
+**Protège-le derrière un VPN** comme [WireGuard](/posts/WireGuard-VPN-SelfHosted/) ou un [Cloudflare Tunnel](/posts/Cloudflare-Tunnel-zero-port/) sans exposition de port. Et débloque les ports sur ton [UFW](/posts/UFW-iptables-Firewall-Linux/).
 
 ## Traefik + CI/CD
 
-Dans un pipeline [CI/CD avec GitHub Actions](/posts/2026-06-20-CICD-GitHub-Actions/), tu déploies ton conteneur et Traefik prend le relais automatiquement. Plus besoin de script de rechargement Nginx dans ton pipeline :
+Dans un pipeline [CI/CD avec GitHub Actions](/posts/CICD-GitHub-Actions/), tu déploies ton conteneur et Traefik prend le relais automatiquement. Plus besoin de script de rechargement Nginx dans ton pipeline :
 
 ```bash
 # Dans ton pipeline de déploiement
@@ -206,7 +206,7 @@ docker compose up -d
 - [ ] Rate limiting sur les endpoints publics
 - [ ] Headers de sécurité activés
 - [ ] Certificats Let's Encrypt configurés
-- [ ] Monitoring via [Prometheus/Grafana](/posts/2026-06-15-Monitoring-Prometheus-Grafana/)
+- [ ] Monitoring via [Prometheus/Grafana](/posts/Monitoring-Prometheus-Grafana/)
 - [ ] Logs Traefik envoyés dans ta stack de monitoring
 - [ ] UFW configuré (80, 443, SSH uniquement)
 
@@ -223,11 +223,11 @@ Pour tout le reste, Traefik est supérieur dans un contexte Docker. C'est pas un
 *Références :*
 
 - [Documentation officielle Traefik](https://doc.traefik.io/traefik/)
-- [Reverse Proxy Nginx](/posts/2026-06-05-Reverse-Proxy-Nginx-TLS/)
-- [Sécurité Docker](/posts/2026-06-08-Docker-Security-Erreurs/)
-- [CrowdSec](/posts/2026-01-16-CrowdSec-fail2ban-futur/)
-- [Cloudflare Tunnel](/posts/2026-02-14-Cloudflare-Tunnel-zero-port/)
-- [UFW / iptables](/posts/2026-06-18-UFW-iptables-Firewall-Linux/)
-- [CI/CD GitHub Actions](/posts/2026-06-20-CICD-GitHub-Actions/)
+- [Reverse Proxy Nginx](/posts/Reverse-Proxy-Nginx-TLS/)
+- [Sécurité Docker](/posts/Docker-Security-Erreurs/)
+- [CrowdSec](/posts/CrowdSec-fail2ban-futur/)
+- [Cloudflare Tunnel](/posts/Cloudflare-Tunnel-zero-port/)
+- [UFW / iptables](/posts/UFW-iptables-Firewall-Linux/)
+- [CI/CD GitHub Actions](/posts/CICD-GitHub-Actions/)
 
 *Besoin d'un audit de ton infrastructure Docker ou d'une migration Nginx → Traefik ? [Contacte-moi](mailto:m4rv4x@protonmail.com).*

@@ -54,7 +54,7 @@ Ce que tu peux trouver avec Shodan :
 | `ssl.cert.subject:CN=example.com` | Certificats TLS d'un domaine |
 | `org:"Target Corp"` | Toute l'infra d'une organisation |
 
-Si tes services apparaissent sur Shodan, c'est que ton [UFW](/posts/2026-06-18-UFW-iptables-Firewall-Linux/) n'est pas correctement configuré ou que tu n'utilises pas de [Cloudflare Tunnel](/posts/2026-02-14-Cloudflare-Tunnel-zero-port/).
+Si tes services apparaissent sur Shodan, c'est que ton [UFW](/posts/UFW-iptables-Firewall-Linux/) n'est pas correctement configuré ou que tu n'utilises pas de [Cloudflare Tunnel](/posts/Cloudflare-Tunnel-zero-port/).
 
 ### Google Dorks — La recherche avancée
 
@@ -100,7 +100,7 @@ dig axfr example.com @ns1.example.com
 nmap -sL 203.0.113.0/24 | grep -v "Host is up"
 ```
 
-Les sous-domaines révèlent souvent des environnements de staging, d'admin, ou d'anciens services oubliés. C'est là que le [scan de vulnérabilités Nuclei](/posts/2026-03-08-Nuclei-OpenVAS-scan-vuln/) prend le relais.
+Les sous-domaines révèlent souvent des environnements de staging, d'admin, ou d'anciens services oubliés. C'est là que le [scan de vulnérabilités Nuclei](/posts/Nuclei-OpenVAS-scan-vuln/) prend le relais.
 
 ## Phase 2 : Reconnaissance active
 
@@ -171,7 +171,7 @@ curl -s "https://haveibeenpwned.com/api/v3/breachedaccount/user@example.com" \
   -H "hibp-api-key: TA_CLE"
 ```
 
-Les [hygiènes post-fuite](/posts/2026-06-17-Guide-hygiene-post-fuite/) et l'adoption de [passkeys](/posts/2026-02-07-Passkeys-FIDO2-mort-mdp/) réduisent considérablement l'impact de ces collectes.
+Les [hygiènes post-fuite](/posts/Guide-hygiene-post-fuite/) et l'adoption de [passkeys](/posts/Passkeys-FIDO2-mort-mdp/) réduisent considérablement l'impact de ces collectes.
 
 ### Reconnaissance sur le code source
 
@@ -185,7 +185,7 @@ trufflehog git https://github.com/target-org/repo.git
 gitleaks detect --source /path/to/repo
 ```
 
-La [supply chain](/posts/2026-02-05-Supply-Chain-Attacks-2026/) commence souvent par un secret exposé dans un repo public.
+La [supply chain](/posts/Supply-Chain-Attacks-2026/) commence souvent par un secret exposé dans un repo public.
 
 ## OSINT défensif : audit ta propre exposition
 
@@ -198,10 +198,10 @@ Tu devrais faire un audit OSINT sur **ta propre infra** régulièrement. Voici l
 - [ ] Vérifier les fuites associées aux emails de l'entreprise
 - [ ] Contrôler les enregistrements DNS (SPF, DKIM, DMARC)
 - [ ] Vérifier l'exposition des employés sur LinkedIn/Twitter
-- [ ] Scanner les ports exposés avec [Nuclei](/posts/2026-03-08-Nuclei-OpenVAS-scan-vuln/)
-- [ ] Vérifier que le [SSH est correctement hardened](/posts/2026-06-12-Hardening-SSH/)
+- [ ] Scanner les ports exposés avec [Nuclei](/posts/Nuclei-OpenVAS-scan-vuln/)
+- [ ] Vérifier que le [SSH est correctement hardened](/posts/Hardening-SSH/)
 
-Intègre cette checklist dans ton [playbook d'incident response](/posts/2026-05-29-Incident-Response-Playbook/) et dans tes processus d'[automatisation Ansible](/posts/2026-06-10-Automatiser-Infra-Ansible/).
+Intègre cette checklist dans ton [playbook d'incident response](/posts/Incident-Response-Playbook/) et dans tes processus d'[automatisation Ansible](/posts/Automatiser-Infra-Ansible/).
 
 ## Cadre légal
 
@@ -240,10 +240,10 @@ Chaque outil alimente le suivant. L'OSINT, c'est pas un outil, c'est une **méth
 - [theHarvester](https://github.com/laramies/theHarvester)
 - [SpiderFoot](https://www.spiderfoot.net/)
 - [Maltego](https://www.maltego.com/)
-- [Nuclei — scan de vulnérabilités](/posts/2026-03-08-Nuclei-OpenVAS-scan-vuln/)
-- [Hardening SSH](/posts/2026-06-12-Hardening-SSH/)
-- [Incident Response Playbook](/posts/2026-05-29-Incident-Response-Playbook/)
-- [Passkeys / FIDO2](/posts/2026-02-07-Passkeys-FIDO2-mort-mdp/)
-- [Supply Chain Attacks](/posts/2026-02-05-Supply-Chain-Attacks-2026/)
+- [Nuclei — scan de vulnérabilités](/posts/Nuclei-OpenVAS-scan-vuln/)
+- [Hardening SSH](/posts/Hardening-SSH/)
+- [Incident Response Playbook](/posts/Incident-Response-Playbook/)
+- [Passkeys / FIDO2](/posts/Passkeys-FIDO2-mort-mdp/)
+- [Supply Chain Attacks](/posts/Supply-Chain-Attacks-2026/)
 
 *Besoin d'un audit OSINT de ton infrastructure ? [Contacte-moi](mailto:m4rv4x@protonmail.com).*

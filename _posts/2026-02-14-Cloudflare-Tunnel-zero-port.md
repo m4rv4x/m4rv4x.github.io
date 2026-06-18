@@ -12,7 +12,7 @@ author: marvax
 
 ## Pourquoi Cloudflare Tunnel ?
 
-Le modèle classique : ouvrir le port 443, pointer un reverse proxy, gérer les certificats TLS. Ça marche, mais ça implique d'exposer ton IP publique et de gérer la surface d'attaque ([Reverse Proxy Nginx](/posts/2026-06-05-Reverse-Proxy-Nginx-TLS/)).
+Le modèle classique : ouvrir le port 443, pointer un reverse proxy, gérer les certificats TLS. Ça marche, mais ça implique d'exposer ton IP publique et de gérer la surface d'attaque ([Reverse Proxy Nginx](/posts/Reverse-Proxy-Nginx-TLS/)).
 
 Cloudflare Tunnel inverse le problème : ta machine initie la connexion vers Cloudflare (outbound). Aucun port entrant n'est nécessaire. Avantages concrets :
 
@@ -22,7 +22,7 @@ Cloudflare Tunnel inverse le problème : ta machine initie la connexion vers Clo
 | WireGuard + reverse proxy | Oui (51820) | Oui | Via proxy | Oui (si port ouvert) |
 | Cloudflare Tunnel | **Aucun** | **Non** | **Automatique** | **Oui** |
 
-Pour le contexte, compare avec l'approche [WireGuard](/posts/2026-06-19-WireGuard-VPN-SelfHosted/) qui nécessite au moins un port UDP ouvert.
+Pour le contexte, compare avec l'approche [WireGuard](/posts/WireGuard-VPN-SelfHosted/) qui nécessite au moins un port UDP ouvert.
 
 ## Prérequis
 
@@ -118,7 +118,7 @@ curl -I https://vault.example.com
 
 ## Docker Compose
 
-Si tes services tournent déjà dans Docker ([Sécurité Docker](/posts/2026-06-08-Docker-Security-Erreurs/)) :
+Si tes services tournent déjà dans Docker ([Sécurité Docker](/posts/Docker-Security-Erreurs/)) :
 
 ```yaml
 version: "3.8"
@@ -171,7 +171,7 @@ policy:
 Options d'authentification supportées :
 - Email (one-time pin)
 - GitHub, Google, OIDC
-- Clés d'accès matériel (passkeys — voir [Passkeys & FIDO2](/posts/2026-02-07-Passkeys-FIDO2-mort-mdp/))
+- Clés d'accès matériel (passkeys — voir [Passkeys & FIDO2](/posts/Passkeys-FIDO2-mort-mdp/))
 - Service tokens (pour les appels API machine-to-machine)
 
 ## Tunnel vs Reverse Proxy classique
@@ -187,16 +187,16 @@ Options d'authentification supportées :
 | Gratuité | Plan gratuit suffisant | Gratuit |
 | Contrôle total | Limité (Cloudflare edge) | Total |
 
-Le revers de la médaille : tu dépends de Cloudflare. Si leur edge est down, tes services sont inaccessibles. Pour un homelab critique, combine avec [WireGuard](/posts/2026-06-19-WireGuard-VPN-SelfHosted/) comme accès de secours.
+Le revers de la médaille : tu dépends de Cloudflare. Si leur edge est down, tes services sont inaccessibles. Pour un homelab critique, combine avec [WireGuard](/posts/WireGuard-VPN-SelfHosted/) comme accès de secours.
 
 ## Durcissement
 
 Même sans port ouvert, les bonnes pratiques s'appliquent :
 
-- **UFW** : laisse le firewall actif pour bloquer les scans locaux ([UFW & iptables](/posts/2026-06-18-UFW-iptables-Firewall-Linux/))
-- **Fail2ban** : protège les services exposés contre le brute-force ([Fail2ban avancé](/posts/2026-06-21-Fail2ban-avance/))
+- **UFW** : laisse le firewall actif pour bloquer les scans locaux ([UFW & iptables](/posts/UFW-iptables-Firewall-Linux/))
+- **Fail2ban** : protège les services exposés contre le brute-force ([Fail2ban avancé](/posts/Fail2ban-avance/))
 - **Docker security** : ne publie aucun port sur l'hôte, utilise les réseaux internes
-- **Monitoring** : surveille les logs de cloudflared dans Grafana ([Monitoring Prometheus & Grafana](/posts/2026-06-15-Monitoring-Prometheus-Grafana/))
+- **Monitoring** : surveille les logs de cloudflared dans Grafana ([Monitoring Prometheus & Grafana](/posts/Monitoring-Prometheus-Grafana/))
 
 ## Checklist de déploiement
 
@@ -213,12 +213,12 @@ Même sans port ouvert, les bonnes pratiques s'appliquent :
 
 *Références :*
 - [Documentation Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
-- [WireGuard VPN Self-Hosted](/posts/2026-06-19-WireGuard-VPN-SelfHosted/)
-- [Reverse Proxy Nginx & TLS](/posts/2026-06-05-Reverse-Proxy-Nginx-TLS/)
-- [Sécurité Docker](/posts/2026-06-08-Docker-Security-Erreurs/)
-- [UFW & iptables](/posts/2026-06-18-UFW-iptables-Firewall-Linux/)
-- [Vaultwarden self-hosted](/posts/2026-02-01-Vaultwarden-self-hosted-mdp/)
-- [Passkeys & FIDO2](/posts/2026-02-07-Passkeys-FIDO2-mort-mdp/)
-- [Monitoring Prometheus & Grafana](/posts/2026-06-15-Monitoring-Prometheus-Grafana/)
+- [WireGuard VPN Self-Hosted](/posts/WireGuard-VPN-SelfHosted/)
+- [Reverse Proxy Nginx & TLS](/posts/Reverse-Proxy-Nginx-TLS/)
+- [Sécurité Docker](/posts/Docker-Security-Erreurs/)
+- [UFW & iptables](/posts/UFW-iptables-Firewall-Linux/)
+- [Vaultwarden self-hosted](/posts/Vaultwarden-self-hosted-mdp/)
+- [Passkeys & FIDO2](/posts/Passkeys-FIDO2-mort-mdp/)
+- [Monitoring Prometheus & Grafana](/posts/Monitoring-Prometheus-Grafana/)
 
 Besoin d'un audit de ton infrastructure ou d'un coup de main sur le déploiement ? [Contacte-moi](mailto:m4rv4x@protonmail.com).

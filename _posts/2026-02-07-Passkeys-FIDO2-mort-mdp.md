@@ -17,8 +17,8 @@ On le sait tous, mais on le dit quand même :
 - **Réutilisation** : 65% des gens réutilisent le même mot de passe sur plusieurs sites
 - **Phishing** : un faux site copie-colle parfait et tu donnes ton mot de passe
 - **Brute force** : les mots de passe faibles tombent en secondes
-- **Fuites** : des milliards de credentials sont en circulation sur le dark web (voir [guide d'hygiène post-fuite](/posts/2026-06-17-Guide-hygiene-post-fuite/))
-- **Le [coffre-fort LastPass](/posts/2022-12-22-LastPass-coffre-fort-trahi/) trahi** : même un gestionnaire de mots de passe peut être compromis
+- **Fuites** : des milliards de credentials sont en circulation sur le dark web (voir [guide d'hygiène post-fuite](/posts/Guide-hygiene-post-fuite/))
+- **Le [coffre-fort LastPass](/posts/LastPass-coffre-fort-trahi/) trahi** : même un gestionnaire de mots de passe peut être compromis
 
 Le 2FA (TOTP) aide, mais c'est un pansement. Les codes TOTP peuvent être phishés en temps réel (real-time phishing proxy).
 
@@ -97,7 +97,7 @@ Si tu crées une passkey sur iPhone, elle est dans iCloud. Elle ne passe pas aut
 
 **Les solutions :**
 
-1. **Gestionnaire de mots de passe tiers** : [Vaultwarden](/posts/2026-02-01-Vaultwarden-self-hosted-mdp/) et Bitwarden supportent le stockage de passkeys cross-platform
+1. **Gestionnaire de mots de passe tiers** : [Vaultwarden](/posts/Vaultwarden-self-hosted-mdp/) et Bitwarden supportent le stockage de passkeys cross-platform
 2. **Clés physiques** : YubiKey 5 — ta passkey est sur le hardware, pas dans un cloud
 3. **Export/transfert** : le FIDO Alliance travaille sur un format d'export standard (Credential Exchange Protocol)
 
@@ -124,7 +124,7 @@ Si tu crées une passkey sur iPhone, elle est dans iCloud. Elle ne passe pas aut
 ### Étape 1 : Choisir un gestionnaire compatible
 
 Utilise un gestionnaire de mots de passe qui supporte les passkeys :
-- **Vaultwarden** (self-hosted, gratuit) — voir [le guide de déploiement](/posts/2026-02-01-Vaultwarden-self-hosted-mdp/)
+- **Vaultwarden** (self-hosted, gratuit) — voir [le guide de déploiement](/posts/Vaultwarden-self-hosted-mdp/)
 - **Bitwarden** (cloud, freemium)
 - **1Password** (payant)
 
@@ -156,7 +156,7 @@ Garde le mot de passe comme méthode de secours tant que tu n'as pas :
 
 ## L'OSINT et les passkeys
 
-L'[OSINT](/posts/2026-06-10-OSINT-reconnaissance-ouverte/) sert à identifier les cibles via les fuites de mots de passe. Avec les passkeys, ce vecteur disparaît : pas de mot de passe à fuiter, pas de hash à cracker, pas de credential stuffing possible.
+L'[OSINT](/posts/OSINT-reconnaissance-ouverte/) sert à identifier les cibles via les fuites de mots de passe. Avec les passkeys, ce vecteur disparaît : pas de mot de passe à fuiter, pas de hash à cracker, pas de credential stuffing possible.
 
 C'est un gain défensif majeur.
 
@@ -184,7 +184,7 @@ Les passkeys sont **la meilleure chose qui soit arrivée à l'authentification**
 - [ ] Codes de récupération générés et stockés hors ligne
 - [ ] Mots de passe de secours conservés (pas encore supprimés)
 - [ ] SMS désactivé comme 2FA partout (remplacé par TOTP ou passkey)
-- [ ] [Hygiène post-fuite](/posts/2026-06-17-Guide-hygiene-post-fuite/) effectuée sur les anciens comptes
+- [ ] [Hygiène post-fuite](/posts/Guide-hygiene-post-fuite/) effectuée sur les anciens comptes
 - [ ] Stratégie de récupération documentée et testée
 
 ---

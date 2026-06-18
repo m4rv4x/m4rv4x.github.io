@@ -12,7 +12,7 @@ author: marvax
 
 ## Pourquoi self-héberger son gestionnaire de mots de passe ?
 
-Le [fiasco LastPass](/posts/2022-12-22-LastPass-coffre-fort-trahi/) a montré que même les spécialistes du mot de passe se font défoncer. Self-héberger, c'est :
+Le [fiasco LastPass](/posts/LastPass-coffre-fort-trahi/) a montré que même les spécialistes du mot de passe se font défoncer. Self-héberger, c'est :
 
 - **Contrôle total** : tes données ne quittent jamais ton infrastructure
 - **Pas de dépendance** : si le service public est down ou compromis, tu n'es pas impacté
@@ -150,13 +150,13 @@ server {
 }
 ```
 
-Pour la configuration TLS complète, voir le guide [Reverse Proxy Nginx & TLS](/posts/2026-06-05-Reverse-Proxy-Nginx-TLS/).
+Pour la configuration TLS complète, voir le guide [Reverse Proxy Nginx & TLS](/posts/Reverse-Proxy-Nginx-TLS/).
 
 ## Accès distant sécurisé
 
 Exposer Vaultwarden sur Internet, c'est un risque. Options par ordre de préférence :
 
-1. **VPN uniquement** : accessible uniquement via [WireGuard](/posts/2026-06-19-WireGuard-VPN-SelfHosted/) — le plus sûr
+1. **VPN uniquement** : accessible uniquement via [WireGuard](/posts/WireGuard-VPN-SelfHosted/) — le plus sûr
 2. **Cloudflare Tunnel** : pas besoin d'ouvrir de port, protection WAF incluse
 3. **Exposition directe** via reverse proxy — fonctionnel mais plus exposé
 
@@ -185,7 +185,7 @@ WEBSOCKET_ENABLED=true
 # Settings → Security → Two-step login
 ```
 
-Pour aller plus loin sur l'authentification moderne, voir [Passkeys & FIDO2 : la mort du mot de passe](/posts/2026-02-07-Passkeys-FIDO2-mort-mdp/).
+Pour aller plus loin sur l'authentification moderne, voir [Passkeys & FIDO2 : la mort du mot de passe](/posts/Passkeys-FIDO2-mort-mdp/).
 
 ## Stratégie de backup
 
@@ -217,7 +217,7 @@ echo "[$(date)] Backup Vaultwarden terminé"
 echo "0 3 * * * root /opt/vaultwarden/backup.sh" >> /etc/crontab
 ```
 
-Pour une stratégie de backup complète et chiffrée, voir [BorgBackup : stratégie de backup](/posts/2026-03-13-BorgBackup-strategie-backup/).
+Pour une stratégie de backup complète et chiffrée, voir [BorgBackup : stratégie de backup](/posts/BorgBackup-strategie-backup/).
 
 ## Maintenance
 
@@ -241,8 +241,8 @@ curl -f http://127.0.0.1:8080/alive || echo "VAULTWARDEN DOWN"
 
 - **Rate limiting** Nginx sur `/api/identity/connect/token` (anti brute force)
 - **Fail2ban/CrowdSec** : jail personnalisée pour les échecs Vaultwarden
-- **Monitoring** : exporter les métriques vers [Prometheus & Grafana](/posts/2026-06-15-Monitoring-Prometheus-Grafana/)
-- **SSH durci** sur le serveur hôte : [Hardening SSH](/posts/2026-06-12-Hardening-SSH/)
+- **Monitoring** : exporter les métriques vers [Prometheus & Grafana](/posts/Monitoring-Prometheus-Grafana/)
+- **SSH durci** sur le serveur hôte : [Hardening SSH](/posts/Hardening-SSH/)
 - **Inscription désactivée** après le setup initial
 
 ```bash

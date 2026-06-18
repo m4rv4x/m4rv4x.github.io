@@ -184,10 +184,10 @@ sudo apt install crowdsec-firewall-bouncer-iptables -y
 
 CrowdSec s'intègre parfaitement dans une architecture de défense en profondeur :
 
-- Firewall réseau via [UFW & iptables](/posts/2026-06-18-UFW-iptables-Firewall-Linux/)
-- Endurcissement SSH via [Hardening SSH](/posts/2026-06-12-Hardening-SSH/)
-- Scan de vulnérabilités avec [Nuclei & OpenVAS](/posts/2026-03-08-Nuclei-OpenVAS-scan-vuln/)
-- Et si tu veux garder Fail2ban pour des cas spécifiques, voici le [guide avancé](/posts/2026-06-21-Fail2ban-avance/)
+- Firewall réseau via [UFW & iptables](/posts/UFW-iptables-Firewall-Linux/)
+- Endurcissement SSH via [Hardening SSH](/posts/Hardening-SSH/)
+- Scan de vulnérabilités avec [Nuclei & OpenVAS](/posts/Nuclei-OpenVAS-scan-vuln/)
+- Et si tu veux garder Fail2ban pour des cas spécifiques, voici le [guide avancé](/posts/Fail2ban-avance/)
 
 ## Checklist
 
