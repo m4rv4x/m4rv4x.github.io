@@ -1,6 +1,6 @@
 ---
 title: "WireGuard : VPN self-hosted en 10 minutes"
-date: 2026-06-19 10:00 +0200
+date: 2026-06-17 10:00 +0200
 categories: ["Sysops"]
 tags: ["vpn", "wireguard", "linux", "sysops", "self-hosted", "infrastructure", "sécurité", "chiffrement"]
 author: marvax

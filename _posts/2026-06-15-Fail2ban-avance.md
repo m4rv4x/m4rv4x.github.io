@@ -1,6 +1,6 @@
 ---
 title: "Fail2ban avancé : au-delà du basique"
-date: 2026-06-21 10:00 +0200
+date: 2026-06-15 10:00 +0200
 categories: ["Sécurité"]
 tags: ["fail2ban", "linux", "sécurité", "sysops", "hardening", "infrastructure", "opsec"]
 author: marvax

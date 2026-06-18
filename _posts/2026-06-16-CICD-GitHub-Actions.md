@@ -1,6 +1,6 @@
 ---
 title: "CI/CD avec GitHub Actions : déploys automatisés"
-date: 2026-06-20 10:00 +0200
+date: 2026-06-16 10:00 +0200
 categories: ["Dev"]
 tags: ["ci-cd", "github-actions", "automatisation", "devops", "docker", "déploiement", "infrastructure"]
 author: marvax
