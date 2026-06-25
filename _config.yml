@@ -118,13 +118,25 @@ favicon_ico: https://avatars.githubusercontent.com/u/33978801
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: cactus  # Cactus Comments (Matrix-based, anonymous)
-  # Cactus Comments options › https://cactus.chat
-  cactus:
-    site_name: blog.marvax.fun
-    server_name: cactus.chat
-    guest_posting_enabled: true
-    login_enabled: true
+  provider: giscus  # GitHub Discussions-based comments
+  # The provider options are as follows:
+  disqus:
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings › https://utteranc.es/
+  utterances:
+    repo: # <gh-username>/<repo>
+    issue_term: # < url | pathname | title | ...>
+  # Giscus options › https://giscus.app
+  giscus:
+    repo: m4rv4x/m4rv4x.github.io
+    repo_id: R_kgDOP0-9DQ
+    category: Announcements
+    category_id: DIC_kwDOP0-9Dc4C_U_j
+    mapping: pathname
+    strict: '0'
+    input_position: bottom
+    lang: fr
+    reactions_enabled: '1'
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
