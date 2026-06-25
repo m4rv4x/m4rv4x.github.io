@@ -1,7 +1,7 @@
 ---
 title: 2025 – Chat Control, L'Architecture de la Surveillance Totale
 date: 2025-09-25 10:00 +0100
-categories: ["Veille"]
+categories: ["Histoire"]
 tags: ["surveillance", "cryptographie", "anonymat"]
 author: marvax
 ---
