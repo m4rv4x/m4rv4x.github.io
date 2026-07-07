@@ -950,13 +950,30 @@
       'sortie-xp': 3456,
       'bug-an-2000': 2890,
       'hello-world': 456,
+      'vault-7-cia-arsenal-numerique': 6540,
+      'whatsapp-pegasus-zero-click': 5812,
+      'crowdsec-fail2ban-futur': 1387,
+      'vaultwarden-self-hosted-mdp': 1124,
+      'supply-chain-attacks-2026': 2290,
+      'passkeys-fido2-mort-mdp': 1578,
+      'cloudflare-tunnel-zero-port': 1210,
+      'nuclei-openvas-scan-vuln': 784,
+      'borgbackup-strategie-backup': 956,
+      'traefik-reverse-proxy-docker': 1345,
+      'incident-response-playbook': 1823,
+      'osint-reconnaissance-ouverte': 2134,
+      'fail2ban-avance': 1502,
+      'cicd-github-actions': 1089,
+      'wireguard-vpn-selfhosted': 1647,
+      'ufw-iptables-firewall-linux': 1912,
     };
 
     const pageviewsEl = document.getElementById('pageviews');
     if (pageviewsEl) {
       const slug = window.location.pathname.split('/').filter(Boolean).pop();
-      if (fakeViews[slug]) {
-        const count = fakeViews[slug];
+      const slugLower = slug.toLowerCase();
+      const count = fakeViews[slug] || fakeViews[slugLower];
+      if (count) {
         const formatted = count >= 1000 ? (count / 1000).toFixed(1) + 'k' : count;
         pageviewsEl.innerHTML = '<i class="fas fa-eye"></i> ' + formatted;
         pageviewsEl.style.fontStyle = 'normal';
