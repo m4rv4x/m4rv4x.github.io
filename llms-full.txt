@@ -1,0 +1,593 @@
+# blog.marvax.fun — Full Content Index
+
+> Complete article summaries for LLM context. Each entry includes title,
+> category, tags, and a content extract.
+
+## 2023 – IA générative et cybermenaces, L'ère des machines malveillantes
+URL: https://marvax.fun/posts/AI-Generative-Threats/
+Category: Histoire
+Tags: ia, attaque, hacktivisme, underground, zero-day, malware
+
+Quand la matrice s’éveille “Dans la lumière blafarde des écrans, les machines murmurent des secrets. 2023 : l’IA générative explose, l’underground s’enflamme, la frontière entre humain et machine s’efface. Bienvenue dans l’ère des hackers synthétiques.” Minuit numérique. La ville dort, mais les serveurs s’agitent. Dans les datacenters, des modèles de langage s’entraînent, ingèrent le web, rêvent en silence. ChatGPT, Midjourney, DALL-E… Des noms qui claquent comme des alias de hackers. Des IA...
+
+---
+
+## 2026 – Agents IA, Le bureau sans mains et la sous-traitance cognitive totale
+URL: https://marvax.fun/posts/Agents-IA-bureau-sans-mains/
+Category: Histoire
+Tags: ia, dev, productivité, société, opsec
+
+2026. Les open spaces n’ont pas disparu. Ils se sont vidés de certaines mains. Les écrans sont toujours là, les dashboards respirent encore, les chefs demandent des comptes rendus, les commerciaux veulent des réponses, les RH des synthèses, les managers des plans d’action. La différence, c’est qu’entre la demande et le texte, entre le ticket et la réponse, entre la donnée et la décision, une armée de petits agents logiciels travaille désormais dans l’ombre. Le bureau ne pense plus seul. Il...
+
+---
+
+## 2003 – Anonymous émerge, Le masque sans visage dans les entrailles du web
+URL: https://marvax.fun/posts/Anonymous-emerge/
+Category: Histoire
+Tags: hacktivisme, culture-web, underground
+
+2003. Le web n’a pas encore de masque iconique, pas encore de slogan global, pas encore de mythologie Netflix-compatible. Il a juste des imageboards, de l’anonymat brut, des pseudonymes jetables, des torrents de mépris, des blagues idiotes, des raids et cette énergie trouble des foules sans visage. Anonymous n’émerge pas comme un mouvement noble. Il surgit d’un marécage de lulz, d’ironie, de cruauté, d’expérimentation sociale permanente. C’est précisément ce qui le rend fascinant : avant d’être...
+
+---
+
+## 2015 – Ashley Madison, Adultère, fuite massive et autopsie d’une honte numérique
+URL: https://marvax.fun/posts/Ashley-Madison-honte-numerique/
+Category: Histoire
+Tags: fuite-de-données, vie-privée, attaque
+
+2015. Sur le web, tout le monde prétend aimer la transparence jusqu’au jour où la transparence devient une exécution publique. Ashley Madison vendait la discrétion adultère comme un service premium, un coffre-fort pour pulsions bourgeoises sous abonnement. Puis la base craque. D’un coup, ce ne sont plus seulement des comptes qui fuient, mais des mariages, des réputations, des routines, des identités sociales entières. L’affaire révèle quelque chose de très moderne : quand une plateforme...
+
+---
+
+## Automatiser son infra avec Ansible : guide terrain
+URL: https://marvax.fun/posts/Automatiser-Infra-Ansible/
+Category: Dev
+Tags: ansible, automatisation, devops, linux, sysops, docker
+
+Tu connectes encore tes serveurs en SSH pour taper des commandes à la main ? Arrête. Ansible te permet de décrire ton infrastructure en code, de la reproduire à l’identique, et de dormir tranquille. Voici comment je l’utilise au quotidien. Pourquoi Ansible ? Parmi les outils IaC (Infrastructure as Code), Ansible a un avantage massif : pas d’agent. Tu pousses tout en SSH. Zéro daemon à installer sur les cibles. Outil Agent requis Langage Courbe Ansible Non YAML Douce Puppet Oui Ruby DSL Raide...
+
+---
+
+## BadHost — Un caractère et votre framework web passe à l'ennemi
+URL: https://marvax.fun/posts/BadHost-Starlette-RCE/
+Category: Sécurité
+Tags: rce, starlette, fastapi, python, web, supply-chain, agents-ia
+
+Un simple caractère malformé dans le header Host d’une requête HTTP suffit à contourner les protections de sécurité de Starlette et FastAPI. La faille BadHost (CVE-2026-48710) expose un pattern qu’on retrouve de plus en plus dans la chaîne d’approvisionnement de l’IA. La faille Starlette est un framework ASGI léger en Python, utilisé directement ou via FastAPI (qui en dépend). En mai 2026, la vulnérabilité BadHost (CVE-2026-48710) a été divulguée : le header Host n’était pas validé avant d’être...
+
+---
+
+## 2008 – Bitcoin, Dystopie Monétaire, Cypherpunk, No Trust & Black Hat Underground
+URL: https://marvax.fun/posts/Bitcoin/
+Category: Histoire
+Tags: blockchain, hacktivisme, underground, société, culture-web, blackhat
+
+“Dans la lumière blafarde des écrans, les banques murmurent, les cypherpunks s’agitent, et l’ombre d’un inconnu plane sur la matrice monétaire. 31 octobre 2008 : la confiance explose, la paranoïa s’installe. Bienvenue dans la dystopie de la monnaie numérique.” Minuit numérique. La ville dort, mais la matrice s’agite. Dans les serveurs, un message s’infiltre, froid, chirurgical : “J’ai trouvé comment tuer le banquier.” Un whitepaper, signé d’un pseudonyme : Satoshi Nakamoto. Personne ne sait qui...
+
+---
+
+## 2019 – Première image d’un trou noir, L’œil interdit, le mystère cosmique
+URL: https://marvax.fun/posts/Black-Hole-Image/
+Category: Histoire
+Tags: science, ia, hacktivisme, underground, culture-web
+
+“10 avril 2019. Sous la lumière spectrale des écrans, l’humanité braque ses instruments vers l’inconnu. Un œil noir s’ouvre dans le ciel, et soudain, tout le monde retient son souffle. Ce n’est plus de la science, c’est une rencontre du troisième type. L’univers nous observe, et personne ne sait ce qu’il va se passer.” Minuit universel. La ville dort, mais dans les data centers, les machines s’éveillent. Un code s’active, traverse les fibres, assemble l’impossible. Un œil noir, immense,...
+
+---
+
+## BorgBackup : stratégie de backup 3-2-1 pour homelab
+URL: https://marvax.fun/posts/BorgBackup-strategie-backup/
+Category: Sysops
+Tags: borgbackup, backup, sysops, infrastructure, linux, self-hosted
+
+Le ransomware qui chiffre tes données, le disque qui lâche, la commande rm -rf mal placée — c’est jamais le bon moment. BorgBackup est l’outil de backup le plus sous-estimé de l’écosystème Linux : déduplication, chiffrement natif, compression, snapshots incrémentaux. Cet article te montre comment implémenter une stratégie 3-2-1 complète, de l’installation à l’automatisation, en passant par la restauration. Parce qu’un backup non testé, c’est pas un backup. La règle 3-2-1 C’est simple et ça...
+
+---
+
+## Y2K, L'Apocalypse Numérique qui n'a Jamais Eu Lieu
+URL: https://marvax.fun/posts/Bug-an-2000/
+Category: Histoire
+Tags: histoire-tech, vulnérabilité, underground, hacktivisme, surveillance, société
+
+Dans les entrailles du système, où chaque bit compte et où chaque seconde est mesurée, une faille temporelle a failli faire s’effondrer l’architecture de la civilisation numérique. Le 1er janvier 2000, l’humanité a frôlé l’apocalypse — pas celle des bombes nucléaires, mais celle des machines qui ne comprenaient plus le temps. L’Architecture de la Vulnérabilité Le Y2K n’était pas un bug — c’était un défaut de conception systémique. Pendant des décennies, les programmeurs avaient codé à...
+
+---
+
+## CI/CD avec GitHub Actions : déploys automatisés
+URL: https://marvax.fun/posts/CICD-GitHub-Actions/
+Category: Dev
+Tags: ci-cd, github-actions, automatisation, devops, docker, déploiement, infrastructure
+
+Si tu déploies encore en SSH à la main, c’est le moment de passer à la CI/CD. GitHub Actions est gratuit pour les repos publics et suffisant pour la plupart des projets. Voici des workflows concrets que j’utilise au quotidien. CI/CD en 30 secondes CI (Continuous Integration) : à chaque push, tester automatiquement le code. CD (Continuous Deployment) : si les tests passent, déployer automatiquement. git push → Tests → Build → Deploy → Production Workflow de base .github/workflows/ci.yml : name:...
+
+---
+
+## 2020 – COVID-19 & Télétravail, Pandémie, dystopie et cyber-contrôle sous néons froids
+URL: https://marvax.fun/posts/COVID19-Telework/
+Category: Histoire
+Tags: société, sysops, blackhat
+
+Quand la pandémie injecte le virus du contrôle dans la matrice du travail “Dans la lumière blafarde des écrans, la liberté s’effrite. Les connexions s’enchaînent, les foyers deviennent des cellules, et chaque pixel est un œil. Bienvenue en 2020, année où la pandémie a hacké le monde du travail.” Mars 2020. La ville s’éteint, les rues se vident, les néons clignotent dans le brouillard viral. Le monde se confine, la peur s’infiltre dans les fibres optiques. Un nouvel ordre s’installe :...
+
+---
+
+## 2018 – Cambridge Analytica, Le hack de la démocratie sous néons froids
+URL: https://marvax.fun/posts/Cambridge-Analytica/
+Category: Histoire
+Tags: données-personnelles, facebook, attaque, société
+
+Démocratie piratée, société sous surveillance “Dans la lumière blafarde des écrans, la vérité s’efface. Les données, elles, ne mentent jamais. Elles trahissent, elles manipulent, elles tuent la liberté. Bienvenue en 2018, année où la démocratie a été hackée.” 17 mars 2018. La nuit tombe sur le réseau. Les serveurs ronronnent, les datacenters suintent la chaleur toxique des secrets. Un nom s’infiltre dans les flux RSS, les timelines, les forums obscurs : Cambridge Analytica. Un nom comme un...
+
+---
+
+## 2025 – Chat Control, L'Architecture de la Surveillance Totale
+URL: https://marvax.fun/posts/Chat-control-et-fin-anonymat/
+Category: Histoire
+Tags: surveillance, cryptographie, anonymat
+
+Dans les profondeurs du système, là où la lumière ne passe plus et où chaque bit est surveillé, une nouvelle architecture émerge. Ce ne sont plus seulement les serveurs qui écoutent, mais vos propres appareils qui vous trahissent. Bienvenue dans l’ère du client-side scanning, où votre téléphone devient votre surveillant. Le Masque de la Protection L’État ne dit pas tout. Sous couvert de “protéger les enfants”, se cache l’une des architectures de surveillance les plus sophistiquées jamais...
+
+---
+
+## 2023 – ChatGPT au bureau, L’automatisation du plausible dans les open spaces
+URL: https://marvax.fun/posts/ChatGPT-au-bureau/
+Category: Histoire
+Tags: ia, productivité, société, attaque
+
+2023. Cette fois, l’histoire n’est pas celle de l’IA comme arsenal cyber générique, déjà racontée ailleurs. C’est celle de son arrivée dans le quotidien banal du travail. ChatGPT entre dans les open spaces, les supports, les boîtes mail, les documents RH, les pitchs, les comptes rendus, les réponses commerciales. Il n’est plus seulement perçu comme un outil de hackers ou de laboratoires. Il devient un collègue fantôme, bon marché, toujours disponible, capable de produire du plausible à la...
+
+---
+
+## Cloudflare Tunnel : expose tes services sans ouvrir un port
+URL: https://marvax.fun/posts/Cloudflare-Tunnel-zero-port/
+Category: Sysops
+Tags: cloudflare, tunnel, zero-trust, self-hosted, sécurité, sysops, infrastructure
+
+Tu veux exposer un service self-hosted au monde sans ouvrir un seul port sur ton routeur ? Cloudflare Tunnel (cloudflared) crée un tunnel chiffré outbound depuis ta machine vers l’edge Cloudflare. Zéro port ouvert, zéro IP exposée, HTTPS automatique. C’est la méthode la plus propre pour exposer tes services depuis un homelab ou un VPS derrière un CGNAT. Pourquoi Cloudflare Tunnel ? Le modèle classique : ouvrir le port 443, pointer un reverse proxy, gérer les certificats TLS. Ça marche, mais ça...
+
+---
+
+## 2021 – Colonial Pipeline, Opération Blackout, Rapport confidentiel sur la cyberguerre énergétique
+URL: https://marvax.fun/posts/Colonial-Pipeline/
+Category: Histoire
+Tags: ransomware, sysops, géopolitique, renseignement
+
+Rapport d’incident, Bureau 17, Langley, VA Classification : TOP SECRET // EYES ONLY Source : Desk Analyst, Cyber Threat Division, CIA “À 03:17 EST, le 7 mai 2021, Colonial Pipeline Company a signalé une compromission majeure de ses systèmes OT/IT. L’attaque, attribuée au groupe DarkSide, a déclenché l’arrêt de 8 850 km de pipelines, affectant 45% de l’approvisionnement en carburant de la côte Est. Impact : critique. Menace : persistante. Attribution : probable proxy hostile.” I. Chronologie de...
+
+---
+
+## 2008 – Conficker Worm, Le spectre cyberpunk qui hante les réseaux
+URL: https://marvax.fun/posts/Conficker-Worm/
+Category: Histoire
+Tags: malware, botnet, windows, vulnérabilité, hacktivisme, underground, opsec, blackhat
+
+L’ombre qui rôde dans la matrice 2008. Nuit noire sur le réseau. Les néons clignotent, les firewalls suintent la parano. Dans les bas-fonds du cyberespace, un murmure circule : Conficker est là. Un spectre numérique, invisible, insaisissable, qui s’infiltre dans les veines de la matrice Windows. Ce n’est pas un simple malware. C’est une créature cyberpunk, un code vivant, qui mute, s’adapte, et ricane face aux antivirus. Des millions de machines zombifiées, un botnet tentaculaire, silencieux,...
+
+---
+
+## 2009 – Conficker, Le 1er avril où Internet a attendu la fin du monde
+URL: https://marvax.fun/posts/Conficker-fin-du-monde/
+Category: Histoire
+Tags: malware, botnet, linux, windows
+
+2009. Cette fois, l’histoire n’est plus celle du ver lui-même, mais celle de l’attente. Conficker est déjà installé depuis des mois dans des millions de machines, et toute la planète sécurité fixe désormais le 1er avril comme on surveille un compte à rebours nucléaire. Le plus intéressant dans ce chapitre n’est pas la propagation initiale, déjà documentée ailleurs. C’est la manière dont un botnet silencieux a réussi à imposer sa temporalité au réseau mondial, à transformer administrateurs,...
+
+---
+
+## CrowdSec : le Fail2ban du futur
+URL: https://marvax.fun/posts/CrowdSec-fail2ban-futur/
+Category: Sécurité
+Tags: crowdsec, fail2ban, sécurité, linux, sysops, hardening, infrastructure
+
+Fail2ban bloque les attaquants en local. CrowdSec fait la même chose, mais en partageant la menace avec toute la communauté. Si un serveur à l’autre bout du monde se fait scanner, ton instance le sait avant même que l’attaque arrive chez toi. Voici comment passer de l’IDS local au renseignement collectif. CrowdSec vs Fail2ban On me pose souvent la question : « Je dois choisir entre les deux ? ». La réponse courte : CrowdSec est un remplaçant direct de Fail2ban, mais la philosophie est...
+
+---
+
+## 2024 – CrowdStrike, L’écran bleu mondial et la fragilité totale de l’infrastructure
+URL: https://marvax.fun/posts/CrowdStrike-ecran-bleu-mondial/
+Category: Histoire
+Tags: sécurité-outils, windows, sysops, cybersécurité
+
+19 juillet 2024. Les aéroports bégayent, les hôpitaux improvisent, les traders fixent un écran bleu comme on regarde une sirène d’ambulance dans le rétroviseur. Aucun missile, aucun ransomware, aucun commando masqué. Juste une mise à jour de sécurité qui décide, au petit matin, de se transformer en sabotage planétaire. La dystopie moderne ne fait même plus semblant : parfois, l’infrastructure s’effondre toute seule. I. Prologue : Le jour où l’antivirus est devenu l’incident On a longtemps...
+
+---
+
+## Docker security : les erreurs que tout le monde fait
+URL: https://marvax.fun/posts/Docker-Security-Erreurs/
+Category: Sécurité
+Tags: docker, sysops, hardening, devops, infrastructure
+
+Docker c’est pratique. Docker c’est rapide. Docker c’est aussi un faux sentiment de sécurité. Un conteneur n’est PAS une VM. Si tu n’as jamais audité tes Dockerfiles et ton runtime, tu as probablement des trous. Voici les 10 erreurs que je vois partout — et comment les corriger. Erreur 1 : docker run --privileged Le flag --privileged donne au conteneur accès à TOUS les devices de l’hôte. C’est l’équivalent de donner les clés du château. # NON docker run --privileged nginx # OUI — donne...
+
+---
+
+## 2012 – Dropbox, LinkedIn, Last.fm, L’année où les mots de passe ont cessé d’être des secrets
+URL: https://marvax.fun/posts/Dropbox-LinkedIn-Lastfm-mots-de-passe/
+Category: Histoire
+Tags: cloud, réseaux-sociaux, sécurité-outils, attaque, fuite-de-données
+
+2012. Les mots de passe tombent comme des dents de lait. LinkedIn, Dropbox, Last.fm : trois noms, trois rappels, une même vérité qui remonte des profondeurs du web. L’identité numérique du grand public repose encore sur des habitudes fragiles, des secrets recyclés et une confiance absurde dans l’idée qu’une chaîne de caractères suffira à tenir le monde connecté à distance. Cette année-là, l’illusion se fissure pour de bon. Le mot de passe cesse d’être un secret. Il devient un matériau de...
+
+---
+
+## 2017 – Equifax, Le squelette administratif de l’Amérique exposé en clair
+URL: https://marvax.fun/posts/Equifax-squelette-en-clair/
+Category: Histoire
+Tags: fuite-de-données, java, données-personnelles
+
+2017. Certains leaks exposent des comptes. D’autres exposent des individus. Equifax appartient à une troisième catégorie, plus grave : la fuite qui met à nu la structure documentaire d’un pays entier. Numéros de sécurité sociale, dates de naissance, identités civiles, historique financier latent. Ce n’est plus seulement une compromission. C’est une radiographie nationale laissée dans la lumière. I. Prologue : les bureaux de crédit comme organes fantômes Le grand public pense rarement aux...
+
+---
+
+## 2004 – Facebook est lancé, Le réseau social qui a hacké nos cerveaux
+URL: https://marvax.fun/posts/Facebook-est-lance/
+Category: Histoire
+Tags: facebook, réseaux-sociaux, données-personnelles, surveillance, hacktivisme, underground
+
+Quand Zuckerberg a ouvert la boîte de Pandore numérique 4 février 2004. Dans un dortoir de Harvard, un étudiant de 19 ans lance “The Facebook”. Le décor sent encore la pizza froide, les câbles Ethernet et l’arrogance des campus américains persuadés d’inventer l’avenir entre deux partiels. Le service paraît dérisoire : un annuaire étudiant amélioré, une couche de statut social branchée sur les trombinoscopes universitaires, un petit système de validation identitaire pour adolescents surdotés qui...
+
+---
+
+## Fail2ban avancé : au-delà du basique
+URL: https://marvax.fun/posts/Fail2ban-avance/
+Category: Sécurité
+Tags: fail2ban, linux, sécurité, sysops, hardening, infrastructure, opsec
+
+Fail2ban c’est pas juste apt install fail2ban et oublier. Avec les bonnes configs, ça devient un vrai système de détection d’intrusion. Voici comment l’utiliser au-delà du basique. Ce que Fail2ban fait vraiment Fail2ban lit les logs, détecte les patterns d’attaque (tentatives échouées), et bloque les IP via le firewall. C’est un IDS léger basé sur les logs. Log file → Filter (regex) → Pattern match → Ban action (iptables/nftables/ufw) Setup robuste sudo apt install fail2ban -y # Config locale...
+
+---
+
+## 2012 – Flame Malware, L'espion numérique qui a hacké le Moyen-Orient
+URL: https://marvax.fun/posts/Flame-Malware/
+Category: Histoire
+Tags: malware, surveillance, géopolitique, hacktivisme, underground
+
+Mai 2012. Nuit électrique sur le réseau. Les analystes s’agitent, les gouvernements paniquent, les hackers sourient, arrogants. Flame vient d’être révélé au monde, mais dans l’underground, on le traque depuis 2010 déjà. Ce n’est pas un simple malware, c’est une déclaration d’amour toxique à la cyberguerre, une romance noire entre code, espionnage et paranoïa. Mr. Robot aurait applaudi, hoodie sur la tête, sourire en coin. I. Prologue : L’amour vache du cyberespionnage Flame, c’est la poésie...
+
+---
+
+## Guide opérationnel d'hygiène post-fuite
+URL: https://marvax.fun/posts/Guide-hygiene-post-fuite/
+Category: Veille
+Tags: fuite-de-données, phishing, usurpation-identité, vpn, ingénierie-sociale, anssi, données-personnelles
+
+Fuite de données France Travail, mutuelles, opérateurs, administrations — des dizaines de millions de dossiers exposés en 2024-2026. Noms, emails, numéros, adresses, situations familiales. Ce document détaille les 10 contre-mesures prioritaires à appliquer pour réduire l’impact opérationnel d’une telle exposition. Contexte En 2024-2026, des dizaines de millions de dossiers administratifs français ont fuité. Pas par un hack spectaculaire. Par un serveur mal configuré, un prestataire négligent,...
+
+---
+
+## Hardening SSH : au-delà des basics
+URL: https://marvax.fun/posts/Hardening-SSH/
+Category: Sécurité
+Tags: ssh, hardening, linux, sysops, opsec, infrastructure, kernel, zero-day
+
+Changer le port SSH et désactiver root, tout le monde le fait. Mais ça ne suffit plus. Voici mon checklist complète pour verrouiller SSH comme un coffre-fort — avec les commandes exactes et les explications derrière chaque choix. La baseline (si tu n’as même pas ça, arrête tout) # /etc/ssh/sshd_config — minimum vital Port 2222 PermitRootLogin no PasswordAuthentication no PubkeyAuthentication yes MaxAuthTries 3 sudo systemctl restart sshd OK, tout le monde fait ça. Maintenant, le vrai hardening....
+
+---
+
+## 2014 – Heartbleed Bug, Le cœur qui saigne du web
+URL: https://marvax.fun/posts/Heartbleed/
+Category: Histoire
+Tags: vulnérabilité, cryptographie, web, hacktivisme, underground
+
+7 avril 2014. Nuit blanche sur la matrice. Les serveurs palpitent, le web saigne. Heartbleed vient d’être révélé, et dans l’underground, on sourit, arrogant, hoodie sur la tête, clavier en feu. Ce n’est pas juste un bug, c’est une histoire d’amour toxique entre la confiance et la trahison. Mr. Robot aurait applaudi, verre à la main, cynique et fasciné. I. Prologue : Le cœur du web, la faille fatale Dans les profondeurs d’OpenSSL, là où bat le cœur du chiffrement, une faille s’est glissée. Un...
+
+---
+
+## Mon premier article
+URL: https://marvax.fun/posts/Hello-world/
+Category: Veille
+Tags: dev, anonymat, société, gafam
+
+Fréquence Pirate : première émission depuis le terrier 11 septembre 1999. Ce billet ressemble à un banal hello world. En réalité, c’est plutôt un branchement illégal sur une fréquence pirate, un premier signal envoyé depuis un sous-sol de la matrice où les machines chauffent trop, où les routeurs clignotent comme des cigarettes dans le noir, et où l’on apprend très tôt qu’Internet n’est pas seulement un réseau. C’est une frontière. Si tu lis ces lignes, c’est que tu as déjà capté quelque chose....
+
+---
+
+## Incident Response Playbook : que faire quand ça pète
+URL: https://marvax.fun/posts/Incident-Response-Playbook/
+Category: Sécurité
+Tags: incident-response, playbook, sécurité, sysops, forensics, opsec, infrastructure
+
+Un incident de sécurité, c’est pas une question de “si” mais de “quand”. Ce playbook te donne une méthodologie structurée en 5 phases pour gérer un incident de bout en bout : détection, confinement, éradication, récupération, et retour d’expérience. Avec des checklists concrètes et des outils concrets. Pourquoi un playbook ? Quand ça pète, le stress prend le dessus. Tu oublies des étapes, tu prends des décisions à l’arrache, tu effaces des preuves sans le vouloir. Un playbook, c’est ton GPS...
+
+---
+
+## 2007 – iPhone, La révolution mobile qui a hacké nos poches
+URL: https://marvax.fun/posts/Iphone/
+Category: Histoire
+Tags: apple, mobile, hacktivisme, underground
+
+L’ordinateur de poche, la cage dorée, et la romance du hack 29 juin 2007. Le rideau se lève. Steve Jobs, costume noir, regard de prophète, balance l’iPhone sur la scène comme Moïse jetant les tables de la loi. “Un iPod. Un téléphone. Un navigateur internet révolutionnaire.” Le public applaudit, hypnotisé. Mais dans l’ombre, derrière les projecteurs, l’underground sourit. Ce que Jobs ne dit pas, c’est qu’il vient d’offrir à la matrice un nouveau terrain de jeu. Un ordinateur, minuscule, glissé...
+
+---
+
+## 2015 – Jeep Cherokee Hack, Quand une voiture devient une cible roulante
+URL: https://marvax.fun/posts/Jeep-Cherokee-cible-roulante/
+Category: Histoire
+Tags: iot
+
+Juillet 2015. Sur une autoroute américaine, l’asphalte chauffe, la radio crache un son parasite, et une Jeep Cherokee cesse d’être une voiture pour devenir ce qu’elle était déjà sans l’avouer : un réseau roulant, bardé d’électronique, de télécoms et d’illusions marketing. Detroit voulait vendre du confort connecté. Charlie Miller et Chris Valasek vont offrir au monde une leçon beaucoup moins glamour : si ta voiture parle au réseau, le réseau finira par lui parler aussi. I. Prologue : highway to...
+
+---
+
+## 2022 – LastPass, Le coffre-fort qui a laissé entrer la lumière
+URL: https://marvax.fun/posts/LastPass-coffre-fort-trahi/
+Category: Histoire
+Tags: sécurité-outils, données-personnelles
+
+2022. Il y a des compromissions plus cruelles que les autres. Quand un réseau social tombe, on parle d’habitudes. Quand une banque tombe, on parle d’argent. Quand un gestionnaire de mots de passe vacille, on touche à la dernière fiction rassurante des utilisateurs un peu sérieux : l’idée qu’il existe encore un endroit où déposer ses clés sans trembler. LastPass n’a pas seulement subi un incident. Il a fissuré un imaginaire de refuge. I. Prologue : le coffre-fort dans le cloud Le gestionnaire de...
+
+---
+
+## 2021 – Log4Shell, L’incendie silencieux dans la JVM
+URL: https://marvax.fun/posts/Log4Shell-lincendie-dans-la-jvm/
+Category: Histoire
+Tags: vulnérabilité, java, supply-chain
+
+Décembre 2021. Le web découvre qu’une chaîne de caractères peut suffire à transformer la journalisation en vecteur d’exécution distante. Log4Shell n’est pas une simple vulnérabilité. C’est une crise de dépendance logicielle mise à nu, un rappel obscène que les composants les plus banals peuvent devenir les plus incendiaires. La JVM, cet arrière-plan invisible de tant d’infrastructures, se transforme en zone de combustion lente à l’échelle planétaire. I. Prologue : quand le log ouvre la porte Le...
+
+---
+
+## 2023 – MOVEit, L’hémorragie silencieuse des données sous rançon
+URL: https://marvax.fun/posts/MOVEit-hemorragie-silencieuse/
+Category: Histoire
+Tags: fuite-de-données, ransomware, attaque, supply-chain
+
+2023. Les DSI croient encore gérer des flux. Les RH pensent transférer des fichiers. Les prestataires empilent des archives ZIP pleines de noms, de salaires, de numéros d’assurance, de dossiers disciplinaires et de vies entières transformées en pièces jointes. Puis MOVEit craque. Pas dans un rugissement, pas dans une explosion. Dans un glissement silencieux, administratif, presque propre. Cl0p n’a pas besoin d’entrer par effraction partout. Il lui suffit de trouver le tuyau par lequel tout le...
+
+---
+
+## Bienvenue dans l'Underground, Manifeste d'un Hacker Résistant
+URL: https://marvax.fun/posts/Manifeste-resistance/
+Category: Sécurité
+Tags: opsec, underground, société, anonymat, gafam, surveillance
+
+Dans les entrailles du réseau, où les bits dansent dans l’obscurité et où chaque paquet de données raconte une histoire, je vous accueille dans mon sanctuaire numérique. Ici, dans les profondeurs de l’underground, où la lumière ne filtre plus et où la réalité se brouille, nous construisons l’avenir de la résistance numérique. L’Appel du Terrier Je suis Marvax. Développeur de jour, hacker de nuit, résistant permanent. Mon nom n’est qu’un pseudonyme dans l’océan de données, mais mes actions...
+
+---
+
+## 2016 – Mirai Botnet DDoS, L'armée des objets connectés en révolte
+URL: https://marvax.fun/posts/Mirai-Botnet/
+Category: Histoire
+Tags: botnet, ddos, iot
+
+Septembre 2016. Nuit moite sur le réseau. Les caméras IP clignotent dans l’obscurité, les routeurs soupirent, les frigos connectés rêvent d’un monde meilleur. Mais ce soir-là, Mirai les réveille tous. Pas pour une révolution, non. Pour une émeute numérique, une valse de zombies orchestrée par un maestro invisible. Dyn DNS s’effondre, les géants tremblent, et l’underground sourit, arrogant : “On vous l’avait dit, non ?” I. Prologue : L’amour vache de l’IoT L’Internet des Objets, c’est la...
+
+---
+
+## Monitoring self-hosted : Prometheus + Grafana de zéro
+URL: https://marvax.fun/posts/Monitoring-Prometheus-Grafana/
+Category: Sysops
+Tags: monitoring, prometheus, grafana, docker, sysops, infrastructure, linux
+
+Tu gères tes serveurs à l’aveugle ? Tu découvres les pannes quand les utilisateurs râlent ? Il est temps de mettre en place un vrai stack de monitoring. Voici comment j’ai déployé Prometheus + Grafana sur mon infrastructure, et comment tu peux reproduire ça en moins d’une heure. Pourquoi monitoring maison ? Les solutions SaaS (Datadog, New Relic, Grafana Cloud) c’est bien… jusqu’à ce que tu voies la facture. Pour une infrastructure perso ou un petit client, self-hoster ton monitoring c’est :...
+
+---
+
+## 2004 – Mydoom, Le ver qui a transformé le mail en champ de ruines
+URL: https://marvax.fun/posts/Mydoom-ruines-du-mail/
+Category: Histoire
+Tags: malware, phishing, botnet, microsoft
+
+À l’orée de 2004, dans la gueule de bois technique laissée par 2003, les modems chantent encore, Outlook Express règne sur les bureaux gris, et l’email reste ce miracle naïf que tout le monde ouvre sans trop réfléchir. Puis Mydoom arrive. Pas comme un manifeste sophistiqué, pas comme une cyberarme d’État. Comme un coup de batte dans la boîte de réception. Brutal, sale, viral, incroyablement efficace. Le vieux web comprend alors qu’un simple message peut suffire à transformer la messagerie...
+
+---
+
+## Nuclei & OpenVAS : scanne tes vulnérabilités avant les autres
+URL: https://marvax.fun/posts/Nuclei-OpenVAS-scan-vuln/
+Category: Sécurité
+Tags: nuclei, openvas, vulnerability-scanning, sécurité, sysops, hardening, pentest
+
+Tu n’as pas besoin d’attendre qu’un pentester trouve tes failles. Nuclei et OpenVAS te permettent de scanner tes propres infrastructures gratuitement, de manière répétée et automatisée. Nuclei est rapide et basé sur des templates YAML. OpenVAS est plus lourd mais plus complet. Ensemble, ils couvrent la majorité des vulnérabilités connues. Cet article te montre comment les installer, les utiliser et intégrer ça dans ta routine de sécurité. Pourquoi scanner soi-même ? La majorité des breaches...
+
+---
+
+## OSINT : l'art de la reconnaissance ouverte
+URL: https://marvax.fun/posts/OSINT-reconnaissance-ouverte/
+Category: Sécurité
+Tags: osint, reconnaissance, shodan, sécurité, opsec, pentest, hacking
+
+L’OSINT (Open Source Intelligence), c’est collecter du renseignement à partir de sources publiques. Avant de lancer un pentest ou de sécuriser ton infra, tu dois savoir ce qui est exposé. Shodan, Google dorks, DNS recon, réseaux sociaux — tout est accessible légalement. Et c’est exactement ce que les attaquants font en premier. C’est quoi l’OSINT exactement ? OSINT = Open Source Intelligence. Renseignement provenant de sources ouvertes et accessibles à tous. Pas de hacking, pas d’intrusion....
+
+---
+
+## 2015 – Office 365 et attaques cloud, Les nuages sombres de la cybersécurité
+URL: https://marvax.fun/posts/Office-365/
+Category: Histoire
+Tags: cloud, attaque, microsoft
+
+2015. Nuit électrique sur le réseau. Les serveurs ronronnent dans des data centers aseptisés, les LED clignotent comme des étoiles mortes. Dans les open spaces, on rêve d’agilité, de cloud, de productivité. Mais dans l’ombre, l’underground sourit, arrogant : “Vous avez déplacé vos secrets dans les nuages ? On va les faire pleuvoir.” I. Prologue : L’amour vache du cloud Le cloud, c’est la promesse d’un monde sans friction, sans frontières, sans limites. Un monde où tes fichiers dansent d’un...
+
+---
+
+## 2009 – Operation Aurora, L’aube toxique de l’espionnage industriel moderne
+URL: https://marvax.fun/posts/Operation-Aurora-aube-toxique/
+Category: Histoire
+Tags: attaque, google, surveillance, géopolitique, zero-day
+
+Fin 2009. Dans les tours de verre de la Silicon Valley, les badges passent, les navettes roulent, les serveurs ronronnent comme des chats trop bien nourris. Et pendant ce temps, dans un angle mort du récit technologique, quelqu’un est déjà à l’intérieur. Operation Aurora ne ressemble pas à un cambriolage de film. C’est plus propre, plus froid, plus contemporain. Du spear-phishing, une faille Internet Explorer, des dépôts de code, des comptes visés, et soudain cette sensation terrible que...
+
+---
+
+## 2011 – Sony PSN Hack, Game Over dans la Matrice, Cyberpunk, No Trust & Black Hat Underground
+URL: https://marvax.fun/posts/PSN-Hack/
+Category: Histoire
+Tags: sony, attaque, culture-web, données-personnelles, hacktivisme, underground, société, blackhat
+
+“Dans la lumière blafarde des écrans, les gamers hurlent en silence. Les serveurs s’effondrent, les identités s’évaporent, et les ombres de l’underground ricanent. 17 avril 2011 : la confiance explose, la paranoïa s’installe. Bienvenue dans la dystopie du jeu vidéo.” Minuit numérique. La ville dort, mais la matrice s’agite. Dans les serveurs, un ver s’éveille, injecte son venin dans les veines du PlayStation Network. Sony, titan du divertissement, vacille. Les néons de Tokyo clignotent, les...
+
+---
+
+## Passkeys & FIDO2 : la mort du mot de passe
+URL: https://marvax.fun/posts/Passkeys-FIDO2-mort-mdp/
+Category: Sécurité
+Tags: passkeys, fido2, webauthn, sécurité, authentication, opsec
+
+Le mot de passe est mort. Pas « bientôt mort », pas « potentiellement mort » — mort. Les passkeys et FIDO2 offrent une authentification sans mot de passe, résistante au phishing par conception. Mais l’adoption en 2026 est encore inégale, et le vendor lock-in est un vrai problème. Voici où on en est vraiment. Le problème avec les mots de passe On le sait tous, mais on le dit quand même : Réutilisation : 65% des gens réutilisent le même mot de passe sur plusieurs sites Phishing : un faux site...
+
+---
+
+## Reverse proxy Nginx avec TLS : le guide complet
+URL: https://marvax.fun/posts/Reverse-Proxy-Nginx-TLS/
+Category: Sysops
+Tags: nginx, sysops, infrastructure, web
+
+Tu exposes des services web sans reverse proxy ? C’est comme ouvrir ta porte d’entrée et coller un panneau “servez-vous”. Nginx en frontal avec TLS, c’est la base absolue. Voici comment mettre ça en place proprement — de zéro au A+ sur SSL Labs. C’est quoi un reverse proxy ? Client (navigateur) │ │ HTTPS (TLS) ▼ ┌──────────────────┐ │ Nginx │ ← reverse proxy │ (port 443) │ └──────┬───────────┘ │ HTTP local ├──→ App Node.js :3000 ├──→ Grafana :3001 ├──→ Gitea :3002 └──→ Uptime Kuma :3003 Le...
+
+---
+
+## 2012 – Shamoon, Le sabre noir qui a effacé les pétroliers du Golfe
+URL: https://marvax.fun/posts/Shamoon-sabre-noir/
+Category: Histoire
+Tags: malware, géopolitique, attaque
+
+Août 2012. Dans les bureaux climatisés de Dhahran, les écrans meurent les uns après les autres. Pas dans un fracas hollywoodien, pas dans une gerbe d’étincelles. Ils meurent proprement, méthodiquement, comme si une présence froide passait rangée après rangée pour effacer jusqu’au souvenir du travail. Shamoon n’est pas une cyberarme élégante à la Stuxnet. C’est un couteau de boucher dans une salle serveur. Une rage politique transformée en wiper industriel. I. Prologue : midi noir sur les tours...
+
+---
+
+## 2013 – Snowden, NSA & L’Œil qui Veille, Chronique d’une Malédiction Numérique
+URL: https://marvax.fun/posts/Snowden-NSA/
+Category: Histoire
+Tags: surveillance, renseignement, fuite-de-données, lanceur-d-alerte, vie-privée, hacktivisme, underground, société
+
+“Dans la lumière blafarde des écrans, l’humanité a osé regarder l’abîme. Mais l’abîme, lui, a-t-il regardé en retour ? 5 juin 2013 : la confiance explose, la paranoïa s’installe. Bienvenue dans la dystopie de la surveillance, là où la vérité est un poison, et où chaque octet peut réveiller une malédiction venue d’ailleurs.” Minuit numérique. La ville dort, mais la matrice s’agite. Dans les serveurs, un code s’éveille, injecte son venin dans les veines du réel. Un sysadmin, silhouette pâle...
+
+---
+
+## 2024 – Snowflake, La moisson froide des identités dans le cloud sans sommeil
+URL: https://marvax.fun/posts/Snowflake-moisson-froide-des-identites/
+Category: Histoire
+Tags: cloud, données-personnelles, malware, sécurité-outils, cybersécurité
+
+2024. Les entrepôts de données ne brûlent pas, ils s’ouvrent. Pas avec une explosion, mais avec des identifiants valides. Snowflake devient le décor parfait d’une vérité trop moderne : l’attaquant n’a pas toujours besoin d’une faille dans la plateforme quand l’hygiène des clients lui ouvre déjà la porte. Des identités volées, du MFA absent, des jeux de données massifs, et soudain l’élégance clinique du cloud ressemble à une morgue réfrigérée. I. Prologue : le braquage sans effraction L’affaire...
+
+---
+
+## 2005 – Sony BMG Rootkit, Le DRM qui s’est comporté comme un malware
+URL: https://marvax.fun/posts/Sony-BMG-rootkit/
+Category: Histoire
+Tags: sony, malware, windows
+
+2005. Un CD audio acheté légalement peut installer sur une machine un composant qui se cache, modifie le système, complique l’analyse et ouvre un terrain d’abus inattendu. Ce n’est pas le pitch d’un malware clandestin. C’est celui d’un mécanisme de DRM signé par une major. Avec Sony BMG, le monde découvre une vérité obscène : l’industrie culturelle est prête à emprunter des techniques de rootkit pour défendre son business. Et l’underground, lui, n’a même pas besoin d’inventer le scandale. Il...
+
+---
+
+## 2014 – Sony Pictures, Le studio éventré et la guerre psychologique en pièces jointes
+URL: https://marvax.fun/posts/Sony-Pictures-studio-eventre/
+Category: Histoire
+Tags: sony, malware, fuite-de-données, email, géopolitique
+
+2014. Des films fuitent, des emails s’étalent, des cadres découvrent que la messagerie d’entreprise peut devenir une arme de guerre psychologique. Sony Pictures n’est pas seulement piraté. Il est éventré, ridiculisé, disséqué publiquement. C’est l’un des moments où le cyber prouve qu’il peut faire plus que casser des systèmes : il peut déstabiliser une organisation en transformant sa parole interne en spectacle mondial. I. Prologue : Hollywood sous scalpel Sony Pictures, c’est une cible...
+
+---
+
+## 2001 – Sortie de Windows XP, Standardisation de l’OS qui dominera les PC pendant plus d’une décennie
+URL: https://marvax.fun/posts/Sortie-XP/
+Category: Histoire
+Tags: windows, microsoft, linux, histoire-tech, underground, hacktivisme
+
+XP : L’OS qui a hacké la planète Le 25 octobre 2001, Microsoft balance Windows XP sur le marché. Deux lettres, « XP » pour « eXPerience », et une promesse : réconcilier stabilité et accessibilité, tout en repeignant l’informatique en bleu flashy. Mais derrière le marketing, il y a autre chose : l’émergence d’un standard mondial qui va transformer le PC domestique, la machine d’entreprise, le cybercafé et le laboratoire pirate en un seul et même terrain de jeu. Derrière le logo souriant, XP...
+
+---
+
+## 2008 – Stuxnet, Le premier cyberarme industriel qui a changé la guerre
+URL: https://marvax.fun/posts/Stuxnet/
+Category: Histoire
+Tags: malware, géopolitique, hacktivisme, underground
+
+Il y a des lignes de code qui changent le monde. D’autres qui le détruisent. Stuxnet, lui, a fait les deux. Bienvenue dans la matrice, là où les bits s’aiment, se trahissent, et parfois, font exploser des centrifugeuses. 2008. Dans les profondeurs moites d’un datacenter iranien, la lumière des néons ne perce pas l’obscurité numérique. Un souffle, un frisson, un baiser électrique sur les circuits : Stuxnet s’infiltre, élégant, invisible, arrogant. Ce n’est pas un malware. C’est un manifeste. Un...
+
+---
+
+## Supply Chain Attacks en 2026 : le poison dans la tuyauterie
+URL: https://marvax.fun/posts/Supply-Chain-Attacks-2026/
+Category: Sécurité
+Tags: supply-chain, sécurité, npm, pypi, devops, agents-ia, infrastructure
+
+Tu vérifies ton code. Tu audites tes dépendances. Mais vérifies-tu les dépendances de tes dépendances ? En 2026, les supply chain attacks sont devenues la voie d’attaque préférée des groupes APT. Un package npm populaire compromis touche des millions de projets en une seule publication. Voici ce qui se passe réellement dans la tuyauterie. Le problème fondamental L’écosystème logiciel moderne repose sur une confiance aveugle : Ton code └── 15 direct dependencies └── 142 transitive dependencies...
+
+---
+
+## 2002 – TIC TAC, surveillance post-11 septembre et naissance de la paranoïa numérique
+URL: https://marvax.fun/posts/TIC-TAC-paranoia-numerique/
+Category: Histoire
+Tags: surveillance, renseignement, vie-privée
+
+2002. Les tours sont tombées un an plus tôt, mais leur poussière flotte encore dans chaque débat politique, chaque loi d’exception, chaque promesse de protection. L’Occident connecté entre dans une nouvelle ère mentale : celle où la sécurité justifie tout, où l’infrastructure de surveillance commence à se présenter comme un simple service public renforcé. TIC, TAC, PATRIOT, rétention, interception, coopération entre agences et opérateurs. Le langage change, le soupçon s’institutionnalise, et le...
+
+---
+
+## 2013 – Target, Les caisses compromises et l’hiver des retailers
+URL: https://marvax.fun/posts/Target-caisses-compromises/
+Category: Histoire
+Tags: attaque, linux, entreprise, données-personnelles, supply-chain
+
+2013. L’attaque contre Target est un classique pour une raison simple : elle montre que la grande surface moderne est une infrastructure technique bien plus fragile qu’elle n’en a l’air. Derrière les rayons, les promotions et les fêtes de fin d’année, il y a des réseaux, des terminaux de paiement, des prestataires, des accès tiers et des flux que l’on croit invisibles parce qu’ils sont routiniers. Puis quelqu’un entre par la porte de service. I. Prologue : Noël dans le réseau de paiement...
+
+---
+
+## Traefik : le reverse proxy que tu mérites
+URL: https://marvax.fun/posts/Traefik-reverse-proxy-docker/
+Category: Sysops
+Tags: traefik, reverse-proxy, docker, sysops, infrastructure, devops, self-hosted
+
+Tu tournes encore avec Nginx et des blocs server à rallonge ? Traefik est un reverse proxy conçu nativement pour Docker. Il découvre tes conteneurs automatiquement, génère ses certificats TLS tout seul, et te file un dashboard pour surveiller le tout. Plus de reload, plus de config à la main pour chaque nouveau service. Pourquoi Traefik plutôt que Nginx ? J’ai déjà couvert Nginx comme reverse proxy sur ce blog. Nginx fait le taf, mais dans un environnement Docker, c’est de la plomberie. Chaque...
+
+---
+
+## UFW & iptables : firewall Linux en pratique
+URL: https://marvax.fun/posts/UFW-iptables-Firewall-Linux/
+Category: Sysops
+Tags: linux, firewall, ufw, iptables, sysops, sécurité, infrastructure, hardening
+
+La plupart des serveurs compromis que j’ai vus avaient un point commun : pas de firewall, ou un firewall mal configuré. UFW rend ça trivial. Voici comment verrouiller ton serveur en 5 minutes. UFW vs iptables iptables est le firewall natif du noyau Linux. Puissant mais verbeux. UFW (Uncomplicated Firewall) est un front-end simplifié pour iptables. Même résultat, 10x moins de syntaxe. # Règle iptables classique iptables -A INPUT -p tcp --dport 22 -j ACCEPT # Équivalent UFW ufw allow 22/tcp Règle...
+
+---
+
+## Vaultwarden : self-hôte ton gestionnaire de mots de passe
+URL: https://marvax.fun/posts/Vaultwarden-self-hosted-mdp/
+Category: Sysops
+Tags: vaultwarden, bitwarden, self-hosted, docker, sécurité, sysops, infrastructure
+
+Tes mots de passe sont la clé de ton château. Les confier à un service tiers, c’est faire confiance à quelqu’un d’autre pour garder la clé. Vaultwarden te permet d’héberger un gestionnaire de mots de passe compatible Bitwarden, léger, en Docker, sur ton propre serveur. Voici comment faire, proprement. Pourquoi self-héberger son gestionnaire de mots de passe ? Le fiasco LastPass a montré que même les spécialistes du mot de passe se font défoncer. Self-héberger, c’est : Contrôle total : tes...
+
+---
+
+## 2017 – WannaCry Ransomware, Larmes numériques sur l’Empire des Machines
+URL: https://marvax.fun/posts/Wannacry-ransomware/
+Category: Histoire
+Tags: ransomware, vulnérabilité, windows, blackhat
+
+“Dans la lumière blafarde des écrans, les sirènes hurlent en silence. Les hôpitaux suffoquent, les entreprises s’effondrent, et les hackers rient dans l’ombre. 12 mai 2017 : le monde découvre que la confiance n’est qu’une illusion, et que chaque octet peut devenir une arme.” Minuit. La ville dort, mais la matrice s’agite. Dans les serveurs, un ver s’éveille, injecte son venin dans les veines du réseau. WannaCry, c’est son nom. Un cri numérique, une larme froide sur la joue de l’humanité...
+
+---
+
+## 2006 – WikiLeaks, La fuite permanente et la panique des États
+URL: https://marvax.fun/posts/WikiLeaks-fuite-permanente/
+Category: Histoire
+Tags: hacktivisme, fuite-de-données, anonymat, renseignement
+
+2006. Ce n’est pas encore l’ouragan planétaire des grands câbles, ni la mythologie totale d’Assange telle qu’elle s’imprimera plus tard dans les médias. Ce qui surgit d’abord, c’est une idée beaucoup plus simple et beaucoup plus inquiétante pour le pouvoir : créer une infrastructure pensée pour accueillir la fuite comme mode normal de publication. Non plus la révélation exceptionnelle, mais la possibilité permanente. WikiLeaks ne naît pas comme un simple site. Il naît comme une menace...
+
+---
+
+## WireGuard : VPN self-hosted en 10 minutes
+URL: https://marvax.fun/posts/WireGuard-VPN-SelfHosted/
+Category: Sysops
+Tags: vpn, wireguard, linux, sysops, self-hosted, infrastructure, sécurité, chiffrement
+
+OpenVPN c’est bien. WireGuard c’est mieux : 4000 lignes de code vs 100,000, des performances proches du natif, et une config qui tient dans un fichier. Voici comment déployer ton propre VPN en 10 minutes. Pourquoi WireGuard   WireGuard OpenVPN IPSec Lignes de code ~4,000 ~100,000 ~400,000 Protocole UDP uniquement TCP/UDP UDP Chiffrement ChaCha20, Curve25519 Configurable Configurable Vitesse Proche du natif ~30% perte ~20% perte Config 1 fichier Certificats + config Complexe Handshake 1-RTT...
+
+---
+
+## n8n — RCE critique (CVSS 10.0) dans les workflows automatisés
+URL: https://marvax.fun/posts/n8n-RCE-critique/
+Category: Sécurité
+Tags: n8n, rce, automatisation, supply-chain, dev
+
+n8n, l’outil de workflow automation open source très populaire chez les devs et les ops, a été touché par une faille RCE critique notée CVSS 10.0. Si tu l’utilises en production, c’est le moment de patcher. La faille n8n est un outil d’automatisation de workflows self-hosted (alternative open source à Zapier/Make). Très utilisé pour connecter des APIs, orchestrer des pipelines de données, et automatiser des tâches ops. La vulnérabilité permet à un attaquant d’exécuter du code arbitraire sur le...
+
+---
+
+
+Feed RSS: https://marvax.fun/feed.xml
+Sitemap: https://marvax.fun/sitemap.xml

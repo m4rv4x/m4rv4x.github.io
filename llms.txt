@@ -1,0 +1,93 @@
+# blog.marvax.fun
+
+> Blog technique par Marvax : sysops, automatisation, securite informatique,
+> Docker, Linux, monitoring, et chronologie de la cybersecurite.
+> Guides concrets pour admins et devs.
+
+## Securite & Hardening
+
+- [Hardening SSH : au-dela des basics](https://marvax.fun/posts/Hardening-SSH/) — Checklist complete pour verrouiller SSH comme un coffre-fort
+- [Docker security : les erreurs que tout le monde fait](https://marvax.fun/posts/Docker-Security-Erreurs/) — Les 10 erreurs Docker les plus courantes et comment les corriger
+- [CrowdSec : le Fail2ban du futur](https://marvax.fun/posts/CrowdSec-fail2ban-futur/) — IDS communautaire partage, alternative moderne a Fail2ban
+- [Fail2ban avance : au-dela du basique](https://marvax.fun/posts/Fail2ban-avance/) — Configurations avancees pour un vrai systeme de detection d'intrusion
+- [Nuclei & OpenVAS : scanne tes vulnerabilites](https://marvax.fun/posts/Nuclei-OpenVAS-scan-vuln/) — Scan automatisé de vulnérabilités avec Nuclei et OpenVAS
+- [Passkeys & FIDO2 : la mort du mot de passe](https://marvax.fun/posts/Passkeys-FIDO2-mort-mdp/) — Authentification sans mot de passe, resistant au phishing
+- [OSINT : l'art de la reconnaissance ouverte](https://marvax.fun/posts/OSINT-reconnaissance-ouverte/) — Collecte de renseignement a partir de sources publiques (Shodan, Google dorks, DNS)
+- [Incident Response Playbook](https://marvax.fun/posts/Incident-Response-Playbook/) — Methodologie en 5 phases pour gerer un incident de securite
+- [Supply Chain Attacks en 2026](https://marvax.fun/posts/Supply-Chain-Attacks-2026/) — Le poison dans la tuyauterie : npm, pypi, dependances compromises
+- [UFW & iptables : firewall Linux en pratique](https://marvax.fun/posts/UFW-iptables-Firewall-Linux/) — Verrouiller son serveur en 5 minutes avec UFW
+
+## Infrastructure & Sysops
+
+- [Reverse proxy Nginx avec TLS](https://marvax.fun/posts/Reverse-Proxy-Nginx-TLS/) — De zero au A+ sur SSL Labs
+- [Traefik : le reverse proxy que tu merites](https://marvax.fun/posts/Traefik-reverse-proxy-docker/) — Reverse proxy natif pour Docker avec auto-discovery
+- [Cloudflare Tunnel : expose tes services sans ouvrir un port](https://marvax.fun/posts/Cloudflare-Tunnel-zero-port/) — Tunnel chiffre outbound, zero port ouvert
+- [Monitoring self-hosted : Prometheus + Grafana de zero](https://marvax.fun/posts/Monitoring-Prometheus-Grafana/) — Stack monitoring complet en moins d'une heure
+- [Automatiser son infra avec Ansible](https://marvax.fun/posts/Automatiser-Infra-Ansible/) — Infrastructure as Code au quotidien
+- [WireGuard : VPN self-hosted en 10 minutes](https://marvax.fun/posts/WireGuard-VPN-SelfHosted/) — VPN moderne, rapide, 4000 lignes de code
+- [BorgBackup : strategie de backup 3-2-1](https://marvax.fun/posts/BorgBackup-strategie-backup/) — Backup deduplique, chiffre, incrementaux pour homelab
+- [Vaultwarden : self-hote ton gestionnaire de mots de passe](https://marvax.fun/posts/Vaultwarden-self-hosted-mdp/) — Bitwarden-compatible, Docker, auto-heberge
+
+## Dev & CI/CD
+
+- [CI/CD avec GitHub Actions](https://marvax.fun/posts/CICD-GitHub-Actions/) — Workflows concrets de deploiement automatise
+- [n8n — RCE critique (CVSS 10.0)](https://marvax.fun/posts/n8n-RCE-critique/) — Faille critique dans l'outil de workflow automation
+- [BadHost : Starlette RCE via un caractere](https://marvax.fun/posts/BadHost-Starlette-RCE/) — CVE-2026-48710, contourne les protections via un header Host malforme
+
+## Cybersecurite : Chronologie des incidents majeurs
+
+Serie d'articles narratifs couvrant les incidents majeurs de 2000 a 2026 :
+
+- [Y2K](https://marvax.fun/posts/Bug-an-2000/) — L'apocalypse numerique qui n'a jamais eu lieu (2000)
+- [Windows XP](https://marvax.fun/posts/Sortie-XP/) — L'OS qui a hacke la planete (2001)
+- [TIC TAC](https://marvax.fun/posts/TIC-TAC-paranoia-numerique/) — Surveillance post-11 septembre (2002)
+- [Anonymous emerge](https://marvax.fun/posts/Anonymous-emerge/) — Le masque sans visage (2003)
+- [Mydoom](https://marvax.fun/posts/Mydoom-ruines-du-mail/) — Le ver qui a transforme le mail en champ de ruines (2004)
+- [Facebook](https://marvax.fun/posts/Facebook-est-lance/) — Le reseau social qui a hacke nos cerveaux (2004)
+- [Sony BMG Rootkit](https://marvax.fun/posts/Sony-BMG-rootkit/) — Le DRM qui s'est comporte comme un malware (2005)
+- [WikiLeaks](https://marvax.fun/posts/WikiLeaks-fuite-permanente/) — La fuite permanente et la panique des Etats (2006)
+- [iPhone](https://marvax.fun/posts/Iphone/) — La revolution mobile qui a hacke nos poches (2007)
+- [Stuxnet](https://marvax.fun/posts/Stuxnet/) — Le premier cyberarme industriel (2008)
+- [Bitcoin](https://marvax.fun/posts/Bitcoin/) — Dystopie monetaire, cypherpunk (2008)
+- [Conficker](https://marvax.fun/posts/Conficker-Worm/) — Le spectre cyberpunk qui hante les reseaux (2008)
+- [Operation Aurora](https://marvax.fun/posts/Operation-Aurora-aube-toxique/) — L'aube toxique de l'espionnage industriel (2009)
+- [Sony PSN Hack](https://marvax.fun/posts/PSN-Hack/) — Game Over dans la matrice (2011)
+- [Shamoon](https://marvax.fun/posts/Shamoon-sabre-noir/) — Le sabre noir qui a efface les petroliers du Golfe (2012)
+- [Flame Malware](https://marvax.fun/posts/Flame-Malware/) — L'espion numerique qui a hacke le Moyen-Orient (2012)
+- [Dropbox, LinkedIn, Last.fm](https://marvax.fun/posts/Dropbox-LinkedIn-Lastfm-mots-de-passe/) — L'annee ou les mots de passe ont cesse d'etre des secrets (2012)
+- [Target](https://marvax.fun/posts/Target-caisses-compromises/) — Les caisses compromises (2013)
+- [Snowden / NSA](https://marvax.fun/posts/Snowden-NSA/) — L'oeil qui veille (2013)
+- [Heartbleed](https://marvax.fun/posts/Heartbleed/) — Le coeur qui saigne du web (2014)
+- [Sony Pictures](https://marvax.fun/posts/Sony-Pictures-studio-eventre/) — Le studio eventre (2014)
+- [Jeep Cherokee](https://marvax.fun/posts/Jeep-Cherokee-cible-roulante/) — Quand une voiture devient une cible roulante (2015)
+- [Ashley Madison](https://marvax.fun/posts/Ashley-Madison-honte-numerique/) — Adultere, fuite massive (2015)
+- [Office 365](https://marvax.fun/posts/Office-365/) — Les nuages sombres de la cybersecurite (2015)
+- [Mirai Botnet](https://marvax.fun/posts/Mirai-Botnet/) — L'armee des objets connectes en revolte (2016)
+- [WannaCry](https://marvax.fun/posts/Wannacry-ransomware/) — Larmes numeriques sur l'Empire des Machines (2017)
+- [Equifax](https://marvax.fun/posts/Equifax-squelette-en-clair/) — Le squelette administratif de l'Amerique expose en clair (2017)
+- [Cambridge Analytica](https://marvax.fun/posts/Cambridge-Analytica/) — Le hack de la democratie (2018)
+- [Trou noir](https://marvax.fun/posts/Black-Hole-Image/) — Premiere image d'un trou noir (2019)
+- [COVID-19 & Teletravail](https://marvax.fun/posts/COVID19-Telework/) — Pandemie et cyber-controle (2020)
+- [Colonial Pipeline](https://marvax.fun/posts/Colonial-Pipeline/) — La cyberguerre energetique (2021)
+- [Log4Shell](https://marvax.fun/posts/Log4Shell-lincendie-dans-la-jvm/) — L'incendie silencieux dans la JVM (2021)
+- [LastPass](https://marvax.fun/posts/LastPass-coffre-fort-trahi/) — Le coffre-fort qui a laisse entrer la lumiere (2022)
+- [IA generative et cybermenaces](https://marvax.fun/posts/AI-Generative-Threats/) — L'ere des machines malveillantes (2023)
+- [ChatGPT au bureau](https://marvax.fun/posts/ChatGPT-au-bureau/) — L'automatisation du plausible (2023)
+- [MOVEit](https://marvax.fun/posts/MOVEit-hemorragie-silencieuse/) — L'hemorragie silencieuse des donnees (2023)
+- [CrowdStrike](https://marvax.fun/posts/CrowdStrike-ecran-bleu-mondial/) — L'ecran bleu mondial (2024)
+- [Snowflake](https://marvax.fun/posts/Snowflake-moisson-froide-des-identites/) — La moisson froide des identites (2024)
+- [Chat Control](https://marvax.fun/posts/Chat-control-et-fin-anonymat/) — L'architecture de la surveillance totale (2025)
+- [Agents IA](https://marvax.fun/posts/Agents-IA-bureau-sans-mains/) — Le bureau sans mains (2026)
+
+## Guides & Hygiene
+
+- [Guide d'hygiene post-fuite](https://marvax.fun/posts/Guide-hygiene-post-fuite/) — 10 contre-mesures prioritaires apres une fuite de donnees
+- [Manifeste d'un Hacker Resistant](https://marvax.fun/posts/Manifeste-resistance/) — Philosophie de l'underground et de la resistance numerique
+
+## Contact
+
+- Auteur : Marvax
+- GitHub : https://github.com/m4rv4x
+- Email : m4rv4x@protonmail.com
+- Licence : CC BY 4.0
+- RSS : https://marvax.fun/feed.xml
