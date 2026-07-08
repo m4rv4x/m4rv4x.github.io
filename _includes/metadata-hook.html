@@ -896,6 +896,18 @@
     };
     scheduleGlitch();
 
+    /* ===== CUSTOM SIDEBAR NAV ===== */
+    const _nav = document.querySelector('#sidebar .nav ul');
+    if (_nav) {
+      [
+        { icon: 'fas fa-terminal', label: 'CHEATSHEETS', href: '/cheatsheets/' }
+      ].forEach(item => {
+        const li = document.createElement('li');
+        li.className = 'nav-item';
+        li.innerHTML = `<a href="${item.href}" class="nav-link"><i class="fa-fw ${item.icon}"></i><span>${item.label}</span></a>`;
+        _nav.appendChild(li);
+      });
+    }
 
     /* ===== PAGE TRANSITION ===== */
     document.body.classList.add('page-transition-enter');
