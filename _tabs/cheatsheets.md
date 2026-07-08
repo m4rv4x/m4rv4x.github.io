@@ -1,8 +1,8 @@
 ---
 title: Cheatsheets
-layout: page
-permalink: /cheatsheets/
 icon: fas fa-terminal
+order: 5
+permalink: /cheatsheets/
 ---
 
 # Cheatsheets

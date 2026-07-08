@@ -728,25 +728,6 @@
 
   document.addEventListener('DOMContentLoaded', () => {
 
-    /* ===== CUSTOM SIDEBAR NAV ===== */
-    const _addSidebarNav = () => {
-      const _nav = document.querySelector('#sidebar ul.nav');
-      if (_nav && !_nav.querySelector('[href="/cheatsheets/"]')) {
-        [
-          { icon: 'fas fa-terminal', label: 'CHEATSHEETS', href: '/cheatsheets/' }
-        ].forEach(item => {
-          const li = document.createElement('li');
-          li.className = 'nav-item';
-          li.innerHTML = `<a href="${item.href}" class="nav-link"><i class="fa-fw ${item.icon}"></i><span>${item.label}</span></a>`;
-          _nav.appendChild(li);
-        });
-      }
-    };
-    _addSidebarNav();
-    window.addEventListener('load', _addSidebarNav);
-    setTimeout(_addSidebarNav, 500);
-    setTimeout(_addSidebarNav, 1500);
-
     /* ===== READING PROGRESS BAR ===== */
     const postContent = document.querySelector('.post-content');
     if (postContent) {
